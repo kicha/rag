@@ -1,0 +1,233 @@
+[
+  {
+    "query": "What does ef_construct control?",
+    "relevant_docs": [
+      "DOC-002"
+    ],
+    "class": "exact+semantic"
+  },
+  {
+    "query": "How can I improve graph quality during index construction?",
+    "relevant_docs": [
+      "DOC-002"
+    ],
+    "class": "semantic paraphrase"
+  },
+  {
+    "query": "Does ef_construct determine the number of HNSW layers?",
+    "relevant_docs": [
+      "DOC-002",
+      "DOC-001"
+    ],
+    "class": "concept discrimination"
+  },
+  {
+    "query": "What does the M parameter change in HNSW?",
+    "relevant_docs": [
+      "DOC-001"
+    ],
+    "class": "exact technical"
+  },
+  {
+    "query": "How does HNSW avoid comparing every vector?",
+    "relevant_docs": [
+      "DOC-001"
+    ],
+    "class": "semantic"
+  },
+  {
+    "query": "What is ef_search used for?",
+    "relevant_docs": [
+      "DOC-001"
+    ],
+    "class": "exact technical"
+  },
+  {
+    "query": "Why might BM25 beat embeddings for uq_document_content_hash?",
+    "relevant_docs": [
+      "DOC-004",
+      "DOC-003"
+    ],
+    "class": "identifier"
+  },
+  {
+    "query": "Why shouldn't I add BM25 and cosine scores directly?",
+    "relevant_docs": [
+      "DOC-005",
+      "DOC-004"
+    ],
+    "class": "hybrid"
+  },
+  {
+    "query": "What is the difference between prefetch_k and final_k?",
+    "relevant_docs": [
+      "DOC-005"
+    ],
+    "class": "configuration"
+  },
+  {
+    "query": "Why should children be created from persisted parents?",
+    "relevant_docs": [
+      "DOC-006",
+      "DOC-013"
+    ],
+    "class": "architecture"
+  },
+  {
+    "query": "What is a dangling parent reference?",
+    "relevant_docs": [
+      "DOC-006",
+      "DOC-012",
+      "DOC-013"
+    ],
+    "class": "failure mode"
+  },
+  {
+    "query": "Why rerank parents with a CrossEncoder?",
+    "relevant_docs": [
+      "DOC-007",
+      "DOC-006"
+    ],
+    "class": "reranking"
+  },
+  {
+    "query": "Can I treat a CrossEncoder sigmoid score as a calibrated probability?",
+    "relevant_docs": [
+      "DOC-007"
+    ],
+    "class": "score semantics"
+  },
+  {
+    "query": "Why not mix CrossEncoder scores directly with cosine redundancy in MMR?",
+    "relevant_docs": [
+      "DOC-008"
+    ],
+    "class": "MMR"
+  },
+  {
+    "query": "What happens when MMR lambda is too low?",
+    "relevant_docs": [
+      "DOC-008"
+    ],
+    "class": "MMR"
+  },
+  {
+    "query": "How can headings be preserved during chunking?",
+    "relevant_docs": [
+      "DOC-009"
+    ],
+    "class": "chunking"
+  },
+  {
+    "query": "Which metadata fields are useful for filtered retrieval?",
+    "relevant_docs": [
+      "DOC-010"
+    ],
+    "class": "metadata"
+  },
+  {
+    "query": "Why use named dense and sparse vectors on one Qdrant point?",
+    "relevant_docs": [
+      "DOC-011"
+    ],
+    "class": "Qdrant"
+  },
+  {
+    "query": "How should unchanged Qdrant children behave on re-ingestion?",
+    "relevant_docs": [
+      "DOC-012"
+    ],
+    "class": "synchronization"
+  },
+  {
+    "query": "What causes MongoDB IndexOptionsConflict?",
+    "relevant_docs": [
+      "DOC-013"
+    ],
+    "class": "database error"
+  },
+  {
+    "query": "How many dimensions does all-MiniLM-L6-v2 produce?",
+    "relevant_docs": [
+      "DOC-014"
+    ],
+    "class": "exact fact"
+  },
+  {
+    "query": "What problem does query rewriting solve?",
+    "relevant_docs": [
+      "DOC-015"
+    ],
+    "class": "advanced retrieval"
+  },
+  {
+    "query": "Why can multi-query retrieval improve recall?",
+    "relevant_docs": [
+      "DOC-016"
+    ],
+    "class": "advanced retrieval"
+  },
+  {
+    "query": "What is HyDE and why can it hallucinate?",
+    "relevant_docs": [
+      "DOC-017"
+    ],
+    "class": "advanced retrieval"
+  },
+  {
+    "query": "What is candidate parent recall?",
+    "relevant_docs": [
+      "DOC-018"
+    ],
+    "class": "evaluation"
+  },
+  {
+    "query": "Why is FastAPI returning HTTP 422?",
+    "relevant_docs": [
+      "DOC-019"
+    ],
+    "class": "exact error"
+  },
+  {
+    "query": "What can cause ERR_CONNECTION_REFUSED?",
+    "relevant_docs": [
+      "DOC-020"
+    ],
+    "class": "exact error"
+  },
+  {
+    "query": "How should I trace dense sparse RRF CrossEncoder and MMR scores?",
+    "relevant_docs": [
+      "DOC-021"
+    ],
+    "class": "observability"
+  },
+  {
+    "query": "Can similarity override tenant_id authorization?",
+    "relevant_docs": [
+      "DOC-022"
+    ],
+    "class": "security"
+  },
+  {
+    "query": "What causes a vector dimension mismatch?",
+    "relevant_docs": [
+      "DOC-023",
+      "DOC-014"
+    ],
+    "class": "failure mode"
+  },
+  {
+    "query": "Which metrics should compare Dense Sparse and Hybrid?",
+    "relevant_docs": [
+      "DOC-018",
+      "DOC-024"
+    ],
+    "class": "evaluation"
+  },
+  {
+    "query": "How do I choose the best GPU for video rendering?",
+    "relevant_docs": [],
+    "class": "unanswerable"
+  }
+]

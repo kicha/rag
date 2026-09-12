@@ -1,0 +1,40 @@
+app/
+├── config/
+│   └── settings.py
+├── models/
+│   ├── document.py
+|   |── base_chunk.py
+│   ├── parent_chunk.py
+│   ├── child_chunk.py
+│   ├── elements.py
+│   └── metadata.py
+├── chunking/
+│   ├── structure_detector.py
+│   ├── structure_aware_parent.py
+│   └── child_chunker.py
+├── repositories/
+│   └── parent_repository.py
+├── retrieval/
+│   └── parent_child_retriever.py
+├── embeddings/
+│   └── embedding_service.py
+├── vectorstore/
+│   └── qdrant_store.py
+├── ingestion/
+│   └── pipeline.py
+└── main.py
+│
+scripts/
+├── test_models.py
+|── test_mongodb.py
+├── test_parent_child_retrieval.py
+└── test_parent_chunking.py
+|
+tests/
+├── test_metadata.py
+|── test_structure_detector.py
+├── test_parent_chunker.py
+└── test_child_chunker.py
+│
+data/
+└── documents/

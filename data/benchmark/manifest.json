@@ -1,0 +1,8 @@
+{
+  "documents": 24,
+  "gold_queries": 32,
+  "total_characters": 53539,
+  "approx_words": 7045,
+  "estimated_children_at_120_chars_before_overlap": 447,
+  "estimated_parents_at_300_chars": 179
+}
