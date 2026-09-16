@@ -1,0 +1,155 @@
+======================================================================
+ORIGINAL QUERY:
+How does HNSW avoid comparing every vector?
+
+QUERY SET
+----------------------------------------------------------------------
+1. [ORIGINAL] How does HNSW avoid comparing every vector?
+2. [GENERATED] What algorithmic techniques in HNSW allow it to skip exhaustive vector comparisons during nearest‑neighbor search?
+3. [GENERATED] How does the hierarchical graph structure of HNSW reduce the number of distance calculations needed to find nearest vectors?
+4. [GENERATED] Why does HNSW achieve sub‑linear search complexity instead of scanning all vectors in the dataset?
+
+TOP FUSED CHILDREN
+----------------------------------------------------------------------
+ 1. doc=DOC-015  parent=1061004e-703d-4f5f-89c9-59e79077dae4 child=0   query_hits=4  mq_rrf=0.064525
+ 2. doc=DOC-001  parent=a35dd5b3-2c4d-423a-a878-7671a86dcd3a child=0   query_hits=4  mq_rrf=0.063803
+ 3. doc=DOC-002  parent=04267e32-7914-4b95-b221-eff1b9d551bc child=0   query_hits=4  mq_rrf=0.062034
+ 4. doc=DOC-001  parent=a35dd5b3-2c4d-423a-a878-7671a86dcd3a child=3   query_hits=4  mq_rrf=0.061349
+ 5. doc=DOC-001  parent=a35dd5b3-2c4d-423a-a878-7671a86dcd3a child=2   query_hits=4  mq_rrf=0.060373
+ 6. doc=DOC-009  parent=69c12de7-43a6-4e1f-9db3-20fbecb737da child=1   query_hits=4  mq_rrf=0.059542
+ 7. doc=DOC-009  parent=69c12de7-43a6-4e1f-9db3-20fbecb737da child=0   query_hits=4  mq_rrf=0.058750
+ 8. doc=DOC-002  parent=c69ff84f-d04d-4b05-8676-b96c35d8cf5d child=0   query_hits=3  mq_rrf=0.044651
+ 9. doc=DOC-016  parent=a32a4314-6247-42b7-b4da-221323b8901c child=0   query_hits=3  mq_rrf=0.044376
+10. doc=DOC-001  parent=a35dd5b3-2c4d-423a-a878-7671a86dcd3a child=1   query_hits=3  mq_rrf=0.042108
+
+FINAL PARENTS (CrossEncoder -> Parent MMR)
+----------------------------------------------------------------------
+Rank 1
+Document       : DOC-015
+Parent index   : 3
+CE rank        : 1
+CE score       : 0.9986
+Query sim      : 0.7072
+MMR score      : 0.7072
+----------------------------------------------------------------------
+Rank 2
+Document       : DOC-001
+Parent index   : 1
+CE rank        : 2
+CE score       : 0.9964
+Query sim      : 0.6518
+MMR score      : 0.2012
+----------------------------------------------------------------------
+Rank 3
+Document       : DOC-002
+Parent index   : 1
+CE rank        : 3
+CE score       : 0.1250
+Query sim      : 0.4897
+MMR score      : 0.1729
+----------------------------------------------------------------------
+Parents before CE: 20
+Query generation: 1164.31 ms
+
+======================================================================
+ORIGINAL QUERY:
+Why can multi-query retrieval improve recall?
+
+QUERY SET
+----------------------------------------------------------------------
+1. [ORIGINAL] Why can multi-query retrieval improve recall?
+
+TOP FUSED CHILDREN
+----------------------------------------------------------------------
+ 1. doc=DOC-016  parent=7b59c009-5b79-46ee-8588-756654a1544a child=0   query_hits=1  mq_rrf=0.016393
+ 2. doc=DOC-002  parent=57d6e1d0-a195-4c68-af56-4499effa5052 child=1   query_hits=1  mq_rrf=0.016129
+ 3. doc=DOC-001  parent=9c042758-5278-402c-ac22-b0a98cbd67a1 child=1   query_hits=1  mq_rrf=0.015873
+ 4. doc=DOC-001  parent=14738943-8def-4b05-8bb2-d006a1a6fe11 child=0   query_hits=1  mq_rrf=0.015625
+ 5. doc=DOC-001  parent=cf6d681a-fe19-4995-b1a1-b74ea8afc2ba child=0   query_hits=1  mq_rrf=0.015385
+ 6. doc=DOC-003  parent=fe1e18b2-ffbd-4f8c-9df5-2593c0381d58 child=2   query_hits=1  mq_rrf=0.015152
+ 7. doc=DOC-002  parent=57d6e1d0-a195-4c68-af56-4499effa5052 child=0   query_hits=1  mq_rrf=0.014925
+ 8. doc=DOC-019  parent=efb4ba9d-db16-4450-9d75-9b2834ce5df3 child=2   query_hits=1  mq_rrf=0.014706
+ 9. doc=DOC-016  parent=5ab7380e-0384-40ff-8b25-cb9f9d3522a3 child=0   query_hits=1  mq_rrf=0.014493
+10. doc=DOC-017  parent=59b86d13-88e8-4281-97a8-afaa5206a970 child=2   query_hits=1  mq_rrf=0.014286
+
+FINAL PARENTS (CrossEncoder -> Parent MMR)
+----------------------------------------------------------------------
+Rank 1
+Document       : DOC-016
+Parent index   : 1
+CE rank        : 1
+CE score       : 0.8828
+Query sim      : 0.6192
+MMR score      : 0.6192
+----------------------------------------------------------------------
+Rank 2
+Document       : DOC-001
+Parent index   : 7
+CE rank        : 6
+CE score       : 0.0177
+Query sim      : 0.5534
+MMR score      : 0.2695
+----------------------------------------------------------------------
+Rank 3
+Document       : DOC-016
+Parent index   : 7
+CE rank        : 4
+CE score       : 0.0617
+Query sim      : 0.5635
+MMR score      : 0.1995
+----------------------------------------------------------------------
+Parents before CE: 14
+Query generation: 1215.99 ms
+
+======================================================================
+ORIGINAL QUERY:
+What causes a vector dimension mismatch?
+
+QUERY SET
+----------------------------------------------------------------------
+1. [ORIGINAL] What causes a vector dimension mismatch?
+2. [GENERATED] Why do vector dimension mismatches occur when loading embeddings into a model?
+3. [GENERATED] What are common reasons for dimension errors in vector similarity indexes such as FAISS or Annoy?
+4. [GENERATED] Which steps in a data preprocessing pipeline can lead to inconsistent vector dimensions?
+
+TOP FUSED CHILDREN
+----------------------------------------------------------------------
+ 1. doc=DOC-023  parent=9472d5bd-a74c-4e81-9203-65acacd94636 child=0   query_hits=4  mq_rrf=0.063283
+ 2. doc=DOC-002  parent=57d6e1d0-a195-4c68-af56-4499effa5052 child=2   query_hits=4  mq_rrf=0.058713
+ 3. doc=DOC-014  parent=fb1f0000-1c9f-4cf4-9ef9-b99e22afb93a child=0   query_hits=3  mq_rrf=0.047891
+ 4. doc=DOC-011  parent=eb52949c-1404-4970-93aa-e578bf43b81a child=0   query_hits=3  mq_rrf=0.047674
+ 5. doc=DOC-014  parent=e728603c-0207-4d59-aba4-f43f0eb62041 child=0   query_hits=3  mq_rrf=0.046927
+ 6. doc=DOC-019  parent=0fb608d0-2a59-4b7e-983d-30a353617faa child=0   query_hits=3  mq_rrf=0.043699
+ 7. doc=DOC-002  parent=04267e32-7914-4b95-b221-eff1b9d551bc child=0   query_hits=2  mq_rrf=0.030679
+ 8. doc=DOC-015  parent=1061004e-703d-4f5f-89c9-59e79077dae4 child=1   query_hits=2  mq_rrf=0.030310
+ 9. doc=DOC-023  parent=9472d5bd-a74c-4e81-9203-65acacd94636 child=1   query_hits=2  mq_rrf=0.030090
+10. doc=DOC-001  parent=a35dd5b3-2c4d-423a-a878-7671a86dcd3a child=3   query_hits=2  mq_rrf=0.029644
+
+FINAL PARENTS (CrossEncoder -> Parent MMR)
+----------------------------------------------------------------------
+Rank 1
+Document       : DOC-023
+Parent index   : 1
+CE rank        : 1
+CE score       : 0.0132
+Query sim      : 0.5103
+MMR score      : 0.5103
+----------------------------------------------------------------------
+Rank 2
+Document       : DOC-011
+Parent index   : 5
+CE rank        : 3
+CE score       : 0.0002
+Query sim      : 0.4583
+MMR score      : 0.1712
+----------------------------------------------------------------------
+Rank 3
+Document       : DOC-014
+Parent index   : 5
+CE rank        : 2
+CE score       : 0.0002
+Query sim      : 0.5042
+MMR score      : 0.1565
+----------------------------------------------------------------------
+Parents before CE: 26
+Query generation: 896.43 ms
