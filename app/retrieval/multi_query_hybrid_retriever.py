@@ -80,6 +80,8 @@ class MultiQueryChildCandidate(BaseModel):
 class MultiQueryRetrievalResult(BaseModel):
     generation: MultiQueryGenerationResult
     fused_children: List[MultiQueryChildCandidate]
+    candidate_parent_ids: List[str]
+    candidate_document_ids: List[str]
     parent_candidates_before_rerank: int
     final_results: List[ParentMMRResult]
 
@@ -511,11 +513,20 @@ class MultiQueryHybridRetriever:
 
         parent_candidates = self._expand_parents(fused_children)
 
-        if not parent_candidates:
+        candidate_parent_ids = [
+            str(result.parent.parent_id) for result in parent_candidates
+        ]
 
+        candidate_document_ids = [
+            result.parent.document_id for result in parent_candidates
+        ]
+
+        if not parent_candidates:
             return MultiQueryRetrievalResult(
-                generation=(generation),
-                fused_children=(fused_children),
+                generation=generation,
+                fused_children=fused_children,
+                candidate_parent_ids=[],
+                candidate_document_ids=[],
                 parent_candidates_before_rerank=0,
                 final_results=[],
             )
@@ -534,10 +545,11 @@ class MultiQueryHybridRetriever:
         )
 
         if not reranked_response.results:
-
             return MultiQueryRetrievalResult(
                 generation=(generation),
                 fused_children=(fused_children),
+                candidate_parent_ids=[],
+                candidate_document_ids=[],
                 parent_candidates_before_rerank=(len(parent_candidates)),
                 final_results=[],
             )
@@ -551,10 +563,11 @@ class MultiQueryHybridRetriever:
             reranked_results=(reranked_response.results),
             final_top_k=(final_top_k),
         )
-
         return MultiQueryRetrievalResult(
-            generation=(generation),
-            fused_children=(fused_children),
-            parent_candidates_before_rerank=(len(parent_candidates)),
-            final_results=(final_results),
+            generation=generation,
+            fused_children=fused_children,
+            candidate_parent_ids=candidate_parent_ids,
+            candidate_document_ids=candidate_document_ids,
+            parent_candidates_before_rerank=len(parent_candidates),
+            final_results=final_results,
         )
