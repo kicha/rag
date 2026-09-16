@@ -90,10 +90,12 @@ class QdrantVectorStore:
         print(f"\nInserted {len(points)} " f"children into Qdrant.")
 
     def search(self, query_vector, top_k: int, with_vectors: bool = False):
-
+        query = (
+            query_vector.tolist() if hasattr(query_vector, "tolist") else query_vector
+        )
         response = self.client.query_points(
             collection_name=self.config.collection_name,
-            query=query_vector.tolist(),
+            query=query,
             limit=top_k,
             with_payload=True,
             with_vectors=with_vectors,
