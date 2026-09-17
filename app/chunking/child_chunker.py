@@ -36,7 +36,6 @@ class ChildChunker:
     ) -> None:
 
         self.config = config
-
         self._validate_config()
 
     # ========================================================
@@ -66,6 +65,12 @@ class ChildChunker:
         children: List[ChildChunk] = []
 
         for child_index, content in enumerate(child_contents):
+            content_hash = ChildChunk.create_content_hash(content)
+            child_key = ChildChunk.create_child_key(
+                parent_key=parent.parent_key,
+                child_index=child_index,
+                content_hash=content_hash,
+            )
 
             metadata = self._build_metadata(
                 parent=parent,
@@ -79,11 +84,12 @@ class ChildChunker:
                 source=parent.source,
                 heading_context=(parent.heading_context.model_copy(deep=True)),
                 metadata=metadata,
-                content_hash=(ChildChunk.create_content_hash(content)),
+                content_hash=content_hash,
                 parent_id=parent.parent_id,
+                parent_key=parent.parent_key,
                 child_index=child_index,
+                child_key=child_key,
             )
-
             children.append(child)
 
         return children
@@ -103,9 +109,7 @@ class ChildChunker:
         children: List[ChildChunk] = []
 
         for parent in parents:
-
             parent_children = self.chunk_parent(parent)
-
             children.extend(parent_children)
 
         return children
@@ -135,7 +139,6 @@ class ChildChunker:
             return []
 
         child_size = self.config.child_chunk_chars
-
         overlap = self.config.child_overlap_chars
 
         # ----------------------------------------------------
@@ -166,7 +169,6 @@ class ChildChunker:
             # ------------------------------------------------
 
             if max_end == content_length:
-
                 end = content_length
 
             else:
@@ -177,7 +179,6 @@ class ChildChunker:
                 # --------------------------------------------
 
                 candidate = content[start:max_end]
-
                 boundary = candidate.rfind(" ")
 
                 # --------------------------------------------
@@ -194,11 +195,8 @@ class ChildChunker:
                 minimum_boundary = int(child_size * 0.60)
 
                 if boundary >= minimum_boundary:
-
                     end = start + boundary
-
                 else:
-
                     end = max_end
 
             # ------------------------------------------------
@@ -208,7 +206,6 @@ class ChildChunker:
             child_content = content[start:end].strip()
 
             if child_content:
-
                 chunks.append(child_content)
 
             # ------------------------------------------------
@@ -222,10 +219,7 @@ class ChildChunker:
             # Apply overlap.
             # ------------------------------------------------
 
-            next_start = max(
-                0,
-                end - overlap,
-            )
+            next_start = max(0, end - overlap)
 
             # ------------------------------------------------
             # Avoid starting halfway through a word.
@@ -245,7 +239,6 @@ class ChildChunker:
             # ------------------------------------------------
 
             if next_start <= start:
-
                 next_start = end
 
             start = next_start
@@ -256,8 +249,8 @@ class ChildChunker:
     # CHILD METADATA
     # ========================================================
 
-    @staticmethod
     def _build_metadata(
+        self,
         parent: ParentChunk,
         content: str,
     ) -> ChunkMetadata:
@@ -270,13 +263,9 @@ class ChildChunker:
         """
 
         metadata = parent.metadata.model_copy(deep=True)
-
         metadata.char_count = len(content)
-
         metadata.chunking_strategy = "parent_child"
-
-        metadata.chunking_version = "1.0"
-
+        metadata.chunking_version = self.config.child_chunking_version
         metadata.parent_chunk_id = parent.parent_id
 
         return metadata
@@ -290,15 +279,12 @@ class ChildChunker:
     ) -> None:
 
         if self.config.child_chunk_chars <= 0:
-
             raise ValueError("child_chunk_chars must be greater " "than zero.")
 
         if self.config.child_overlap_chars < 0:
-
             raise ValueError("child_overlap_chars cannot be " "negative.")
 
         if self.config.child_overlap_chars >= self.config.child_chunk_chars:
-
             raise ValueError(
                 "child_overlap_chars must be smaller " "than child_chunk_chars."
             )

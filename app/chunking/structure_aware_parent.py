@@ -1,6 +1,5 @@
 from datetime import datetime
 from typing import List, Optional
-import uuid
 
 from app.config.settings import ChunkingConfig
 from app.models.document import Document
@@ -106,6 +105,15 @@ class StructureAwareParentChunker:
 
             content_type = self._primary_content_type(buffer_types)
 
+            content_hash = ParentChunk.create_content_hash(content)
+
+            parent_key = ParentChunk.create_parent_key(
+                document_id=document.document_id,
+                parent_index=parent_index,
+                section_path=context.get_section_path(),
+                content_hash=content_hash,
+            )
+
             metadata = self._build_metadata(
                 context=context,
                 content=content,
@@ -114,15 +122,15 @@ class StructureAwareParentChunker:
             )
 
             parent = ParentChunk(
-                parent_id=str(uuid.uuid4()),
                 parent_index=parent_index,
+                parent_key=parent_key,
                 document_id=document.document_id,
                 content=content,
                 content_type=content_type,
                 source=document.source,
                 heading_context=context,
                 metadata=metadata,
-                content_hash=ParentChunk.create_content_hash(content),
+                content_hash=content_hash,
             )
 
             parents.append(parent)
@@ -352,34 +360,17 @@ class StructureAwareParentChunker:
 
     def _build_metadata(
         self,
-        context: HeadingContext,
         content: str,
         content_type: ContentType,
         source: str,
     ) -> ChunkMetadata:
-        """
-        Build metadata for a ParentChunk.
-
-        Note:
-            section_path and char_count are also available
-            directly from BaseChunk as derived properties.
-
-            They are retained here only if ChunkMetadata
-            currently defines those fields.
-        """
 
         return ChunkMetadata(
-            h1=context.h1,
-            h2=context.h2,
-            h3=context.h3,
-            h4=context.h4,
-            h5=context.h5,
-            h6=context.h6,
-            section_path=context.get_section_path(),
-            char_count=len(content),
-            chunking_strategy="structure_aware_parent",
-            chunking_version="1.0",
             source_type=self._detect_source_type(source),
+            ingestion_version=(self.config.ingestion_version),
+            char_count=len(content),
+            chunking_strategy=("structure_aware_parent"),
+            chunking_version=(self.config.parent_chunking_version),
             language="en",
             content_type=content_type,
             ingestion_timestamp=datetime.now(),
