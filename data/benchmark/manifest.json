@@ -1,8 +1,178 @@
 {
-  "documents": 24,
-  "gold_queries": 32,
-  "total_characters": 53539,
-  "approx_words": 7045,
-  "estimated_children_at_120_chars_before_overlap": 447,
-  "estimated_parents_at_300_chars": 179
+  "benchmark_version": "2.0",
+  "document_count": 24,
+  "gold_query_count": 32,
+  "total_characters": 16027,
+  "approx_words": 2149,
+  "corpus_sha256": "16c01b5dfb1753d0b55dafdf6164d977383c0419c4ebfe8b376189aaf7ef9e62",
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "source": "DOC-001_hnsw_architecture_and_search.md",
+      "characters": 1017,
+      "words": 150,
+      "sha256": "c7ce9eb2136b104c67917b8c1df09669ab060bb9ed37a3970981c4486a2cd1ab"
+    },
+    {
+      "document_id": "DOC-002",
+      "source": "DOC-002_hnsw_construction_and_ef_construct.md",
+      "characters": 926,
+      "words": 126,
+      "sha256": "120bc949f52a038e1bab3a77100a9176ab523932baa363d092d948202053c0e4"
+    },
+    {
+      "document_id": "DOC-003",
+      "source": "DOC-003_dense_retrieval.md",
+      "characters": 800,
+      "words": 105,
+      "sha256": "cec7dc0b826f8050c68a891baa14fa8e8ba1acbb6ccc9925b91704c298bb3f69"
+    },
+    {
+      "document_id": "DOC-004",
+      "source": "DOC-004_sparse_retrieval_and_bm25.md",
+      "characters": 657,
+      "words": 88,
+      "sha256": "16c0ea53b1e8acd55d1cc8686e7a74e6a62ce8da72d440f8690fbd7c7dc96833"
+    },
+    {
+      "document_id": "DOC-005",
+      "source": "DOC-005_hybrid_search_and_rrf.md",
+      "characters": 740,
+      "words": 109,
+      "sha256": "65fabfe1100a1efaf114234098afb3fcbefa25c68dbf0d2b08882dd00d16d29e"
+    },
+    {
+      "document_id": "DOC-006",
+      "source": "DOC-006_parent_child_retrieval.md",
+      "characters": 701,
+      "words": 97,
+      "sha256": "6f53538073ab8d606472aa5f015171e89ac0869ac53f9a95ce67b78c22431a30"
+    },
+    {
+      "document_id": "DOC-007",
+      "source": "DOC-007_crossencoder_reranking.md",
+      "characters": 642,
+      "words": 77,
+      "sha256": "6c7aa9943540a3c43550eaed38a9169bfb2a7afaba44d32c53ea1e100a0dce94"
+    },
+    {
+      "document_id": "DOC-008",
+      "source": "DOC-008_maximal_marginal_relevance.md",
+      "characters": 668,
+      "words": 91,
+      "sha256": "691f6822c62a4803df899c6a7c1a29bb202b366d0c1e01f76dc9dbbe1a35e315"
+    },
+    {
+      "document_id": "DOC-009",
+      "source": "DOC-009_chunking_strategies.md",
+      "characters": 672,
+      "words": 84,
+      "sha256": "78c1d6ebf7fdd2a882f0507eb2265d6615e4ac24e2faffdc4b864ce5c4ca18e5"
+    },
+    {
+      "document_id": "DOC-010",
+      "source": "DOC-010_metadata_and_filters.md",
+      "characters": 602,
+      "words": 71,
+      "sha256": "d32bec36898ccc2829a4d80bc3e3976e20007cfd931b5305a12713cf8c763b83"
+    },
+    {
+      "document_id": "DOC-011",
+      "source": "DOC-011_qdrant_named_vectors.md",
+      "characters": 572,
+      "words": 83,
+      "sha256": "20f116c56fd28a565e9a2a6d9d23ce5516db43a7ef6a1a6e42e32c5befe19012"
+    },
+    {
+      "document_id": "DOC-012",
+      "source": "DOC-012_qdrant_synchronization.md",
+      "characters": 649,
+      "words": 82,
+      "sha256": "9d75a3a2495c8b559e3e897edcd13a9af35496829c3ae66e1c9bab947e8ea5fc"
+    },
+    {
+      "document_id": "DOC-013",
+      "source": "DOC-013_mongodb_parent_repository.md",
+      "characters": 640,
+      "words": 80,
+      "sha256": "e19cb5480d5dcdee6f0350998761910a7421b359af32992fb14466de0bb21b65"
+    },
+    {
+      "document_id": "DOC-014",
+      "source": "DOC-014_embeddings_and_normalization.md",
+      "characters": 596,
+      "words": 76,
+      "sha256": "bb3cdcf703ad3d7b2d24882e314f87d1e06c4027dc8797d5f34885752c7b300e"
+    },
+    {
+      "document_id": "DOC-015",
+      "source": "DOC-015_query_rewriting.md",
+      "characters": 548,
+      "words": 76,
+      "sha256": "6404aa6f46144d6685a086ebfb569d0c4b5a990185bf306c594131ec106668cc"
+    },
+    {
+      "document_id": "DOC-016",
+      "source": "DOC-016_multi_query_retrieval.md",
+      "characters": 611,
+      "words": 82,
+      "sha256": "4a0e5555b9046a8b47af884321863d3ba6f99beb90bffe0eb8089107c13d0388"
+    },
+    {
+      "document_id": "DOC-017",
+      "source": "DOC-017_hyde.md",
+      "characters": 543,
+      "words": 76,
+      "sha256": "4109f361bba08fa37573ec67caf1eb7a1d296e72b2aa3c23e902a28cc6e598af"
+    },
+    {
+      "document_id": "DOC-018",
+      "source": "DOC-018_rag_evaluation.md",
+      "characters": 731,
+      "words": 100,
+      "sha256": "12990562937f8d4e732bd4feb6cad103d20ee847056ee09f0aa2aa6ee6f17c6a"
+    },
+    {
+      "document_id": "DOC-019",
+      "source": "DOC-019_fastapi_rag_services.md",
+      "characters": 633,
+      "words": 86,
+      "sha256": "16d4203314d293a1a3776dbd4c00b353f55b8975dd47537584f5f5e0e9770fd2"
+    },
+    {
+      "document_id": "DOC-020",
+      "source": "DOC-020_docker_and_local_infrastructure.md",
+      "characters": 595,
+      "words": 83,
+      "sha256": "271bbeb9eb44e042bf15fb2d3346b935897b03effc93cde9558b1ccfa176f66e"
+    },
+    {
+      "document_id": "DOC-021",
+      "source": "DOC-021_retrieval_observability.md",
+      "characters": 614,
+      "words": 80,
+      "sha256": "ec2aec7f245b7540d136700a9e2470dbd77bd8075224d13b9721e11dc4f4dcea"
+    },
+    {
+      "document_id": "DOC-022",
+      "source": "DOC-022_tenant_isolation.md",
+      "characters": 547,
+      "words": 75,
+      "sha256": "b1514fe4eb63569692390845ddb2df246cfe40882f96f0a993d8f893dc12c677"
+    },
+    {
+      "document_id": "DOC-023",
+      "source": "DOC-023_vector_search_failure_modes.md",
+      "characters": 662,
+      "words": 85,
+      "sha256": "7aebb9a8cf2869abf20dc66e28d46fa9144c1c4531ccf2ff6ce2c5b293f069d4"
+    },
+    {
+      "document_id": "DOC-024",
+      "source": "DOC-024_retriever_benchmark_design.md",
+      "characters": 661,
+      "words": 87,
+      "sha256": "3174ff990f4763843c416b893695bc92b368d016c45ce368b9d0da4692b94c4b"
+    }
+  ]
 }
