@@ -1,3 +1,4 @@
+import logging
 from pathlib import Path
 from time import perf_counter
 
@@ -5,21 +6,22 @@ from app.config.settings import (
     ChunkingConfig,
     HybridSearchConfig,
 )
-
 from app.ingestion.markdown_corpus_loader import (
     MarkdownCorpusLoader,
 )
-
 from app.ingestion.pipeline import (
     StructureAwareRAGDemo,
 )
+from app.utils.logging_config import configure_logging
+
+logger = logging.getLogger(__name__)
+
 
 # ============================================================
 # PATHS
 # ============================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
 DOCUMENTS_DIR = PROJECT_ROOT / "data" / "documents"
 
 
@@ -29,34 +31,29 @@ DOCUMENTS_DIR = PROJECT_ROOT / "data" / "documents"
 
 
 def main() -> None:
-
-    print()
-    print("=" * 100)
-    print("AGENTIC RAG — MODERATE CORPUS INGESTION")
-    print("=" * 100)
-
-    print(f"\nDocuments directory: " f"{DOCUMENTS_DIR}")
-
-    # ========================================================
-    # 1. CONFIG
-    # ========================================================
-
+    configure_logging()
+    logger.info("Starting Benchmark V2 corpus ingestion.")
     config = ChunkingConfig()
     hybrid_config = HybridSearchConfig()
+    logger.info(f"documents_directory=" f"{DOCUMENTS_DIR}")
+    logger.info(f"mongodb_database=" f"{config.mongodb_database}")
+    logger.info(f"mongodb_parent_collection=" f"{config.mongodb_parent_collection}")
+    logger.info(f"qdrant_collection=" f"{hybrid_config.collection_name}")
 
     # ========================================================
-    # 2. LOAD MARKDOWN DOCUMENTS
+    # LOAD DOCUMENTS
     # ========================================================
 
     loader = MarkdownCorpusLoader(documents_directory=DOCUMENTS_DIR)
     documents = loader.load()
-    print(f"\nDocuments discovered: " f"{len(documents)}")
-
+    logger.info(f"documents_discovered=" f"{len(documents)}")
     for document in documents:
-        print(f"  {document.document_id}" f" -> {document.source}")
+        logger.debug(
+            f"document_id=" f"{document.document_id} " f"source={document.source}"
+        )
 
     # ========================================================
-    # 3. APPLICATION
+    # APPLICATION
     # ========================================================
 
     app = StructureAwareRAGDemo(
@@ -66,7 +63,6 @@ def main() -> None:
 
     total_parents = 0
     total_children = 0
-
     succeeded = 0
     failed = 0
 
@@ -74,37 +70,24 @@ def main() -> None:
 
     try:
 
-        # ====================================================
-        # 4. INGEST ALL DOCUMENTS
-        # ====================================================
-
         for index, document in enumerate(
             documents,
             start=1,
         ):
-
-            print()
-            print()
-            print("#" * 100)
-            print(f"DOCUMENT " f"{index}/{len(documents)}")
-            print(f"ID     : " f"{document.document_id}")
-            print(f"SOURCE : " f"{document.source}")
-            print("#" * 100)
             document_started = perf_counter()
+            logger.info(
+                f"Processing document "
+                f"{index}/{len(documents)} "
+                f"document_id="
+                f"{document.document_id} "
+                f"source="
+                f"{document.source}"
+            )
 
             try:
 
                 result = app.ingest(
                     document=document,
-                    # --------------------------------------
-                    # IMPORTANT
-                    #
-                    # Recreate Qdrant only for the FIRST
-                    # document.
-                    #
-                    # Every later document is appended to
-                    # the same hybrid collection.
-                    # --------------------------------------
                     recreate_hybrid_collection=(index == 1),
                 )
 
@@ -114,51 +97,53 @@ def main() -> None:
                 total_parents += parent_count
                 total_children += child_count
                 succeeded += 1
+                logger.info(
+                    f"Completed document "
+                    f"document_id="
+                    f"{document.document_id} "
+                    f"parents="
+                    f"{parent_count} "
+                    f"children="
+                    f"{child_count} "
+                    f"elapsed_seconds="
+                    f"{elapsed:.2f}"
+                )
 
-                print()
-                print("DOCUMENT COMPLETE")
-                print(f"Parents  : " f"{parent_count}")
-                print(f"Children : " f"{child_count}")
-                print(f"Time     : " f"{elapsed:.2f}s")
-
-            except Exception as exc:
-
+            except Exception:
                 failed += 1
-                print()
-                print("DOCUMENT FAILED")
-                print(f"Document ID : " f"{document.document_id}")
-                print(f"Error       : " f"{exc}")
+                logger.exception(
+                    f"Failed document " f"document_id=" f"{document.document_id}"
+                )
 
-                # For benchmark creation I prefer
-                # FAIL FAST.
-                #
-                # We do not want a silently incomplete
-                # benchmark corpus.
                 raise
 
     finally:
 
         app.close()
 
-    # ========================================================
-    # 5. FINAL SUMMARY
-    # ========================================================
-
     total_elapsed = perf_counter() - started
 
-    print()
-    print()
-    print("=" * 100)
-    print("CORPUS INGESTION SUMMARY")
-    print("=" * 100)
-    print(f"\nDocuments discovered : " f"{len(documents)}")
-    print(f"Documents succeeded  : " f"{succeeded}")
-    print(f"Documents failed     : " f"{failed}")
-    print(f"Total parents        : " f"{total_parents}")
-    print(f"Total children       : " f"{total_children}")
-    print(f"Total elapsed        : " f"{total_elapsed:.2f}s")
-    print(f"\nHybrid collection    : " f"{hybrid_config.collection_name}")
+    logger.info(
+        f"Corpus ingestion complete "
+        f"documents_discovered="
+        f"{len(documents)} "
+        f"documents_succeeded="
+        f"{succeeded} "
+        f"documents_failed="
+        f"{failed} "
+        f"total_parents="
+        f"{total_parents} "
+        f"total_children="
+        f"{total_children} "
+        f"elapsed_seconds="
+        f"{total_elapsed:.2f} "
+        f"mongodb_collection="
+        f"{config.mongodb_parent_collection} "
+        f"qdrant_collection="
+        f"{hybrid_config.collection_name}"
+    )
 
 
 if __name__ == "__main__":
+
     main()

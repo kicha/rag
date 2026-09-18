@@ -8,6 +8,7 @@ from app.models.metadata import (
 from app.models.parent_chunk import ParentChunk
 from app.models.child_chunk import ChildChunk
 from app.vectorstore.hybrid_qdrant_store import HybridQdrantStore
+from app.utils.logging_config import configure_logging
 
 logger = logging.getLogger(__name__)
 
@@ -130,10 +131,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-
-    logging.basicConfig(
-        level=logging.INFO,
-        format=("%(asctime)s | %(levelname)-8s | " "%(name)s | %(message)s"),
-    )
-
+    configure_logging()
     main()

@@ -115,7 +115,6 @@ class StructureAwareParentChunker:
             )
 
             metadata = self._build_metadata(
-                context=context,
                 content=content,
                 content_type=content_type,
                 source=document.source,

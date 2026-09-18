@@ -1,31 +1,27 @@
-from typing import List
+import logging
 
 from fastembed import SparseTextEmbedding
 from qdrant_client.models import SparseVector
+
+logger = logging.getLogger(__name__)
 
 
 class SparseEmbeddingService:
     """
     Generates sparse lexical embeddings.
 
-    Initial implementation: Qdrant/bm25
-
-    Dense embeddings continue to be handled independently
-    by our existing EmbeddingService.
+    Dense embeddings are handled independently by
+    EmbeddingService.
     """
 
-    def __init__(self, model_name: str = "Qdrant/bm25"):
-        self.model_name = model_name
+    def __init__(self, model_name: str = "Qdrant/bm25") -> None:
 
-        print(f"Loading sparse embedding model: " f"{self.model_name}")
+        self.model_name = model_name
+        logger.info(f"Loading sparse embedding model: {self.model_name}")
 
         self.model = SparseTextEmbedding(
             model_name=self.model_name,
         )
-
-    # ---------------------------------------------------------
-    # INTERNAL CONVERSION
-    # ---------------------------------------------------------
 
     @staticmethod
     def _to_qdrant_sparse_vector(embedding) -> SparseVector:
@@ -35,11 +31,7 @@ class SparseEmbeddingService:
             values=embedding.values.tolist(),
         )
 
-    # ---------------------------------------------------------
-    # DOCUMENT EMBEDDINGS
-    # ---------------------------------------------------------
-
-    def embed_documents(self, texts: List[str]) -> List[SparseVector]:
+    def embed_documents(self, texts: list[str]) -> list[SparseVector]:
 
         if not texts:
             return []
@@ -49,10 +41,6 @@ class SparseEmbeddingService:
         return [
             self._to_qdrant_sparse_vector(embedding) for embedding in sparse_embeddings
         ]
-
-    # ---------------------------------------------------------
-    # QUERY EMBEDDING
-    # ---------------------------------------------------------
 
     def embed_query(self, query: str) -> SparseVector:
 

@@ -1,0 +1,94 @@
+2026-09-18 11:46:13,812 | INFO     | app.embeddings.embedding_service | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-09-18 11:46:13,829 | INFO     | sentence_transformers.base.model | No device provided, using cpu
+2026-09-18 11:46:14,386 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:14,405 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:14,676 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:14,697 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:14,701 | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-09-18 11:46:14,946 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:14,961 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:15,205 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:15,222 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-09-18 11:46:15,486 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:15,504 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:15,746 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:15,768 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:16,028 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-09-18 11:46:16,343 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:16,362 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 1150.80it/s]
+2026-09-18 11:46:17,547 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-18 11:46:17,802 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-18 11:46:18,064 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-18 11:46:18,324 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-18 11:46:18,608 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:18,627 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:18,903 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:18,921 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:19,202 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:19,224 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:19,509 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:19,526 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:19,785 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-18 11:46:20,031 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-18 11:46:20,621 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-18 11:46:20,672 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-09-18 11:46:20,914 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-09-18 11:46:20,955 | INFO     | app.embeddings.sparse_embedding_service | Loading sparse embedding model: Qdrant/bm25
+2026-09-18 11:46:21,643 | INFO     | app.ingestion.pipeline | Ingestion pipeline initialized mongodb_collection=parents_benchmark_v2 qdrant_collection=structure_aware_v4_benchmark_v2
+2026-09-18 11:46:21,643 | INFO     | app.ingestion.pipeline | Starting ingestion document_id=DOC-TEST-001 source=phase_2b_smoke_test.md
+2026-09-18 11:46:21,653 | INFO     | app.ingestion.pipeline | document_id=DOC-TEST-001 structural_elements=6
+2026-09-18 11:46:21,659 | INFO     | app.ingestion.pipeline | document_id=DOC-TEST-001 generated_parents=3
+2026-09-18 11:46:21,710 | INFO     | httpx | HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-09-18 11:46:21,786 | INFO     | app.repositories.parent_repository | Parent sync document_id=DOC-TEST-001 incoming=3 existing=0 inserted=3 unchanged=0 deleted_stale=0 final=3
+2026-09-18 11:46:21,786 | INFO     | app.ingestion.pipeline | document_id=DOC-TEST-001 incoming_parents=3 existing_before_sync=0 inserted_parents=3 unchanged_parents=0 deleted_stale_parents=0 final_parent_count=3
+2026-09-18 11:46:21,817 | INFO     | app.ingestion.pipeline | document_id=DOC-TEST-001 persisted_parents=3
+2026-09-18 11:46:21,819 | INFO     | app.ingestion.pipeline | document_id=DOC-TEST-001 generated_children=3
+Batches: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.15it/s]
+2026-09-18 11:46:22,706 | INFO     | app.ingestion.pipeline | document_id=DOC-TEST-001 dense_embeddings=3
+2026-09-18 11:46:22,717 | INFO     | app.ingestion.pipeline | document_id=DOC-TEST-001 sparse_embeddings=3
+2026-09-18 11:46:22,717 | INFO     | app.ingestion.pipeline | Recreating Qdrant collection structure_aware_v4_benchmark_v2
+2026-09-18 11:46:22,766 | INFO     | httpx | HTTP Request: GET http://localhost:6333/collections/structure_aware_v4_benchmark_v2/exists "HTTP/1.1 200 OK"
+2026-09-18 11:46:22,770 | INFO     | app.vectorstore.hybrid_qdrant_store | Creating Qdrant hybrid collection=structure_aware_v4_benchmark_v2
+2026-09-18 11:46:23,860 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2 "HTTP/1.1 200 OK"
+2026-09-18 11:46:25,159 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:26,620 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:27,686 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:28,774 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:29,887 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:30,994 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:32,087 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:33,227 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:34,494 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:35,963 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:37,109 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:38,324 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:39,454 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:40,653 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/index?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:40,654 | INFO     | app.vectorstore.hybrid_qdrant_store | Created Qdrant payload indexes collection=structure_aware_v4_benchmark_v2 fields=14
+2026-09-18 11:46:40,807 | INFO     | httpx | HTTP Request: PUT http://localhost:6333/collections/structure_aware_v4_benchmark_v2/points?wait=true "HTTP/1.1 200 OK"
+2026-09-18 11:46:40,808 | INFO     | app.vectorstore.hybrid_qdrant_store | Inserted 3 hybrid child points into collection=structure_aware_v4_benchmark_v2
+2026-09-18 11:46:40,809 | INFO     | app.ingestion.pipeline | document_id=DOC-TEST-001 qdrant_children_written=3
+2026-09-18 11:46:40,809 | INFO     | app.ingestion.pipeline | Completed ingestion document_id=DOC-TEST-001
+2026-09-18 11:46:40,810 | INFO     | __main__ | parents=3
+2026-09-18 11:46:40,810 | INFO     | __main__ | children=3
+2026-09-18 11:46:40,811 | INFO     | __main__ | parent_id=38787d1e-c606-45f4-8249-6e691e6ab8b3
+2026-09-18 11:46:40,811 | INFO     | __main__ | parent_key=DOC-TEST-001::P000::Vector Databases::a083f79cc79a
+2026-09-18 11:46:40,811 | INFO     | __main__ | parent_id=d98c379c-1151-4f82-8ef4-ff4128378ce5
+2026-09-18 11:46:40,812 | INFO     | __main__ | parent_key=DOC-TEST-001::P001::Vector Databases/HNSW::e13b3528f6af
+2026-09-18 11:46:40,812 | INFO     | __main__ | parent_id=28565490-8f51-4888-b893-ba351d4faa73
+2026-09-18 11:46:40,813 | INFO     | __main__ | parent_key=DOC-TEST-001::P002::Vector Databases/HNSW/ef_construct::e347cb14e860
+2026-09-18 11:46:40,813 | INFO     | __main__ | child_id=ec083900-548c-4728-ba52-e658f144aead
+2026-09-18 11:46:40,813 | INFO     | __main__ | child_key=DOC-TEST-001::P000::Vector Databases::a083f79cc79a::C000::a083f79cc79a
+2026-09-18 11:46:40,814 | INFO     | __main__ | parent_id=38787d1e-c606-45f4-8249-6e691e6ab8b3
+2026-09-18 11:46:40,814 | INFO     | __main__ | parent_key=DOC-TEST-001::P000::Vector Databases::a083f79cc79a
+2026-09-18 11:46:40,815 | INFO     | __main__ | child_id=03651a71-3fa8-4c42-bd73-c2ff255cec2b
+2026-09-18 11:46:40,815 | INFO     | __main__ | child_key=DOC-TEST-001::P001::Vector Databases/HNSW::e13b3528f6af::C000::e13b3528f6af
+2026-09-18 11:46:40,815 | INFO     | __main__ | parent_id=d98c379c-1151-4f82-8ef4-ff4128378ce5
+2026-09-18 11:46:40,816 | INFO     | __main__ | parent_key=DOC-TEST-001::P001::Vector Databases/HNSW::e13b3528f6af
+2026-09-18 11:46:40,816 | INFO     | __main__ | child_id=20aff46f-623d-404e-9c65-6478de80a2df
+2026-09-18 11:46:40,817 | INFO     | __main__ | child_key=DOC-TEST-001::P002::Vector Databases/HNSW/ef_construct::e347cb14e860::C000::e347cb14e860
+2026-09-18 11:46:40,817 | INFO     | __main__ | parent_id=28565490-8f51-4888-b893-ba351d4faa73
+2026-09-18 11:46:40,817 | INFO     | __main__ | parent_key=DOC-TEST-001::P002::Vector Databases/HNSW/ef_construct::e347cb14e860
+2026-09-18 11:46:40,818 | INFO     | __main__ | Phase II-B ingestion validation PASSED.
+2026-09-18 11:46:40,851 | INFO     | app.ingestion.pipeline | Ingestion pipeline closed.
