@@ -1,0 +1,26 @@
+2026-09-18 12:25:29,662 | INFO     | __main__ | document=DOC-001_hnsw_architecture_and_search.md removed_occurrences=4
+2026-09-18 12:25:29,679 | INFO     | __main__ | document=DOC-002_hnsw_construction_and_ef_construct.md removed_occurrences=4
+2026-09-18 12:25:29,706 | INFO     | __main__ | document=DOC-003_dense_retrieval.md removed_occurrences=4
+2026-09-18 12:25:29,723 | INFO     | __main__ | document=DOC-004_sparse_retrieval_and_bm25.md removed_occurrences=4
+2026-09-18 12:25:29,745 | INFO     | __main__ | document=DOC-005_hybrid_search_and_rrf.md removed_occurrences=4
+2026-09-18 12:25:29,765 | INFO     | __main__ | document=DOC-006_parent_child_retrieval.md removed_occurrences=4
+2026-09-18 12:25:29,787 | INFO     | __main__ | document=DOC-007_crossencoder_reranking.md removed_occurrences=4
+2026-09-18 12:25:29,807 | INFO     | __main__ | document=DOC-008_maximal_marginal_relevance.md removed_occurrences=4
+2026-09-18 12:25:29,824 | INFO     | __main__ | document=DOC-009_chunking_strategies.md removed_occurrences=4
+2026-09-18 12:25:29,849 | INFO     | __main__ | document=DOC-010_metadata_and_filters.md removed_occurrences=4
+2026-09-18 12:25:29,869 | INFO     | __main__ | document=DOC-011_qdrant_named_vectors.md removed_occurrences=4
+2026-09-18 12:25:29,892 | INFO     | __main__ | document=DOC-012_qdrant_synchronization.md removed_occurrences=4
+2026-09-18 12:25:29,914 | INFO     | __main__ | document=DOC-013_mongodb_parent_repository.md removed_occurrences=4
+2026-09-18 12:25:29,932 | INFO     | __main__ | document=DOC-014_embeddings_and_normalization.md removed_occurrences=4
+2026-09-18 12:25:29,957 | INFO     | __main__ | document=DOC-015_query_rewriting.md removed_occurrences=4
+2026-09-18 12:25:29,978 | INFO     | __main__ | document=DOC-016_multi_query_retrieval.md removed_occurrences=4
+2026-09-18 12:25:30,000 | INFO     | __main__ | document=DOC-017_hyde.md removed_occurrences=4
+2026-09-18 12:25:30,019 | INFO     | __main__ | document=DOC-018_rag_evaluation.md removed_occurrences=4
+2026-09-18 12:25:30,039 | INFO     | __main__ | document=DOC-019_fastapi_rag_services.md removed_occurrences=4
+2026-09-18 12:25:30,062 | INFO     | __main__ | document=DOC-020_docker_and_local_infrastructure.md removed_occurrences=4
+2026-09-18 12:25:30,087 | INFO     | __main__ | document=DOC-021_retrieval_observability.md removed_occurrences=4
+2026-09-18 12:25:30,124 | INFO     | __main__ | document=DOC-022_tenant_isolation.md removed_occurrences=4
+2026-09-18 12:25:30,154 | INFO     | __main__ | document=DOC-023_vector_search_failure_modes.md removed_occurrences=4
+2026-09-18 12:25:30,180 | INFO     | __main__ | document=DOC-024_retriever_benchmark_design.md removed_occurrences=4
+2026-09-18 12:25:30,183 | INFO     | __main__ | documents_scanned=24 documents_changed=24 total_removed_occurrences=96
+2026-09-18 12:25:30,184 | INFO     | __main__ | Benchmark corpus cleanup PASSED.
