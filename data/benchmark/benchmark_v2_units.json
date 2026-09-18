@@ -1,0 +1,3307 @@
+{
+  "benchmark_version": "2.0",
+  "parent_count": 120,
+  "child_count": 196,
+  "parents": [
+    {
+      "parent_id": "1b3d1638-1c88-4977-b450-c579d4738191",
+      "parent_key": "DOC-001::P000::HNSW Architecture and Search::17c49e1f6340",
+      "parent_index": 0,
+      "document_id": "DOC-001",
+      "section_path": [
+        "HNSW Architecture and Search"
+      ],
+      "content": "Document ID: DOC-001",
+      "children": [
+        {
+          "child_id": "8dfb4bbe-cc3e-47b8-bbb5-611b1158a1aa",
+          "child_key": "DOC-001::P000::HNSW Architecture and Search::17c49e1f6340::C000::17c49e1f6340",
+          "child_index": 0,
+          "parent_id": "1b3d1638-1c88-4977-b450-c579d4738191",
+          "parent_key": "DOC-001::P000::HNSW Architecture and Search::17c49e1f6340",
+          "document_id": "DOC-001",
+          "content": "Document ID: DOC-001"
+        }
+      ]
+    },
+    {
+      "parent_id": "9c8f19af-0210-492c-ab71-a6f6592d8108",
+      "parent_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d",
+      "parent_index": 1,
+      "document_id": "DOC-001",
+      "section_path": [
+        "HNSW Architecture and Search",
+        "Layers"
+      ],
+      "content": "HNSW organizes vectors in hierarchical proximity graphs. Upper layers are sparse and support long-range routing; lower layers contain denser local neighborhoods. Search begins high in the hierarchy and descends while moving toward better candidates. This allows approximate nearest-neighbor search without comparing the query against every stored vector.",
+      "children": [
+        {
+          "child_id": "46fad81c-a002-4054-8518-9e0f36bd1fc2",
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C000::b0dcbbe05fcc",
+          "child_index": 0,
+          "parent_id": "9c8f19af-0210-492c-ab71-a6f6592d8108",
+          "parent_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d",
+          "document_id": "DOC-001",
+          "content": "HNSW organizes vectors in hierarchical proximity graphs. Upper layers are sparse and support long-range routing; lower"
+        },
+        {
+          "child_id": "993f58f2-394f-4105-ac4f-2a1ee46911a7",
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C001::584ff998efd3",
+          "child_index": 1,
+          "parent_id": "9c8f19af-0210-492c-ab71-a6f6592d8108",
+          "parent_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d",
+          "document_id": "DOC-001",
+          "content": "long-range routing; lower layers contain denser local neighborhoods. Search begins high in the hierarchy and descends"
+        },
+        {
+          "child_id": "fcd20543-7493-44d5-ae3d-328516dcad1c",
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C002::8ac6f406be0c",
+          "child_index": 2,
+          "parent_id": "9c8f19af-0210-492c-ab71-a6f6592d8108",
+          "parent_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d",
+          "document_id": "DOC-001",
+          "content": "in the hierarchy and descends while moving toward better candidates. This allows approximate nearest-neighbor search"
+        },
+        {
+          "child_id": "b5093e07-7daf-4a64-b843-53ee436587d0",
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C003::1e6e3c76945b",
+          "child_index": 3,
+          "parent_id": "9c8f19af-0210-492c-ab71-a6f6592d8108",
+          "parent_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d",
+          "document_id": "DOC-001",
+          "content": "nearest-neighbor search without comparing the query against every stored vector."
+        }
+      ]
+    },
+    {
+      "parent_id": "c5c3f517-57f7-4ec8-a410-f747d5492d08",
+      "parent_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4",
+      "parent_index": 2,
+      "document_id": "DOC-001",
+      "section_path": [
+        "HNSW Architecture and Search",
+        "M parameter"
+      ],
+      "content": "M controls the target graph connectivity per node. Larger M usually improves navigation and recall, especially on clustered data, but increases memory consumption and construction cost. M is not the number of hierarchy layers.",
+      "children": [
+        {
+          "child_id": "0005affd-bfe0-49d9-bc72-7eeac1debd51",
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C000::57a20429d6b5",
+          "child_index": 0,
+          "parent_id": "c5c3f517-57f7-4ec8-a410-f747d5492d08",
+          "parent_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4",
+          "document_id": "DOC-001",
+          "content": "M controls the target graph connectivity per node. Larger M usually improves navigation and recall, especially on"
+        },
+        {
+          "child_id": "09df2bf4-24e5-4875-bfbe-8a75873ffe83",
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C001::1fe6b7cc9b71",
+          "child_index": 1,
+          "parent_id": "c5c3f517-57f7-4ec8-a410-f747d5492d08",
+          "parent_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4",
+          "document_id": "DOC-001",
+          "content": "and recall, especially on clustered data, but increases memory consumption and construction cost. M is not the number"
+        },
+        {
+          "child_id": "b1915a4b-9e29-43fa-a5c1-1b56f79af5a4",
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C002::9b31f6cbd874",
+          "child_index": 2,
+          "parent_id": "c5c3f517-57f7-4ec8-a410-f747d5492d08",
+          "parent_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4",
+          "document_id": "DOC-001",
+          "content": "cost. M is not the number of hierarchy layers."
+        }
+      ]
+    },
+    {
+      "parent_id": "c56e7b09-5a15-42f0-aa44-82ee67e15319",
+      "parent_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3",
+      "parent_index": 3,
+      "document_id": "DOC-001",
+      "section_path": [
+        "HNSW Architecture and Search",
+        "ef_search"
+      ],
+      "content": "ef_search controls query-time search breadth. Larger values keep more candidates in the search frontier and usually improve recall at the cost of latency. It is not a count of graph edges.",
+      "children": [
+        {
+          "child_id": "1332bfb1-dd68-4c5f-8d2c-561b9ce31815",
+          "child_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3::C000::19774f23ec94",
+          "child_index": 0,
+          "parent_id": "c56e7b09-5a15-42f0-aa44-82ee67e15319",
+          "parent_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3",
+          "document_id": "DOC-001",
+          "content": "ef_search controls query-time search breadth. Larger values keep more candidates in the search frontier and usually"
+        },
+        {
+          "child_id": "6b0288d1-ed69-427f-97df-264941d8abeb",
+          "child_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3::C001::8ec2c9cb3881",
+          "child_index": 1,
+          "parent_id": "c56e7b09-5a15-42f0-aa44-82ee67e15319",
+          "parent_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3",
+          "document_id": "DOC-001",
+          "content": "search frontier and usually improve recall at the cost of latency. It is not a count of graph edges."
+        }
+      ]
+    },
+    {
+      "parent_id": "eaae0eef-1ef9-4a26-9353-d5a53c2fd51d",
+      "parent_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc",
+      "parent_index": 4,
+      "document_id": "DOC-001",
+      "section_path": [
+        "HNSW Architecture and Search",
+        "Tuning"
+      ],
+      "content": "Tune recall and latency together. M is primarily an index-structure choice while ef_search can often be adjusted per query or workload.",
+      "children": [
+        {
+          "child_id": "1a3317f0-71b3-4d27-a1b8-633d5d5ed11c",
+          "child_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc::C000::cf42e756f571",
+          "child_index": 0,
+          "parent_id": "eaae0eef-1ef9-4a26-9353-d5a53c2fd51d",
+          "parent_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc",
+          "document_id": "DOC-001",
+          "content": "Tune recall and latency together. M is primarily an index-structure choice while ef_search can often be adjusted per"
+        },
+        {
+          "child_id": "07869d0e-1126-4ab0-ab41-6557eb0b6ab0",
+          "child_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc::C001::697d4b5a6090",
+          "child_index": 1,
+          "parent_id": "eaae0eef-1ef9-4a26-9353-d5a53c2fd51d",
+          "parent_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc",
+          "document_id": "DOC-001",
+          "content": "can often be adjusted per query or workload."
+        }
+      ]
+    },
+    {
+      "parent_id": "25c87333-0ea9-46d1-b071-baec7be47ef3",
+      "parent_key": "DOC-002::P000::HNSW Construction and ef_construct::904ce0a9d704",
+      "parent_index": 0,
+      "document_id": "DOC-002",
+      "section_path": [
+        "HNSW Construction and ef_construct"
+      ],
+      "content": "Document ID: DOC-002",
+      "children": [
+        {
+          "child_id": "2aa0e053-3683-4de0-8a3a-25e9b35aca01",
+          "child_key": "DOC-002::P000::HNSW Construction and ef_construct::904ce0a9d704::C000::904ce0a9d704",
+          "child_index": 0,
+          "parent_id": "25c87333-0ea9-46d1-b071-baec7be47ef3",
+          "parent_key": "DOC-002::P000::HNSW Construction and ef_construct::904ce0a9d704",
+          "document_id": "DOC-002",
+          "content": "Document ID: DOC-002"
+        }
+      ]
+    },
+    {
+      "parent_id": "96f39280-925b-4949-8639-7fac46e51d18",
+      "parent_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a",
+      "parent_index": 1,
+      "document_id": "DOC-002",
+      "section_path": [
+        "HNSW Construction and ef_construct",
+        "Meaning"
+      ],
+      "content": "ef_construct controls how broadly HNSW explores candidate neighbors while inserting vectors during index construction. Larger values let the builder consider more alternatives and can produce a higher-quality graph.",
+      "children": [
+        {
+          "child_id": "7b9f4c6c-9d14-4884-8bd1-d976e6c81194",
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C000::f829297fe9a8",
+          "child_index": 0,
+          "parent_id": "96f39280-925b-4949-8639-7fac46e51d18",
+          "parent_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a",
+          "document_id": "DOC-002",
+          "content": "ef_construct controls how broadly HNSW explores candidate neighbors while inserting vectors during index construction."
+        },
+        {
+          "child_id": "3a0f240f-edce-4ed0-be22-8599fb76d543",
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C001::409b5fac7b8f",
+          "child_index": 1,
+          "parent_id": "96f39280-925b-4949-8639-7fac46e51d18",
+          "parent_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a",
+          "document_id": "DOC-002",
+          "content": "during index construction. Larger values let the builder consider more alternatives and can produce a higher-quality"
+        },
+        {
+          "child_id": "9076135f-9c32-41c6-b3c1-1a0c4b393e95",
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C002::e63d79f02c32",
+          "child_index": 2,
+          "parent_id": "96f39280-925b-4949-8639-7fac46e51d18",
+          "parent_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a",
+          "document_id": "DOC-002",
+          "content": "can produce a higher-quality graph."
+        }
+      ]
+    },
+    {
+      "parent_id": "24cadb66-2843-4e45-8846-f85384bb1b3f",
+      "parent_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0",
+      "parent_index": 2,
+      "document_id": "DOC-002",
+      "section_path": [
+        "HNSW Construction and ef_construct",
+        "Trade-off"
+      ],
+      "content": "Higher ef_construct increases index-build time. Better graph quality may improve recall later, but it does not guarantee that every query becomes faster. Dataset size, distribution, dimensionality, M, and ef_search all interact.",
+      "children": [
+        {
+          "child_id": "6f408a80-7787-4183-acc4-78ad27ff4eb3",
+          "child_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0::C000::7601bd262c82",
+          "child_index": 0,
+          "parent_id": "24cadb66-2843-4e45-8846-f85384bb1b3f",
+          "parent_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0",
+          "document_id": "DOC-002",
+          "content": "Higher ef_construct increases index-build time. Better graph quality may improve recall later, but it does not"
+        },
+        {
+          "child_id": "dd37b79e-c357-4ca6-b537-aa22a04a745b",
+          "child_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0::C001::228c23614660",
+          "child_index": 1,
+          "parent_id": "24cadb66-2843-4e45-8846-f85384bb1b3f",
+          "parent_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0",
+          "document_id": "DOC-002",
+          "content": "recall later, but it does not guarantee that every query becomes faster. Dataset size, distribution, dimensionality, M,"
+        },
+        {
+          "child_id": "59c4ef3f-b599-4075-b60e-c786c88eb0fc",
+          "child_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0::C002::334763e5634e",
+          "child_index": 2,
+          "parent_id": "24cadb66-2843-4e45-8846-f85384bb1b3f",
+          "parent_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0",
+          "document_id": "DOC-002",
+          "content": "dimensionality, M, and ef_search all interact."
+        }
+      ]
+    },
+    {
+      "parent_id": "890e53d4-e1c0-472c-bbca-5bdae3f4be08",
+      "parent_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5",
+      "parent_index": 3,
+      "document_id": "DOC-002",
+      "section_path": [
+        "HNSW Construction and ef_construct",
+        "Example"
+      ],
+      "content": "With M=16 and ef_construct=100, sixteen describes the graph connectivity target while one hundred describes construction-time candidate breadth. ef_construct=100 does not mean one hundred layers or one hundred edges.",
+      "children": [
+        {
+          "child_id": "6e49e8d2-a7d1-4fc9-b238-290029fcd33d",
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C000::0b16b3f7b7d1",
+          "child_index": 0,
+          "parent_id": "890e53d4-e1c0-472c-bbca-5bdae3f4be08",
+          "parent_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5",
+          "document_id": "DOC-002",
+          "content": "With M=16 and ef_construct=100, sixteen describes the graph connectivity target while one hundred describes"
+        },
+        {
+          "child_id": "5074ab03-98b4-4549-b233-0c49b4a86347",
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C001::09a4a84e762a",
+          "child_index": 1,
+          "parent_id": "890e53d4-e1c0-472c-bbca-5bdae3f4be08",
+          "parent_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5",
+          "document_id": "DOC-002",
+          "content": "while one hundred describes construction-time candidate breadth. ef_construct=100 does not mean one hundred layers or"
+        },
+        {
+          "child_id": "6f08c5e9-baf5-4c2e-ab76-dccea851009f",
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C002::86c1f3b6844c",
+          "child_index": 2,
+          "parent_id": "890e53d4-e1c0-472c-bbca-5bdae3f4be08",
+          "parent_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5",
+          "document_id": "DOC-002",
+          "content": "not mean one hundred layers or one hundred edges."
+        }
+      ]
+    },
+    {
+      "parent_id": "7ae7b1d2-f220-45b1-a7b9-8b8178b22841",
+      "parent_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879",
+      "parent_index": 4,
+      "document_id": "DOC-002",
+      "section_path": [
+        "HNSW Construction and ef_construct",
+        "Rebuild"
+      ],
+      "content": "Changing ef_construct affects index construction, so an existing HNSW graph generally needs rebuilding before the change can influence graph quality.",
+      "children": [
+        {
+          "child_id": "12fece99-bdab-4e9f-860b-44916aa160c0",
+          "child_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879::C000::960357e05e70",
+          "child_index": 0,
+          "parent_id": "7ae7b1d2-f220-45b1-a7b9-8b8178b22841",
+          "parent_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879",
+          "document_id": "DOC-002",
+          "content": "Changing ef_construct affects index construction, so an existing HNSW graph generally needs rebuilding before the"
+        },
+        {
+          "child_id": "af76cd8e-b944-4a34-b822-1c1c8e99c553",
+          "child_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879::C001::90e54da7f64b",
+          "child_index": 1,
+          "parent_id": "7ae7b1d2-f220-45b1-a7b9-8b8178b22841",
+          "parent_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879",
+          "document_id": "DOC-002",
+          "content": "needs rebuilding before the change can influence graph quality."
+        }
+      ]
+    },
+    {
+      "parent_id": "44bc89ca-0813-4810-8308-6af051e04746",
+      "parent_key": "DOC-003::P000::Dense Retrieval::0b558e334b42",
+      "parent_index": 0,
+      "document_id": "DOC-003",
+      "section_path": [
+        "Dense Retrieval"
+      ],
+      "content": "Document ID: DOC-003",
+      "children": [
+        {
+          "child_id": "db6d650d-2389-4ec9-8638-add5cdb47c2b",
+          "child_key": "DOC-003::P000::Dense Retrieval::0b558e334b42::C000::0b558e334b42",
+          "child_index": 0,
+          "parent_id": "44bc89ca-0813-4810-8308-6af051e04746",
+          "parent_key": "DOC-003::P000::Dense Retrieval::0b558e334b42",
+          "document_id": "DOC-003",
+          "content": "Document ID: DOC-003"
+        }
+      ]
+    },
+    {
+      "parent_id": "7ab593a2-b336-45de-8798-aa704ac0df53",
+      "parent_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b",
+      "parent_index": 1,
+      "document_id": "DOC-003",
+      "section_path": [
+        "Dense Retrieval",
+        "Semantics"
+      ],
+      "content": "Dense retrieval embeds queries and documents into vectors so semantically related text can match despite different wording. A query about making index construction more thorough can retrieve a passage about increasing ef_construct.",
+      "children": [
+        {
+          "child_id": "9225fdcc-5dca-4ed7-8164-d7b500d2ccd0",
+          "child_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b::C000::63abd5931c7c",
+          "child_index": 0,
+          "parent_id": "7ab593a2-b336-45de-8798-aa704ac0df53",
+          "parent_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b",
+          "document_id": "DOC-003",
+          "content": "Dense retrieval embeds queries and documents into vectors so semantically related text can match despite different"
+        },
+        {
+          "child_id": "5eca3877-eeda-470a-9889-a7be99de2cf5",
+          "child_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b::C001::63d8602f3476",
+          "child_index": 1,
+          "parent_id": "7ab593a2-b336-45de-8798-aa704ac0df53",
+          "parent_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b",
+          "document_id": "DOC-003",
+          "content": "can match despite different wording. A query about making index construction more thorough can retrieve a passage about"
+        },
+        {
+          "child_id": "93e28f37-6080-44c8-940a-c502017f929d",
+          "child_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b::C002::d8899c1eb6b4",
+          "child_index": 2,
+          "parent_id": "7ab593a2-b336-45de-8798-aa704ac0df53",
+          "parent_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b",
+          "document_id": "DOC-003",
+          "content": "can retrieve a passage about increasing ef_construct."
+        }
+      ]
+    },
+    {
+      "parent_id": "0c4377c8-3c58-4590-bb16-f1f51754641c",
+      "parent_key": "DOC-003::P002::Dense Retrieval/Cosine::88a0b5f1f36a",
+      "parent_index": 2,
+      "document_id": "DOC-003",
+      "section_path": [
+        "Dense Retrieval",
+        "Cosine"
+      ],
+      "content": "Cosine similarity measures geometric similarity, not the probability that a passage answers the question. Semantically related but non-answering passages can receive high scores.",
+      "children": [
+        {
+          "child_id": "3d88fbb9-ca50-45b7-89ca-f388dac4dde9",
+          "child_key": "DOC-003::P002::Dense Retrieval/Cosine::88a0b5f1f36a::C000::46281561c20e",
+          "child_index": 0,
+          "parent_id": "0c4377c8-3c58-4590-bb16-f1f51754641c",
+          "parent_key": "DOC-003::P002::Dense Retrieval/Cosine::88a0b5f1f36a",
+          "document_id": "DOC-003",
+          "content": "Cosine similarity measures geometric similarity, not the probability that a passage answers the question. Semantically"
+        },
+        {
+          "child_id": "22e2d24a-28d0-46d3-a321-ef5079904247",
+          "child_key": "DOC-003::P002::Dense Retrieval/Cosine::88a0b5f1f36a::C001::8b6e1f0c534a",
+          "child_index": 1,
+          "parent_id": "0c4377c8-3c58-4590-bb16-f1f51754641c",
+          "parent_key": "DOC-003::P002::Dense Retrieval/Cosine::88a0b5f1f36a",
+          "document_id": "DOC-003",
+          "content": "the question. Semantically related but non-answering passages can receive high scores."
+        }
+      ]
+    },
+    {
+      "parent_id": "62a09574-4b4d-4045-b056-5b964165f001",
+      "parent_key": "DOC-003::P003::Dense Retrieval/Weaknesses::c533c34f9468",
+      "parent_index": 3,
+      "document_id": "DOC-003",
+      "section_path": [
+        "Dense Retrieval",
+        "Weaknesses"
+      ],
+      "content": "Opaque identifiers, error codes, version strings, and rare names such as uq_document_content_hash or ERR_CONNECTION_REFUSED can be difficult for a dense model.",
+      "children": [
+        {
+          "child_id": "f6a5a3aa-6d97-4634-9190-d9489a59cdf2",
+          "child_key": "DOC-003::P003::Dense Retrieval/Weaknesses::c533c34f9468::C000::8f9c410b4bc7",
+          "child_index": 0,
+          "parent_id": "62a09574-4b4d-4045-b056-5b964165f001",
+          "parent_key": "DOC-003::P003::Dense Retrieval/Weaknesses::c533c34f9468",
+          "document_id": "DOC-003",
+          "content": "Opaque identifiers, error codes, version strings, and rare names such as uq_document_content_hash or"
+        },
+        {
+          "child_id": "75056fa3-eff5-4ab5-adf6-d04bede38c1a",
+          "child_key": "DOC-003::P003::Dense Retrieval/Weaknesses::c533c34f9468::C001::ddc89cd79486",
+          "child_index": 1,
+          "parent_id": "62a09574-4b4d-4045-b056-5b964165f001",
+          "parent_key": "DOC-003::P003::Dense Retrieval/Weaknesses::c533c34f9468",
+          "document_id": "DOC-003",
+          "content": "as uq_document_content_hash or ERR_CONNECTION_REFUSED can be difficult for a dense model."
+        }
+      ]
+    },
+    {
+      "parent_id": "673244f4-303a-4341-ab10-b326e88f290e",
+      "parent_key": "DOC-003::P004::Dense Retrieval/Breadth::48223e1d164a",
+      "parent_index": 4,
+      "document_id": "DOC-003",
+      "section_path": [
+        "Dense Retrieval",
+        "Breadth"
+      ],
+      "content": "Candidate top_k controls recall opportunity. A later reranker cannot recover a relevant document that was removed before reranking.",
+      "children": [
+        {
+          "child_id": "97559f8d-eb79-43d7-8216-050deb7a683d",
+          "child_key": "DOC-003::P004::Dense Retrieval/Breadth::48223e1d164a::C000::94f15cc7fd50",
+          "child_index": 0,
+          "parent_id": "673244f4-303a-4341-ab10-b326e88f290e",
+          "parent_key": "DOC-003::P004::Dense Retrieval/Breadth::48223e1d164a",
+          "document_id": "DOC-003",
+          "content": "Candidate top_k controls recall opportunity. A later reranker cannot recover a relevant document that was removed"
+        },
+        {
+          "child_id": "84c7c881-e978-4a99-b86a-dc7d99e1ab0d",
+          "child_key": "DOC-003::P004::Dense Retrieval/Breadth::48223e1d164a::C001::0abd7d69c526",
+          "child_index": 1,
+          "parent_id": "673244f4-303a-4341-ab10-b326e88f290e",
+          "parent_key": "DOC-003::P004::Dense Retrieval/Breadth::48223e1d164a",
+          "document_id": "DOC-003",
+          "content": "document that was removed before reranking."
+        }
+      ]
+    },
+    {
+      "parent_id": "c968b779-5add-40d6-8be6-b5371004d688",
+      "parent_key": "DOC-004::P000::Sparse Retrieval and BM25::2e408419645d",
+      "parent_index": 0,
+      "document_id": "DOC-004",
+      "section_path": [
+        "Sparse Retrieval and BM25"
+      ],
+      "content": "Document ID: DOC-004",
+      "children": [
+        {
+          "child_id": "53ea9b8b-0ebb-4778-b6d4-813e81f488c7",
+          "child_key": "DOC-004::P000::Sparse Retrieval and BM25::2e408419645d::C000::2e408419645d",
+          "child_index": 0,
+          "parent_id": "c968b779-5add-40d6-8be6-b5371004d688",
+          "parent_key": "DOC-004::P000::Sparse Retrieval and BM25::2e408419645d",
+          "document_id": "DOC-004",
+          "content": "Document ID: DOC-004"
+        }
+      ]
+    },
+    {
+      "parent_id": "4e46a41d-aea5-41a6-b4f6-1f2f4db21239",
+      "parent_key": "DOC-004::P001::Sparse Retrieval and BM25/Lexical::85dbef0962d2",
+      "parent_index": 1,
+      "document_id": "DOC-004",
+      "section_path": [
+        "Sparse Retrieval and BM25",
+        "Lexical"
+      ],
+      "content": "BM25 uses explicit lexical evidence and rewards informative term matches while accounting for collection frequency and document length.",
+      "children": [
+        {
+          "child_id": "ad44b418-3417-4249-ac1a-e54a892059fb",
+          "child_key": "DOC-004::P001::Sparse Retrieval and BM25/Lexical::85dbef0962d2::C000::4be0fb0dd5f2",
+          "child_index": 0,
+          "parent_id": "4e46a41d-aea5-41a6-b4f6-1f2f4db21239",
+          "parent_key": "DOC-004::P001::Sparse Retrieval and BM25/Lexical::85dbef0962d2",
+          "document_id": "DOC-004",
+          "content": "BM25 uses explicit lexical evidence and rewards informative term matches while accounting for collection frequency and"
+        },
+        {
+          "child_id": "312a7ed2-7fe1-4d9b-8d49-382c3425de29",
+          "child_key": "DOC-004::P001::Sparse Retrieval and BM25/Lexical::85dbef0962d2::C001::8451d40249b1",
+          "child_index": 1,
+          "parent_id": "4e46a41d-aea5-41a6-b4f6-1f2f4db21239",
+          "parent_key": "DOC-004::P001::Sparse Retrieval and BM25/Lexical::85dbef0962d2",
+          "document_id": "DOC-004",
+          "content": "for collection frequency and document length."
+        }
+      ]
+    },
+    {
+      "parent_id": "3f505ea4-ab01-4462-b51a-ef4b900970ea",
+      "parent_key": "DOC-004::P002::Sparse Retrieval and BM25/Identifiers::591b164e8bfc",
+      "parent_index": 2,
+      "document_id": "DOC-004",
+      "section_path": [
+        "Sparse Retrieval and BM25",
+        "Identifiers"
+      ],
+      "content": "Exact terms such as ef_construct, HTTP 422, tenant_id, vector_size, and uq_document_content_hash are strong sparse-search signals.",
+      "children": [
+        {
+          "child_id": "88b59690-6561-4082-a225-cf715674c06d",
+          "child_key": "DOC-004::P002::Sparse Retrieval and BM25/Identifiers::591b164e8bfc::C000::7b2b4c61478c",
+          "child_index": 0,
+          "parent_id": "3f505ea4-ab01-4462-b51a-ef4b900970ea",
+          "parent_key": "DOC-004::P002::Sparse Retrieval and BM25/Identifiers::591b164e8bfc",
+          "document_id": "DOC-004",
+          "content": "Exact terms such as ef_construct, HTTP 422, tenant_id, vector_size, and uq_document_content_hash are strong"
+        },
+        {
+          "child_id": "056ea87e-954e-4f11-9133-db3746e484b7",
+          "child_key": "DOC-004::P002::Sparse Retrieval and BM25/Identifiers::591b164e8bfc::C001::359bc6fc3d42",
+          "child_index": 1,
+          "parent_id": "3f505ea4-ab01-4462-b51a-ef4b900970ea",
+          "parent_key": "DOC-004::P002::Sparse Retrieval and BM25/Identifiers::591b164e8bfc",
+          "document_id": "DOC-004",
+          "content": "are strong sparse-search signals."
+        }
+      ]
+    },
+    {
+      "parent_id": "b0297959-cc5b-429e-8e58-3d514ae7faa5",
+      "parent_key": "DOC-004::P003::Sparse Retrieval and BM25/Limit::2667a2c792be",
+      "parent_index": 3,
+      "document_id": "DOC-004",
+      "section_path": [
+        "Sparse Retrieval and BM25",
+        "Limit"
+      ],
+      "content": "Sparse retrieval does not generalize paraphrases like a dense model. Build phase and index construction may refer to the same concept without sharing the same terms.",
+      "children": [
+        {
+          "child_id": "316542d4-00cc-4ab3-b8a7-22029b84f904",
+          "child_key": "DOC-004::P003::Sparse Retrieval and BM25/Limit::2667a2c792be::C000::e4a57921ae4e",
+          "child_index": 0,
+          "parent_id": "b0297959-cc5b-429e-8e58-3d514ae7faa5",
+          "parent_key": "DOC-004::P003::Sparse Retrieval and BM25/Limit::2667a2c792be",
+          "document_id": "DOC-004",
+          "content": "Sparse retrieval does not generalize paraphrases like a dense model. Build phase and index construction may refer to"
+        },
+        {
+          "child_id": "882b901a-43c0-4b7b-a2b1-5517a6e37a5e",
+          "child_key": "DOC-004::P003::Sparse Retrieval and BM25/Limit::2667a2c792be::C001::d1d1320a8897",
+          "child_index": 1,
+          "parent_id": "b0297959-cc5b-429e-8e58-3d514ae7faa5",
+          "parent_key": "DOC-004::P003::Sparse Retrieval and BM25/Limit::2667a2c792be",
+          "document_id": "DOC-004",
+          "content": "construction may refer to the same concept without sharing the same terms."
+        }
+      ]
+    },
+    {
+      "parent_id": "a318e9a3-5d9b-4c03-abed-2c8c45a66683",
+      "parent_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0",
+      "parent_index": 4,
+      "document_id": "DOC-004",
+      "section_path": [
+        "Sparse Retrieval and BM25",
+        "Role"
+      ],
+      "content": "Dense and sparse retrieval are complementary: dense adds semantic generalization and sparse adds exact lexical precision.",
+      "children": [
+        {
+          "child_id": "eaab46b5-61ba-4a8e-86e0-d913ae0bd2a6",
+          "child_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0::C000::d8c291559660",
+          "child_index": 0,
+          "parent_id": "a318e9a3-5d9b-4c03-abed-2c8c45a66683",
+          "parent_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0",
+          "document_id": "DOC-004",
+          "content": "Dense and sparse retrieval are complementary: dense adds semantic generalization and sparse adds exact lexical"
+        },
+        {
+          "child_id": "6fe1ea71-5bee-4fba-aa41-1d3582be3741",
+          "child_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0::C001::b2cee934d85f",
+          "child_index": 1,
+          "parent_id": "a318e9a3-5d9b-4c03-abed-2c8c45a66683",
+          "parent_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0",
+          "document_id": "DOC-004",
+          "content": "and sparse adds exact lexical precision."
+        }
+      ]
+    },
+    {
+      "parent_id": "de57f3bd-477e-4af7-a989-7e80335218aa",
+      "parent_key": "DOC-005::P000::Hybrid Search and RRF::5664addb3f79",
+      "parent_index": 0,
+      "document_id": "DOC-005",
+      "section_path": [
+        "Hybrid Search and RRF"
+      ],
+      "content": "Document ID: DOC-005",
+      "children": [
+        {
+          "child_id": "4a7b73c9-bb84-4706-b4be-158ba0ec7f6d",
+          "child_key": "DOC-005::P000::Hybrid Search and RRF::5664addb3f79::C000::5664addb3f79",
+          "child_index": 0,
+          "parent_id": "de57f3bd-477e-4af7-a989-7e80335218aa",
+          "parent_key": "DOC-005::P000::Hybrid Search and RRF::5664addb3f79",
+          "document_id": "DOC-005",
+          "content": "Document ID: DOC-005"
+        }
+      ]
+    },
+    {
+      "parent_id": "52ee38f2-b0c6-4467-aa35-93017e79cf45",
+      "parent_key": "DOC-005::P001::Hybrid Search and RRF/Hybrid::209328260861",
+      "parent_index": 1,
+      "document_id": "DOC-005",
+      "section_path": [
+        "Hybrid Search and RRF",
+        "Hybrid"
+      ],
+      "content": "Hybrid retrieval runs dense and sparse searches for the same query and then fuses their candidate rankings.",
+      "children": [
+        {
+          "child_id": "583b0290-587c-4568-b93b-42450b5bf20a",
+          "child_key": "DOC-005::P001::Hybrid Search and RRF/Hybrid::209328260861::C000::209328260861",
+          "child_index": 0,
+          "parent_id": "52ee38f2-b0c6-4467-aa35-93017e79cf45",
+          "parent_key": "DOC-005::P001::Hybrid Search and RRF/Hybrid::209328260861",
+          "document_id": "DOC-005",
+          "content": "Hybrid retrieval runs dense and sparse searches for the same query and then fuses their candidate rankings."
+        }
+      ]
+    },
+    {
+      "parent_id": "07c0ad76-ca24-4ff0-bb3c-c5b9dd05d707",
+      "parent_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6",
+      "parent_index": 2,
+      "document_id": "DOC-005",
+      "section_path": [
+        "Hybrid Search and RRF",
+        "RRF"
+      ],
+      "content": "Reciprocal Rank Fusion combines rank positions rather than raw cosine and BM25 magnitudes. A common contribution is 1 divided by k plus rank for each ranking containing the candidate.",
+      "children": [
+        {
+          "child_id": "2bc0aabc-e07a-4c0f-b9b0-4b29f9bd03c1",
+          "child_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6::C000::6438ac50137b",
+          "child_index": 0,
+          "parent_id": "07c0ad76-ca24-4ff0-bb3c-c5b9dd05d707",
+          "parent_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6",
+          "document_id": "DOC-005",
+          "content": "Reciprocal Rank Fusion combines rank positions rather than raw cosine and BM25 magnitudes. A common contribution is 1"
+        },
+        {
+          "child_id": "3ef5d66b-8a71-42bd-9143-6158ce081103",
+          "child_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6::C001::119dcfc67275",
+          "child_index": 1,
+          "parent_id": "07c0ad76-ca24-4ff0-bb3c-c5b9dd05d707",
+          "parent_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6",
+          "document_id": "DOC-005",
+          "content": "A common contribution is 1 divided by k plus rank for each ranking containing the candidate."
+        }
+      ]
+    },
+    {
+      "parent_id": "ea53fe9d-f0c6-4054-a06c-c774f9828311",
+      "parent_key": "DOC-005::P003::Hybrid Search and RRF/Prefetch::749e43f445d1",
+      "parent_index": 3,
+      "document_id": "DOC-005",
+      "section_path": [
+        "Hybrid Search and RRF",
+        "Prefetch"
+      ],
+      "content": "dense_prefetch_k and sparse_prefetch_k define how many candidates reach fusion. final_k defines how many fused results are returned. Fusion cannot recover items absent from both prefetch pools.",
+      "children": [
+        {
+          "child_id": "c533bf0a-d7e8-476c-a876-7886d7bb2624",
+          "child_key": "DOC-005::P003::Hybrid Search and RRF/Prefetch::749e43f445d1::C000::431ab3f75664",
+          "child_index": 0,
+          "parent_id": "ea53fe9d-f0c6-4054-a06c-c774f9828311",
+          "parent_key": "DOC-005::P003::Hybrid Search and RRF/Prefetch::749e43f445d1",
+          "document_id": "DOC-005",
+          "content": "dense_prefetch_k and sparse_prefetch_k define how many candidates reach fusion. final_k defines how many fused results"
+        },
+        {
+          "child_id": "e88962d5-a300-440e-9c90-b076460e922f",
+          "child_key": "DOC-005::P003::Hybrid Search and RRF/Prefetch::749e43f445d1::C001::f67f9829fa36",
+          "child_index": 1,
+          "parent_id": "ea53fe9d-f0c6-4054-a06c-c774f9828311",
+          "parent_key": "DOC-005::P003::Hybrid Search and RRF/Prefetch::749e43f445d1",
+          "document_id": "DOC-005",
+          "content": "defines how many fused results are returned. Fusion cannot recover items absent from both prefetch pools."
+        }
+      ]
+    },
+    {
+      "parent_id": "ff12b82e-946e-4f54-bdf9-23f7e74ca00a",
+      "parent_key": "DOC-005::P004::Hybrid Search and RRF/Caveat::6e10b63b70d4",
+      "parent_index": 4,
+      "document_id": "DOC-005",
+      "section_path": [
+        "Hybrid Search and RRF",
+        "Caveat"
+      ],
+      "content": "RRF is robust because it avoids score calibration, but rank-only fusion discards information about how large the raw score gap was between adjacent candidates.",
+      "children": [
+        {
+          "child_id": "e5534ee8-06e0-4572-96f2-18e8c9ed6b85",
+          "child_key": "DOC-005::P004::Hybrid Search and RRF/Caveat::6e10b63b70d4::C000::bc447b0157ad",
+          "child_index": 0,
+          "parent_id": "ff12b82e-946e-4f54-bdf9-23f7e74ca00a",
+          "parent_key": "DOC-005::P004::Hybrid Search and RRF/Caveat::6e10b63b70d4",
+          "document_id": "DOC-005",
+          "content": "RRF is robust because it avoids score calibration, but rank-only fusion discards information about how large the raw"
+        },
+        {
+          "child_id": "d7cf9e5b-be30-43af-8e19-2858224d0fc0",
+          "child_key": "DOC-005::P004::Hybrid Search and RRF/Caveat::6e10b63b70d4::C001::2927773ffefe",
+          "child_index": 1,
+          "parent_id": "ff12b82e-946e-4f54-bdf9-23f7e74ca00a",
+          "parent_key": "DOC-005::P004::Hybrid Search and RRF/Caveat::6e10b63b70d4",
+          "document_id": "DOC-005",
+          "content": "about how large the raw score gap was between adjacent candidates."
+        }
+      ]
+    },
+    {
+      "parent_id": "1a1902b5-940d-42c4-97b1-de57337304ee",
+      "parent_key": "DOC-006::P000::Parent Child Retrieval::b35088d41309",
+      "parent_index": 0,
+      "document_id": "DOC-006",
+      "section_path": [
+        "Parent Child Retrieval"
+      ],
+      "content": "Document ID: DOC-006",
+      "children": [
+        {
+          "child_id": "393b5c72-817d-4664-a112-7535c401333f",
+          "child_key": "DOC-006::P000::Parent Child Retrieval::b35088d41309::C000::b35088d41309",
+          "child_index": 0,
+          "parent_id": "1a1902b5-940d-42c4-97b1-de57337304ee",
+          "parent_key": "DOC-006::P000::Parent Child Retrieval::b35088d41309",
+          "document_id": "DOC-006",
+          "content": "Document ID: DOC-006"
+        }
+      ]
+    },
+    {
+      "parent_id": "517f5bcf-a5b1-4014-aa94-d091aa24efe9",
+      "parent_key": "DOC-006::P001::Parent Child Retrieval/Purpose::58f2e1646f06",
+      "parent_index": 1,
+      "document_id": "DOC-006",
+      "section_path": [
+        "Parent Child Retrieval",
+        "Purpose"
+      ],
+      "content": "Small child chunks improve retrieval precision while larger parent chunks restore context for the language model.",
+      "children": [
+        {
+          "child_id": "1e9f22d8-a5fc-4e70-96bf-11ebe24af22f",
+          "child_key": "DOC-006::P001::Parent Child Retrieval/Purpose::58f2e1646f06::C000::58f2e1646f06",
+          "child_index": 0,
+          "parent_id": "517f5bcf-a5b1-4014-aa94-d091aa24efe9",
+          "parent_key": "DOC-006::P001::Parent Child Retrieval/Purpose::58f2e1646f06",
+          "document_id": "DOC-006",
+          "content": "Small child chunks improve retrieval precision while larger parent chunks restore context for the language model."
+        }
+      ]
+    },
+    {
+      "parent_id": "0e3fff84-ced0-4c89-bc03-7f11bb79da34",
+      "parent_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef",
+      "parent_index": 2,
+      "document_id": "DOC-006",
+      "section_path": [
+        "Parent Child Retrieval",
+        "Identity"
+      ],
+      "content": "Each child must reference an authoritative persisted parent_id. Generating children from temporary parents can create dangling references if persisted IDs differ.",
+      "children": [
+        {
+          "child_id": "1e6c7cf9-5f75-4b77-8e7f-a8e02769512c",
+          "child_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef::C000::835b5886e0cf",
+          "child_index": 0,
+          "parent_id": "0e3fff84-ced0-4c89-bc03-7f11bb79da34",
+          "parent_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef",
+          "document_id": "DOC-006",
+          "content": "Each child must reference an authoritative persisted parent_id. Generating children from temporary parents can create"
+        },
+        {
+          "child_id": "36fd30d6-5e79-49c7-8696-3da54b2233ee",
+          "child_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef::C001::ea85c1b95a87",
+          "child_index": 1,
+          "parent_id": "0e3fff84-ced0-4c89-bc03-7f11bb79da34",
+          "parent_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef",
+          "document_id": "DOC-006",
+          "content": "temporary parents can create dangling references if persisted IDs differ."
+        }
+      ]
+    },
+    {
+      "parent_id": "f239ba19-1c33-4cc3-9563-632fbbcfde07",
+      "parent_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239",
+      "parent_index": 3,
+      "document_id": "DOC-006",
+      "section_path": [
+        "Parent Child Retrieval",
+        "Dedup"
+      ],
+      "content": "Multiple child hits can belong to one parent, so parent expansion groups by parent_id and fetches the parent once while retaining matched-child evidence for debugging.",
+      "children": [
+        {
+          "child_id": "8cd37f43-da5d-4ec4-9771-ff62a53b80d9",
+          "child_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239::C000::d1bd65315d93",
+          "child_index": 0,
+          "parent_id": "f239ba19-1c33-4cc3-9563-632fbbcfde07",
+          "parent_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239",
+          "document_id": "DOC-006",
+          "content": "Multiple child hits can belong to one parent, so parent expansion groups by parent_id and fetches the parent once while"
+        },
+        {
+          "child_id": "9f1420c1-6fc5-48e5-887f-bd78f8813f5f",
+          "child_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239::C001::0aaa0f6b6d03",
+          "child_index": 1,
+          "parent_id": "f239ba19-1c33-4cc3-9563-632fbbcfde07",
+          "parent_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239",
+          "document_id": "DOC-006",
+          "content": "fetches the parent once while retaining matched-child evidence for debugging."
+        }
+      ]
+    },
+    {
+      "parent_id": "58f7ba7d-1fe4-4f05-b38f-73cceb13ea19",
+      "parent_key": "DOC-006::P004::Parent Child Retrieval/Trade-off::c49ad4b99a52",
+      "parent_index": 4,
+      "document_id": "DOC-006",
+      "section_path": [
+        "Parent Child Retrieval",
+        "Trade-off"
+      ],
+      "content": "Parent child retrieval increases synchronization complexity but is valuable when the best retrieval unit is smaller than the best generation context unit.",
+      "children": [
+        {
+          "child_id": "77043064-2cbc-4c3a-918e-8a89aa2f23bb",
+          "child_key": "DOC-006::P004::Parent Child Retrieval/Trade-off::c49ad4b99a52::C000::95b65bb60d44",
+          "child_index": 0,
+          "parent_id": "58f7ba7d-1fe4-4f05-b38f-73cceb13ea19",
+          "parent_key": "DOC-006::P004::Parent Child Retrieval/Trade-off::c49ad4b99a52",
+          "document_id": "DOC-006",
+          "content": "Parent child retrieval increases synchronization complexity but is valuable when the best retrieval unit is smaller"
+        },
+        {
+          "child_id": "e04065f9-e7d8-4045-b476-6fc51dcd03d7",
+          "child_key": "DOC-006::P004::Parent Child Retrieval/Trade-off::c49ad4b99a52::C001::05cc04a5ec7d",
+          "child_index": 1,
+          "parent_id": "58f7ba7d-1fe4-4f05-b38f-73cceb13ea19",
+          "parent_key": "DOC-006::P004::Parent Child Retrieval/Trade-off::c49ad4b99a52",
+          "document_id": "DOC-006",
+          "content": "best retrieval unit is smaller than the best generation context unit."
+        }
+      ]
+    },
+    {
+      "parent_id": "0c4d82d0-df71-43f4-bf13-6ddf80394e17",
+      "parent_key": "DOC-007::P000::CrossEncoder Reranking::0bf4b5893750",
+      "parent_index": 0,
+      "document_id": "DOC-007",
+      "section_path": [
+        "CrossEncoder Reranking"
+      ],
+      "content": "Document ID: DOC-007",
+      "children": [
+        {
+          "child_id": "bff10fb8-2488-49db-a537-a99c75bc6388",
+          "child_key": "DOC-007::P000::CrossEncoder Reranking::0bf4b5893750::C000::0bf4b5893750",
+          "child_index": 0,
+          "parent_id": "0c4d82d0-df71-43f4-bf13-6ddf80394e17",
+          "parent_key": "DOC-007::P000::CrossEncoder Reranking::0bf4b5893750",
+          "document_id": "DOC-007",
+          "content": "Document ID: DOC-007"
+        }
+      ]
+    },
+    {
+      "parent_id": "834d23e0-406c-41b5-adb1-74b69a8a01ed",
+      "parent_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3",
+      "parent_index": 1,
+      "document_id": "DOC-007",
+      "section_path": [
+        "CrossEncoder Reranking",
+        "Scoring"
+      ],
+      "content": "A CrossEncoder jointly processes query and candidate text, allowing deeper query-document interaction than independent embeddings.",
+      "children": [
+        {
+          "child_id": "192a7d31-1e13-4858-98a8-039e2086d98e",
+          "child_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3::C000::6e465d447abe",
+          "child_index": 0,
+          "parent_id": "834d23e0-406c-41b5-adb1-74b69a8a01ed",
+          "parent_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3",
+          "document_id": "DOC-007",
+          "content": "A CrossEncoder jointly processes query and candidate text, allowing deeper query-document interaction than independent"
+        },
+        {
+          "child_id": "02e25c56-9ff3-4e68-bded-1ced0baff6e2",
+          "child_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3::C001::0f1c48345abd",
+          "child_index": 1,
+          "parent_id": "834d23e0-406c-41b5-adb1-74b69a8a01ed",
+          "parent_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3",
+          "document_id": "DOC-007",
+          "content": "interaction than independent embeddings."
+        }
+      ]
+    },
+    {
+      "parent_id": "449d7124-1a7e-4b38-8cd5-d12b0a07f538",
+      "parent_key": "DOC-007::P002::CrossEncoder Reranking/Placement::5db9debefc4d",
+      "parent_index": 2,
+      "document_id": "DOC-007",
+      "section_path": [
+        "CrossEncoder Reranking",
+        "Placement"
+      ],
+      "content": "CrossEncoder reranking follows broad first-stage retrieval because pairwise inference is more expensive. Missing candidates cannot be recovered.",
+      "children": [
+        {
+          "child_id": "25122a81-d0e1-46c6-9590-13db717b347d",
+          "child_key": "DOC-007::P002::CrossEncoder Reranking/Placement::5db9debefc4d::C000::a49c242c244a",
+          "child_index": 0,
+          "parent_id": "449d7124-1a7e-4b38-8cd5-d12b0a07f538",
+          "parent_key": "DOC-007::P002::CrossEncoder Reranking/Placement::5db9debefc4d",
+          "document_id": "DOC-007",
+          "content": "CrossEncoder reranking follows broad first-stage retrieval because pairwise inference is more expensive. Missing"
+        },
+        {
+          "child_id": "f9b2f5b3-a0e0-4a23-ab5e-1a6d4a1c2064",
+          "child_key": "DOC-007::P002::CrossEncoder Reranking/Placement::5db9debefc4d::C001::6404fe72d734",
+          "child_index": 1,
+          "parent_id": "449d7124-1a7e-4b38-8cd5-d12b0a07f538",
+          "parent_key": "DOC-007::P002::CrossEncoder Reranking/Placement::5db9debefc4d",
+          "document_id": "DOC-007",
+          "content": "is more expensive. Missing candidates cannot be recovered."
+        }
+      ]
+    },
+    {
+      "parent_id": "18385fe8-63ce-41d5-93e5-0b9ddf129916",
+      "parent_key": "DOC-007::P003::CrossEncoder Reranking/Calibration::a3381d0856c9",
+      "parent_index": 3,
+      "document_id": "DOC-007",
+      "section_path": [
+        "CrossEncoder Reranking",
+        "Calibration"
+      ],
+      "content": "CrossEncoder outputs should not automatically be treated as universally calibrated probabilities. Query phrasing can change scores substantially.",
+      "children": [
+        {
+          "child_id": "5096ecb1-14a1-44d9-866e-ec7d71979a33",
+          "child_key": "DOC-007::P003::CrossEncoder Reranking/Calibration::a3381d0856c9::C000::09f70b54e350",
+          "child_index": 0,
+          "parent_id": "18385fe8-63ce-41d5-93e5-0b9ddf129916",
+          "parent_key": "DOC-007::P003::CrossEncoder Reranking/Calibration::a3381d0856c9",
+          "document_id": "DOC-007",
+          "content": "CrossEncoder outputs should not automatically be treated as universally calibrated probabilities. Query phrasing can"
+        },
+        {
+          "child_id": "4e3a10b2-a2d0-4e14-ab85-93564c7fce18",
+          "child_key": "DOC-007::P003::CrossEncoder Reranking/Calibration::a3381d0856c9::C001::e9f6b58ae07c",
+          "child_index": 1,
+          "parent_id": "18385fe8-63ce-41d5-93e5-0b9ddf129916",
+          "parent_key": "DOC-007::P003::CrossEncoder Reranking/Calibration::a3381d0856c9",
+          "document_id": "DOC-007",
+          "content": "Query phrasing can change scores substantially."
+        }
+      ]
+    },
+    {
+      "parent_id": "9958e7b8-2e48-41a8-9053-db93d66b98dd",
+      "parent_key": "DOC-007::P004::CrossEncoder Reranking/Parents::3ca6d613f1f0",
+      "parent_index": 4,
+      "document_id": "DOC-007",
+      "section_path": [
+        "CrossEncoder Reranking",
+        "Parents"
+      ],
+      "content": "In parent child RAG, a useful pattern retrieves children, expands parents, then reranks full ParentChunk content.",
+      "children": [
+        {
+          "child_id": "3dcfbec1-e672-4951-8cb1-e5dc5af27334",
+          "child_key": "DOC-007::P004::CrossEncoder Reranking/Parents::3ca6d613f1f0::C000::3ca6d613f1f0",
+          "child_index": 0,
+          "parent_id": "9958e7b8-2e48-41a8-9053-db93d66b98dd",
+          "parent_key": "DOC-007::P004::CrossEncoder Reranking/Parents::3ca6d613f1f0",
+          "document_id": "DOC-007",
+          "content": "In parent child RAG, a useful pattern retrieves children, expands parents, then reranks full ParentChunk content."
+        }
+      ]
+    },
+    {
+      "parent_id": "eda0fe1c-e97a-4172-8676-8ea1857f4576",
+      "parent_key": "DOC-008::P000::Maximal Marginal Relevance::fd1e2333d88d",
+      "parent_index": 0,
+      "document_id": "DOC-008",
+      "section_path": [
+        "Maximal Marginal Relevance"
+      ],
+      "content": "Document ID: DOC-008",
+      "children": [
+        {
+          "child_id": "3e97b646-cfae-4a3e-833e-ef1976726e5c",
+          "child_key": "DOC-008::P000::Maximal Marginal Relevance::fd1e2333d88d::C000::fd1e2333d88d",
+          "child_index": 0,
+          "parent_id": "eda0fe1c-e97a-4172-8676-8ea1857f4576",
+          "parent_key": "DOC-008::P000::Maximal Marginal Relevance::fd1e2333d88d",
+          "document_id": "DOC-008",
+          "content": "Document ID: DOC-008"
+        }
+      ]
+    },
+    {
+      "parent_id": "2f7be86a-7766-4342-b0c3-13fc42ccf0df",
+      "parent_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588",
+      "parent_index": 1,
+      "document_id": "DOC-008",
+      "section_path": [
+        "Maximal Marginal Relevance",
+        "Formula"
+      ],
+      "content": "MMR balances query relevance against redundancy with already selected items. A typical objective is lambda times relevance minus one minus lambda times maximum redundancy.",
+      "children": [
+        {
+          "child_id": "2d0093ed-c0a1-4ae9-8a76-2f9425f6b874",
+          "child_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588::C000::2cbb321f3ebb",
+          "child_index": 0,
+          "parent_id": "2f7be86a-7766-4342-b0c3-13fc42ccf0df",
+          "parent_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588",
+          "document_id": "DOC-008",
+          "content": "MMR balances query relevance against redundancy with already selected items. A typical objective is lambda times"
+        },
+        {
+          "child_id": "3bc93e32-2e43-4911-af68-5dfcd03ee738",
+          "child_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588::C001::d0e50a39be35",
+          "child_index": 1,
+          "parent_id": "2f7be86a-7766-4342-b0c3-13fc42ccf0df",
+          "parent_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588",
+          "document_id": "DOC-008",
+          "content": "objective is lambda times relevance minus one minus lambda times maximum redundancy."
+        }
+      ]
+    },
+    {
+      "parent_id": "1cbce6eb-07aa-45d5-881c-f8a51bc5ba34",
+      "parent_key": "DOC-008::P002::Maximal Marginal Relevance/Lambda::b180418cbc42",
+      "parent_index": 2,
+      "document_id": "DOC-008",
+      "section_path": [
+        "Maximal Marginal Relevance",
+        "Lambda"
+      ],
+      "content": "Lambda near one favors relevance. Lower lambda increases diversity, but an excessively low value may promote unusual yet weakly relevant items.",
+      "children": [
+        {
+          "child_id": "d0ae5019-f08c-4cf7-896f-5dc175ee2b1e",
+          "child_key": "DOC-008::P002::Maximal Marginal Relevance/Lambda::b180418cbc42::C000::7cd845361496",
+          "child_index": 0,
+          "parent_id": "1cbce6eb-07aa-45d5-881c-f8a51bc5ba34",
+          "parent_key": "DOC-008::P002::Maximal Marginal Relevance/Lambda::b180418cbc42",
+          "document_id": "DOC-008",
+          "content": "Lambda near one favors relevance. Lower lambda increases diversity, but an excessively low value may promote unusual"
+        },
+        {
+          "child_id": "b82ee926-b255-43eb-8a61-40d9c594465d",
+          "child_key": "DOC-008::P002::Maximal Marginal Relevance/Lambda::b180418cbc42::C001::853c1cd928a1",
+          "child_index": 1,
+          "parent_id": "1cbce6eb-07aa-45d5-881c-f8a51bc5ba34",
+          "parent_key": "DOC-008::P002::Maximal Marginal Relevance/Lambda::b180418cbc42",
+          "document_id": "DOC-008",
+          "content": "low value may promote unusual yet weakly relevant items."
+        }
+      ]
+    },
+    {
+      "parent_id": "b746a54e-7e16-4a03-a381-90d7ca29d5fe",
+      "parent_key": "DOC-008::P003::Maximal Marginal Relevance/Space::fab69a871cbf",
+      "parent_index": 3,
+      "document_id": "DOC-008",
+      "section_path": [
+        "Maximal Marginal Relevance",
+        "Space"
+      ],
+      "content": "Dense parent MMR should compute relevance and redundancy in the same embedding space. Mixing CrossEncoder values directly with cosine redundancy is not calibrated.",
+      "children": [
+        {
+          "child_id": "24133776-f50a-4d98-a0ce-1936698c0842",
+          "child_key": "DOC-008::P003::Maximal Marginal Relevance/Space::fab69a871cbf::C000::2801da19fbbe",
+          "child_index": 0,
+          "parent_id": "b746a54e-7e16-4a03-a381-90d7ca29d5fe",
+          "parent_key": "DOC-008::P003::Maximal Marginal Relevance/Space::fab69a871cbf",
+          "document_id": "DOC-008",
+          "content": "Dense parent MMR should compute relevance and redundancy in the same embedding space. Mixing CrossEncoder values"
+        },
+        {
+          "child_id": "603ebbca-d1d2-4aaa-82da-f85366830428",
+          "child_key": "DOC-008::P003::Maximal Marginal Relevance/Space::fab69a871cbf::C001::1dba5e9f5764",
+          "child_index": 1,
+          "parent_id": "b746a54e-7e16-4a03-a381-90d7ca29d5fe",
+          "parent_key": "DOC-008::P003::Maximal Marginal Relevance/Space::fab69a871cbf",
+          "document_id": "DOC-008",
+          "content": "Mixing CrossEncoder values directly with cosine redundancy is not calibrated."
+        }
+      ]
+    },
+    {
+      "parent_id": "d9006439-e1b8-4549-918e-472380e9869f",
+      "parent_key": "DOC-008::P004::Maximal Marginal Relevance/Pipeline::8861c86de29d",
+      "parent_index": 4,
+      "document_id": "DOC-008",
+      "section_path": [
+        "Maximal Marginal Relevance",
+        "Pipeline"
+      ],
+      "content": "A practical sequence is broad retrieval, CrossEncoder pruning, then dense Parent MMR.",
+      "children": [
+        {
+          "child_id": "e6eed73c-6dfa-4dca-b79f-1a5a2805672d",
+          "child_key": "DOC-008::P004::Maximal Marginal Relevance/Pipeline::8861c86de29d::C000::8861c86de29d",
+          "child_index": 0,
+          "parent_id": "d9006439-e1b8-4549-918e-472380e9869f",
+          "parent_key": "DOC-008::P004::Maximal Marginal Relevance/Pipeline::8861c86de29d",
+          "document_id": "DOC-008",
+          "content": "A practical sequence is broad retrieval, CrossEncoder pruning, then dense Parent MMR."
+        }
+      ]
+    },
+    {
+      "parent_id": "e3ee0405-01d4-4ef2-b8b0-39f37500f17a",
+      "parent_key": "DOC-009::P000::Chunking Strategies::81375c6f14b9",
+      "parent_index": 0,
+      "document_id": "DOC-009",
+      "section_path": [
+        "Chunking Strategies"
+      ],
+      "content": "Document ID: DOC-009",
+      "children": [
+        {
+          "child_id": "426147d4-caef-487c-89fd-d885da9b32f2",
+          "child_key": "DOC-009::P000::Chunking Strategies::81375c6f14b9::C000::81375c6f14b9",
+          "child_index": 0,
+          "parent_id": "e3ee0405-01d4-4ef2-b8b0-39f37500f17a",
+          "parent_key": "DOC-009::P000::Chunking Strategies::81375c6f14b9",
+          "document_id": "DOC-009",
+          "content": "Document ID: DOC-009"
+        }
+      ]
+    },
+    {
+      "parent_id": "01ab957c-1f4a-46f2-a61f-304b923ee5a9",
+      "parent_key": "DOC-009::P001::Chunking Strategies/Fixed::f3845b94d040",
+      "parent_index": 1,
+      "document_id": "DOC-009",
+      "section_path": [
+        "Chunking Strategies",
+        "Fixed"
+      ],
+      "content": "Fixed character chunks are simple but can split semantic units. Recursive chunking tries paragraph, sentence, and whitespace boundaries before smaller fallbacks.",
+      "children": [
+        {
+          "child_id": "ee4d9947-26a2-49c8-bf0f-e21e8cb745c6",
+          "child_key": "DOC-009::P001::Chunking Strategies/Fixed::f3845b94d040::C000::a68a89733877",
+          "child_index": 0,
+          "parent_id": "01ab957c-1f4a-46f2-a61f-304b923ee5a9",
+          "parent_key": "DOC-009::P001::Chunking Strategies/Fixed::f3845b94d040",
+          "document_id": "DOC-009",
+          "content": "Fixed character chunks are simple but can split semantic units. Recursive chunking tries paragraph, sentence, and"
+        },
+        {
+          "child_id": "fded6d3f-524e-4af8-b464-05bf15d42462",
+          "child_key": "DOC-009::P001::Chunking Strategies/Fixed::f3845b94d040::C001::fa1c015e3d1e",
+          "child_index": 1,
+          "parent_id": "01ab957c-1f4a-46f2-a61f-304b923ee5a9",
+          "parent_key": "DOC-009::P001::Chunking Strategies/Fixed::f3845b94d040",
+          "document_id": "DOC-009",
+          "content": "tries paragraph, sentence, and whitespace boundaries before smaller fallbacks."
+        }
+      ]
+    },
+    {
+      "parent_id": "d9cf8074-5a54-4be9-a288-e6580f523be4",
+      "parent_key": "DOC-009::P002::Chunking Strategies/Semantic::ba2e01371136",
+      "parent_index": 2,
+      "document_id": "DOC-009",
+      "section_path": [
+        "Chunking Strategies",
+        "Semantic"
+      ],
+      "content": "Semantic chunking uses embedding distance between neighboring units and can choose breakpoints from percentile, standard-deviation, IQR, or gradient rules.",
+      "children": [
+        {
+          "child_id": "50c8ef9a-8dde-4a8b-93cb-b8a83cc4a5a1",
+          "child_key": "DOC-009::P002::Chunking Strategies/Semantic::ba2e01371136::C000::ece00d9be724",
+          "child_index": 0,
+          "parent_id": "d9cf8074-5a54-4be9-a288-e6580f523be4",
+          "parent_key": "DOC-009::P002::Chunking Strategies/Semantic::ba2e01371136",
+          "document_id": "DOC-009",
+          "content": "Semantic chunking uses embedding distance between neighboring units and can choose breakpoints from percentile,"
+        },
+        {
+          "child_id": "f1ceae4b-8234-418d-a736-ffbb4213158e",
+          "child_key": "DOC-009::P002::Chunking Strategies/Semantic::ba2e01371136::C001::1219eb11380e",
+          "child_index": 1,
+          "parent_id": "d9cf8074-5a54-4be9-a288-e6580f523be4",
+          "parent_key": "DOC-009::P002::Chunking Strategies/Semantic::ba2e01371136",
+          "document_id": "DOC-009",
+          "content": "breakpoints from percentile, standard-deviation, IQR, or gradient rules."
+        }
+      ]
+    },
+    {
+      "parent_id": "0f3c72be-43b6-4635-9500-f921ae7c867f",
+      "parent_key": "DOC-009::P003::Chunking Strategies/Structure::4290d71528c6",
+      "parent_index": 3,
+      "document_id": "DOC-009",
+      "section_path": [
+        "Chunking Strategies",
+        "Structure"
+      ],
+      "content": "Structure-aware chunking preserves headings, lists, code blocks, and hierarchy such as Vector Databases > HNSW > ef_construct.",
+      "children": [
+        {
+          "child_id": "26761310-f867-45dd-8294-c5c58192efe9",
+          "child_key": "DOC-009::P003::Chunking Strategies/Structure::4290d71528c6::C000::2983739f527c",
+          "child_index": 0,
+          "parent_id": "0f3c72be-43b6-4635-9500-f921ae7c867f",
+          "parent_key": "DOC-009::P003::Chunking Strategies/Structure::4290d71528c6",
+          "document_id": "DOC-009",
+          "content": "Structure-aware chunking preserves headings, lists, code blocks, and hierarchy such as Vector Databases > HNSW >"
+        },
+        {
+          "child_id": "08c9bddf-2aa7-426c-b9fc-86a1ce6ebe6b",
+          "child_key": "DOC-009::P003::Chunking Strategies/Structure::4290d71528c6::C001::5b0b68333905",
+          "child_index": 1,
+          "parent_id": "0f3c72be-43b6-4635-9500-f921ae7c867f",
+          "parent_key": "DOC-009::P003::Chunking Strategies/Structure::4290d71528c6",
+          "document_id": "DOC-009",
+          "content": "as Vector Databases > HNSW > ef_construct."
+        }
+      ]
+    },
+    {
+      "parent_id": "699da444-41d3-4e62-8909-83c01e6dbe9d",
+      "parent_key": "DOC-009::P004::Chunking Strategies/Evaluation::6810153bd42a",
+      "parent_index": 4,
+      "document_id": "DOC-009",
+      "section_path": [
+        "Chunking Strategies",
+        "Evaluation"
+      ],
+      "content": "Chunking choices should be compared with retrieval recall, answer quality, chunk count, ingestion cost, and boundary quality.",
+      "children": [
+        {
+          "child_id": "003fa31b-3fe1-4d51-a093-71ab72c150bc",
+          "child_key": "DOC-009::P004::Chunking Strategies/Evaluation::6810153bd42a::C000::5f5fc84c9a3d",
+          "child_index": 0,
+          "parent_id": "699da444-41d3-4e62-8909-83c01e6dbe9d",
+          "parent_key": "DOC-009::P004::Chunking Strategies/Evaluation::6810153bd42a",
+          "document_id": "DOC-009",
+          "content": "Chunking choices should be compared with retrieval recall, answer quality, chunk count, ingestion cost, and boundary"
+        },
+        {
+          "child_id": "cc6eb705-64ee-400d-b4d2-50749e70baff",
+          "child_key": "DOC-009::P004::Chunking Strategies/Evaluation::6810153bd42a::C001::4bf1bae4408c",
+          "child_index": 1,
+          "parent_id": "699da444-41d3-4e62-8909-83c01e6dbe9d",
+          "parent_key": "DOC-009::P004::Chunking Strategies/Evaluation::6810153bd42a",
+          "document_id": "DOC-009",
+          "content": "ingestion cost, and boundary quality."
+        }
+      ]
+    },
+    {
+      "parent_id": "2f32cdc9-c75c-43b8-b4c8-5457967b9d7b",
+      "parent_key": "DOC-010::P000::Metadata and Filters::43e4b24991bc",
+      "parent_index": 0,
+      "document_id": "DOC-010",
+      "section_path": [
+        "Metadata and Filters"
+      ],
+      "content": "Document ID: DOC-010",
+      "children": [
+        {
+          "child_id": "eb8175b5-8baf-4e93-8c8e-263299bba603",
+          "child_key": "DOC-010::P000::Metadata and Filters::43e4b24991bc::C000::43e4b24991bc",
+          "child_index": 0,
+          "parent_id": "2f32cdc9-c75c-43b8-b4c8-5457967b9d7b",
+          "parent_key": "DOC-010::P000::Metadata and Filters::43e4b24991bc",
+          "document_id": "DOC-010",
+          "content": "Document ID: DOC-010"
+        }
+      ]
+    },
+    {
+      "parent_id": "6480eb16-ff08-4e84-805c-10cb2849da37",
+      "parent_key": "DOC-010::P001::Metadata and Filters/Schema::cd5fd86ef7d9",
+      "parent_index": 1,
+      "document_id": "DOC-010",
+      "section_path": [
+        "Metadata and Filters",
+        "Schema"
+      ],
+      "content": "Useful metadata includes document_id, source, version, page_number, language, section_path, heading levels, content_type, tenant_id, and timestamps.",
+      "children": [
+        {
+          "child_id": "2f0d97c8-9b1e-48aa-995d-6ace9adfc25a",
+          "child_key": "DOC-010::P001::Metadata and Filters/Schema::cd5fd86ef7d9::C000::db31d673e5e5",
+          "child_index": 0,
+          "parent_id": "6480eb16-ff08-4e84-805c-10cb2849da37",
+          "parent_key": "DOC-010::P001::Metadata and Filters/Schema::cd5fd86ef7d9",
+          "document_id": "DOC-010",
+          "content": "Useful metadata includes document_id, source, version, page_number, language, section_path, heading levels,"
+        },
+        {
+          "child_id": "ad8a08fe-1add-4f91-b04d-83ecceb16fab",
+          "child_key": "DOC-010::P001::Metadata and Filters/Schema::cd5fd86ef7d9::C001::0be25e8d7f99",
+          "child_index": 1,
+          "parent_id": "6480eb16-ff08-4e84-805c-10cb2849da37",
+          "parent_key": "DOC-010::P001::Metadata and Filters/Schema::cd5fd86ef7d9",
+          "document_id": "DOC-010",
+          "content": "section_path, heading levels, content_type, tenant_id, and timestamps."
+        }
+      ]
+    },
+    {
+      "parent_id": "1cd0189b-9cc8-47e3-ac60-834540fef860",
+      "parent_key": "DOC-010::P002::Metadata and Filters/Filtering::37575fd3a267",
+      "parent_index": 2,
+      "document_id": "DOC-010",
+      "section_path": [
+        "Metadata and Filters",
+        "Filtering"
+      ],
+      "content": "Authorization fields such as tenant_id should filter before semantic ranking when cross-tenant leakage is unacceptable.",
+      "children": [
+        {
+          "child_id": "8d3f2e19-a8f2-45b0-9b9a-a9455f04cc1f",
+          "child_key": "DOC-010::P002::Metadata and Filters/Filtering::37575fd3a267::C000::37575fd3a267",
+          "child_index": 0,
+          "parent_id": "1cd0189b-9cc8-47e3-ac60-834540fef860",
+          "parent_key": "DOC-010::P002::Metadata and Filters/Filtering::37575fd3a267",
+          "document_id": "DOC-010",
+          "content": "Authorization fields such as tenant_id should filter before semantic ranking when cross-tenant leakage is unacceptable."
+        }
+      ]
+    },
+    {
+      "parent_id": "b9f1123f-e268-4450-a0de-f24582fc70ee",
+      "parent_key": "DOC-010::P003::Metadata and Filters/Indexes::d4afdeadc68e",
+      "parent_index": 3,
+      "document_id": "DOC-010",
+      "section_path": [
+        "Metadata and Filters",
+        "Indexes"
+      ],
+      "content": "Frequently filtered metadata may need payload indexes. Indexing every field wastes resources and increases write overhead.",
+      "children": [
+        {
+          "child_id": "841c2c8b-e81b-49c0-b1a1-bb6b69d9e497",
+          "child_key": "DOC-010::P003::Metadata and Filters/Indexes::d4afdeadc68e::C000::3d8cce679d04",
+          "child_index": 0,
+          "parent_id": "b9f1123f-e268-4450-a0de-f24582fc70ee",
+          "parent_key": "DOC-010::P003::Metadata and Filters/Indexes::d4afdeadc68e",
+          "document_id": "DOC-010",
+          "content": "Frequently filtered metadata may need payload indexes. Indexing every field wastes resources and increases write"
+        },
+        {
+          "child_id": "a7f6c368-4e94-402e-bf93-df71f46fe6ee",
+          "child_key": "DOC-010::P003::Metadata and Filters/Indexes::d4afdeadc68e::C001::a64ddab18f12",
+          "child_index": 1,
+          "parent_id": "b9f1123f-e268-4450-a0de-f24582fc70ee",
+          "parent_key": "DOC-010::P003::Metadata and Filters/Indexes::d4afdeadc68e",
+          "document_id": "DOC-010",
+          "content": "resources and increases write overhead."
+        }
+      ]
+    },
+    {
+      "parent_id": "0c8347d5-09a8-4e64-add1-5eefb2c7f932",
+      "parent_key": "DOC-010::P004::Metadata and Filters/Debug::549b5afeb466",
+      "parent_index": 4,
+      "document_id": "DOC-010",
+      "section_path": [
+        "Metadata and Filters",
+        "Debug"
+      ],
+      "content": "Document identity, parent_id, child_index, section path, and source location make retrieval results explainable.",
+      "children": [
+        {
+          "child_id": "9051c706-8999-45ae-8c07-c9fa1d654851",
+          "child_key": "DOC-010::P004::Metadata and Filters/Debug::549b5afeb466::C000::549b5afeb466",
+          "child_index": 0,
+          "parent_id": "0c8347d5-09a8-4e64-add1-5eefb2c7f932",
+          "parent_key": "DOC-010::P004::Metadata and Filters/Debug::549b5afeb466",
+          "document_id": "DOC-010",
+          "content": "Document identity, parent_id, child_index, section path, and source location make retrieval results explainable."
+        }
+      ]
+    },
+    {
+      "parent_id": "41ff0097-7b60-4cc4-847a-51221d1c33c6",
+      "parent_key": "DOC-011::P000::Qdrant Named Vectors::29d39b568e2c",
+      "parent_index": 0,
+      "document_id": "DOC-011",
+      "section_path": [
+        "Qdrant Named Vectors"
+      ],
+      "content": "Document ID: DOC-011",
+      "children": [
+        {
+          "child_id": "55b92c7c-c7a5-43c7-a2c7-5206d3f118da",
+          "child_key": "DOC-011::P000::Qdrant Named Vectors::29d39b568e2c::C000::29d39b568e2c",
+          "child_index": 0,
+          "parent_id": "41ff0097-7b60-4cc4-847a-51221d1c33c6",
+          "parent_key": "DOC-011::P000::Qdrant Named Vectors::29d39b568e2c",
+          "document_id": "DOC-011",
+          "content": "Document ID: DOC-011"
+        }
+      ]
+    },
+    {
+      "parent_id": "5c2434dc-9991-4308-8c19-f9376c7ff99e",
+      "parent_key": "DOC-011::P001::Qdrant Named Vectors/Points::64c6ee09b41d",
+      "parent_index": 1,
+      "document_id": "DOC-011",
+      "section_path": [
+        "Qdrant Named Vectors",
+        "Points"
+      ],
+      "content": "A Qdrant point can contain an identifier, payload metadata, and one or more vector representations.",
+      "children": [
+        {
+          "child_id": "a9a6d0f6-57eb-4f51-8832-3a81c54b083a",
+          "child_key": "DOC-011::P001::Qdrant Named Vectors/Points::64c6ee09b41d::C000::64c6ee09b41d",
+          "child_index": 0,
+          "parent_id": "5c2434dc-9991-4308-8c19-f9376c7ff99e",
+          "parent_key": "DOC-011::P001::Qdrant Named Vectors/Points::64c6ee09b41d",
+          "document_id": "DOC-011",
+          "content": "A Qdrant point can contain an identifier, payload metadata, and one or more vector representations."
+        }
+      ]
+    },
+    {
+      "parent_id": "fcd47e8c-aa9f-4020-91aa-c87c59ec8b1d",
+      "parent_key": "DOC-011::P002::Qdrant Named Vectors/Names::d4c49d146d63",
+      "parent_index": 2,
+      "document_id": "DOC-011",
+      "section_path": [
+        "Qdrant Named Vectors",
+        "Names"
+      ],
+      "content": "A hybrid point can store a dense vector named dense and a sparse vector named sparse while sharing the same ChildChunk payload.",
+      "children": [
+        {
+          "child_id": "f6ddd37e-f639-4494-91ac-c99b44facf45",
+          "child_key": "DOC-011::P002::Qdrant Named Vectors/Names::d4c49d146d63::C000::fa82bf2c596c",
+          "child_index": 0,
+          "parent_id": "fcd47e8c-aa9f-4020-91aa-c87c59ec8b1d",
+          "parent_key": "DOC-011::P002::Qdrant Named Vectors/Names::d4c49d146d63",
+          "document_id": "DOC-011",
+          "content": "A hybrid point can store a dense vector named dense and a sparse vector named sparse while sharing the same ChildChunk"
+        },
+        {
+          "child_id": "6277f3c9-d0e7-4522-abe7-c61944f7c553",
+          "child_key": "DOC-011::P002::Qdrant Named Vectors/Names::d4c49d146d63::C001::d2f5dd503a60",
+          "child_index": 1,
+          "parent_id": "fcd47e8c-aa9f-4020-91aa-c87c59ec8b1d",
+          "parent_key": "DOC-011::P002::Qdrant Named Vectors/Names::d4c49d146d63",
+          "document_id": "DOC-011",
+          "content": "sharing the same ChildChunk payload."
+        }
+      ]
+    },
+    {
+      "parent_id": "bfdb8b63-5178-4f98-9e71-2ebcee93fdad",
+      "parent_key": "DOC-011::P003::Qdrant Named Vectors/Sparse::f8e174346f22",
+      "parent_index": 3,
+      "document_id": "DOC-011",
+      "section_path": [
+        "Qdrant Named Vectors",
+        "Sparse"
+      ],
+      "content": "Sparse vector indices are lexical features, not positions inside a 384-dimensional MiniLM vector.",
+      "children": [
+        {
+          "child_id": "89cd3e91-4504-467c-9282-8348218d9b11",
+          "child_key": "DOC-011::P003::Qdrant Named Vectors/Sparse::f8e174346f22::C000::f8e174346f22",
+          "child_index": 0,
+          "parent_id": "bfdb8b63-5178-4f98-9e71-2ebcee93fdad",
+          "parent_key": "DOC-011::P003::Qdrant Named Vectors/Sparse::f8e174346f22",
+          "document_id": "DOC-011",
+          "content": "Sparse vector indices are lexical features, not positions inside a 384-dimensional MiniLM vector."
+        }
+      ]
+    },
+    {
+      "parent_id": "1ab8f23f-2564-43d6-8b66-b1b151c1c947",
+      "parent_key": "DOC-011::P004::Qdrant Named Vectors/Upsert::d3cce139ca8d",
+      "parent_index": 4,
+      "document_id": "DOC-011",
+      "section_path": [
+        "Qdrant Named Vectors",
+        "Upsert"
+      ],
+      "content": "Stable point identity matters for idempotent ingestion. Recreating a collection is convenient for experiments but is not a final synchronization design.",
+      "children": [
+        {
+          "child_id": "8cbd8c11-4cf5-4583-9d37-f12cdd2d4dd8",
+          "child_key": "DOC-011::P004::Qdrant Named Vectors/Upsert::d3cce139ca8d::C000::58e02401035c",
+          "child_index": 0,
+          "parent_id": "1ab8f23f-2564-43d6-8b66-b1b151c1c947",
+          "parent_key": "DOC-011::P004::Qdrant Named Vectors/Upsert::d3cce139ca8d",
+          "document_id": "DOC-011",
+          "content": "Stable point identity matters for idempotent ingestion. Recreating a collection is convenient for experiments but is"
+        },
+        {
+          "child_id": "b0bbaf2b-881c-4fbb-8d86-9ca6fe3fa95b",
+          "child_key": "DOC-011::P004::Qdrant Named Vectors/Upsert::d3cce139ca8d::C001::6b011574703b",
+          "child_index": 1,
+          "parent_id": "1ab8f23f-2564-43d6-8b66-b1b151c1c947",
+          "parent_key": "DOC-011::P004::Qdrant Named Vectors/Upsert::d3cce139ca8d",
+          "document_id": "DOC-011",
+          "content": "for experiments but is not a final synchronization design."
+        }
+      ]
+    },
+    {
+      "parent_id": "15173493-7027-42ba-89c2-aa9f11fc3b91",
+      "parent_key": "DOC-012::P000::Qdrant Synchronization::a18f6359ba4c",
+      "parent_index": 0,
+      "document_id": "DOC-012",
+      "section_path": [
+        "Qdrant Synchronization"
+      ],
+      "content": "Document ID: DOC-012",
+      "children": [
+        {
+          "child_id": "59f954a0-90aa-44af-aa5f-14abf7c8a1cb",
+          "child_key": "DOC-012::P000::Qdrant Synchronization::a18f6359ba4c::C000::a18f6359ba4c",
+          "child_index": 0,
+          "parent_id": "15173493-7027-42ba-89c2-aa9f11fc3b91",
+          "parent_key": "DOC-012::P000::Qdrant Synchronization::a18f6359ba4c",
+          "document_id": "DOC-012",
+          "content": "Document ID: DOC-012"
+        }
+      ]
+    },
+    {
+      "parent_id": "87a3cc81-d1ee-4f29-bdd0-e3e9f2307eb8",
+      "parent_key": "DOC-012::P001::Qdrant Synchronization/Idempotency::21e92ae60327",
+      "parent_index": 1,
+      "document_id": "DOC-012",
+      "section_path": [
+        "Qdrant Synchronization",
+        "Idempotency"
+      ],
+      "content": "Repeated ingestion of unchanged source content should not create duplicate logical child points.",
+      "children": [
+        {
+          "child_id": "d6a29023-61b6-4096-8eea-5476da48433e",
+          "child_key": "DOC-012::P001::Qdrant Synchronization/Idempotency::21e92ae60327::C000::21e92ae60327",
+          "child_index": 0,
+          "parent_id": "87a3cc81-d1ee-4f29-bdd0-e3e9f2307eb8",
+          "parent_key": "DOC-012::P001::Qdrant Synchronization/Idempotency::21e92ae60327",
+          "document_id": "DOC-012",
+          "content": "Repeated ingestion of unchanged source content should not create duplicate logical child points."
+        }
+      ]
+    },
+    {
+      "parent_id": "5f796639-ee3e-4d06-a932-459d6efccbb4",
+      "parent_key": "DOC-012::P002::Qdrant Synchronization/Coarse sync::8eeba34c4f89",
+      "parent_index": 2,
+      "document_id": "DOC-012",
+      "section_path": [
+        "Qdrant Synchronization",
+        "Coarse sync"
+      ],
+      "content": "Delete-all-then-reinsert synchronization is current-state correct but recomputes and rewrites unchanged vectors.",
+      "children": [
+        {
+          "child_id": "d9d23927-e2ca-47ef-b69f-0fcc37e0bf80",
+          "child_key": "DOC-012::P002::Qdrant Synchronization/Coarse sync::8eeba34c4f89::C000::8eeba34c4f89",
+          "child_index": 0,
+          "parent_id": "5f796639-ee3e-4d06-a932-459d6efccbb4",
+          "parent_key": "DOC-012::P002::Qdrant Synchronization/Coarse sync::8eeba34c4f89",
+          "document_id": "DOC-012",
+          "content": "Delete-all-then-reinsert synchronization is current-state correct but recomputes and rewrites unchanged vectors."
+        }
+      ]
+    },
+    {
+      "parent_id": "13ef1a8a-91c9-431f-972c-d384f98e3d64",
+      "parent_key": "DOC-012::P003::Qdrant Synchronization/Differential::e494d1bad168",
+      "parent_index": 3,
+      "document_id": "DOC-012",
+      "section_path": [
+        "Qdrant Synchronization",
+        "Differential"
+      ],
+      "content": "Differential synchronization preserves unchanged children, inserts new or changed children, and deletes stale children. An unchanged run should approach inserted=0, unchanged=N, stale_deleted=0.",
+      "children": [
+        {
+          "child_id": "b7a16e73-250a-4bf3-b3ee-3660405fd583",
+          "child_key": "DOC-012::P003::Qdrant Synchronization/Differential::e494d1bad168::C000::a6be7b76f898",
+          "child_index": 0,
+          "parent_id": "13ef1a8a-91c9-431f-972c-d384f98e3d64",
+          "parent_key": "DOC-012::P003::Qdrant Synchronization/Differential::e494d1bad168",
+          "document_id": "DOC-012",
+          "content": "Differential synchronization preserves unchanged children, inserts new or changed children, and deletes stale children."
+        },
+        {
+          "child_id": "c6beb8ba-3ca7-4047-b07b-4c78775cac5d",
+          "child_key": "DOC-012::P003::Qdrant Synchronization/Differential::e494d1bad168::C001::e2aaff858b62",
+          "child_index": 1,
+          "parent_id": "13ef1a8a-91c9-431f-972c-d384f98e3d64",
+          "parent_key": "DOC-012::P003::Qdrant Synchronization/Differential::e494d1bad168",
+          "document_id": "DOC-012",
+          "content": "and deletes stale children. An unchanged run should approach inserted=0, unchanged=N, stale_deleted=0."
+        }
+      ]
+    },
+    {
+      "parent_id": "d7321bab-eefb-49d0-941b-2780645da103",
+      "parent_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e",
+      "parent_index": 4,
+      "document_id": "DOC-012",
+      "section_path": [
+        "Qdrant Synchronization",
+        "Dangling"
+      ],
+      "content": "Old Qdrant children can reference parents that MongoDB no longer contains. Parent expansion should detect this integrity failure.",
+      "children": [
+        {
+          "child_id": "7e613f18-f2d3-4866-8c89-18f958e707e4",
+          "child_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e::C000::8a10e11f1b5b",
+          "child_index": 0,
+          "parent_id": "d7321bab-eefb-49d0-941b-2780645da103",
+          "parent_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e",
+          "document_id": "DOC-012",
+          "content": "Old Qdrant children can reference parents that MongoDB no longer contains. Parent expansion should detect this"
+        },
+        {
+          "child_id": "ae2d0675-3377-4770-aacf-445e93e04c41",
+          "child_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e::C001::a75bb71c1249",
+          "child_index": 1,
+          "parent_id": "d7321bab-eefb-49d0-941b-2780645da103",
+          "parent_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e",
+          "document_id": "DOC-012",
+          "content": "expansion should detect this integrity failure."
+        }
+      ]
+    },
+    {
+      "parent_id": "01712444-3c7c-457c-a6f6-3391c59f39bd",
+      "parent_key": "DOC-013::P000::MongoDB Parent Repository::bd3b4b66f1b8",
+      "parent_index": 0,
+      "document_id": "DOC-013",
+      "section_path": [
+        "MongoDB Parent Repository"
+      ],
+      "content": "Document ID: DOC-013",
+      "children": [
+        {
+          "child_id": "f6714358-6e56-4827-89b6-477f2b564753",
+          "child_key": "DOC-013::P000::MongoDB Parent Repository::bd3b4b66f1b8::C000::bd3b4b66f1b8",
+          "child_index": 0,
+          "parent_id": "01712444-3c7c-457c-a6f6-3391c59f39bd",
+          "parent_key": "DOC-013::P000::MongoDB Parent Repository::bd3b4b66f1b8",
+          "document_id": "DOC-013",
+          "content": "Document ID: DOC-013"
+        }
+      ]
+    },
+    {
+      "parent_id": "73b50d8e-20a1-4010-84a8-cc7f993e5e23",
+      "parent_key": "DOC-013::P001::MongoDB Parent Repository/Store::fccc07403250",
+      "parent_index": 1,
+      "document_id": "DOC-013",
+      "section_path": [
+        "MongoDB Parent Repository",
+        "Store"
+      ],
+      "content": "MongoDB can hold authoritative ParentChunk records while Qdrant stores searchable child representations.",
+      "children": [
+        {
+          "child_id": "7c9b998c-6f8f-47f1-81ec-1594ec5e5302",
+          "child_key": "DOC-013::P001::MongoDB Parent Repository/Store::fccc07403250::C000::fccc07403250",
+          "child_index": 0,
+          "parent_id": "73b50d8e-20a1-4010-84a8-cc7f993e5e23",
+          "parent_key": "DOC-013::P001::MongoDB Parent Repository/Store::fccc07403250",
+          "document_id": "DOC-013",
+          "content": "MongoDB can hold authoritative ParentChunk records while Qdrant stores searchable child representations."
+        }
+      ]
+    },
+    {
+      "parent_id": "d58a1620-8ba4-4a65-a3e3-d1c64bd6fd74",
+      "parent_key": "DOC-013::P002::MongoDB Parent Repository/Indexes::22da8c0b400f",
+      "parent_index": 2,
+      "document_id": "DOC-013",
+      "section_path": [
+        "MongoDB Parent Repository",
+        "Indexes"
+      ],
+      "content": "A compound unique index on document_id and content_hash can prevent duplicate logical parent content. Conflicting existing index options can produce IndexOptionsConflict.",
+      "children": [
+        {
+          "child_id": "a4e7f5aa-8e63-4d12-beab-0d7d706b9564",
+          "child_key": "DOC-013::P002::MongoDB Parent Repository/Indexes::22da8c0b400f::C000::8066d47e6e78",
+          "child_index": 0,
+          "parent_id": "d58a1620-8ba4-4a65-a3e3-d1c64bd6fd74",
+          "parent_key": "DOC-013::P002::MongoDB Parent Repository/Indexes::22da8c0b400f",
+          "document_id": "DOC-013",
+          "content": "A compound unique index on document_id and content_hash can prevent duplicate logical parent content. Conflicting"
+        },
+        {
+          "child_id": "bb5c3709-aa95-4e54-8cbd-c556c763600f",
+          "child_key": "DOC-013::P002::MongoDB Parent Repository/Indexes::22da8c0b400f::C001::469f1e25137b",
+          "child_index": 1,
+          "parent_id": "d58a1620-8ba4-4a65-a3e3-d1c64bd6fd74",
+          "parent_key": "DOC-013::P002::MongoDB Parent Repository/Indexes::22da8c0b400f",
+          "document_id": "DOC-013",
+          "content": "parent content. Conflicting existing index options can produce IndexOptionsConflict."
+        }
+      ]
+    },
+    {
+      "parent_id": "9da7cfb2-3c11-4edd-a0a5-7265f01b21c3",
+      "parent_key": "DOC-013::P003::MongoDB Parent Repository/Sync::0f317eaa9724",
+      "parent_index": 3,
+      "document_id": "DOC-013",
+      "section_path": [
+        "MongoDB Parent Repository",
+        "Sync"
+      ],
+      "content": "Parent synchronization inserts new parents, preserves unchanged persisted identifiers, and deletes stale parents based on content hashes.",
+      "children": [
+        {
+          "child_id": "8196ddd2-5f52-463a-ac3d-9c2f0a3d5496",
+          "child_key": "DOC-013::P003::MongoDB Parent Repository/Sync::0f317eaa9724::C000::4d3db31af3e2",
+          "child_index": 0,
+          "parent_id": "9da7cfb2-3c11-4edd-a0a5-7265f01b21c3",
+          "parent_key": "DOC-013::P003::MongoDB Parent Repository/Sync::0f317eaa9724",
+          "document_id": "DOC-013",
+          "content": "Parent synchronization inserts new parents, preserves unchanged persisted identifiers, and deletes stale parents based"
+        },
+        {
+          "child_id": "db31152d-4ce8-4053-a9b0-f0edd690508d",
+          "child_key": "DOC-013::P003::MongoDB Parent Repository/Sync::0f317eaa9724::C001::07ffde0db481",
+          "child_index": 1,
+          "parent_id": "9da7cfb2-3c11-4edd-a0a5-7265f01b21c3",
+          "parent_key": "DOC-013::P003::MongoDB Parent Repository/Sync::0f317eaa9724",
+          "document_id": "DOC-013",
+          "content": "deletes stale parents based on content hashes."
+        }
+      ]
+    },
+    {
+      "parent_id": "6b63abf8-1fb6-4dfd-acfe-09c16c181486",
+      "parent_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e",
+      "parent_index": 4,
+      "document_id": "DOC-013",
+      "section_path": [
+        "MongoDB Parent Repository",
+        "Lookup"
+      ],
+      "content": "Children should be generated from persisted parents and parent expansion should fail loudly when a referenced parent is missing.",
+      "children": [
+        {
+          "child_id": "525f9b16-5b4d-499e-8ed2-26391de5f1e7",
+          "child_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e::C000::4fb647181fc1",
+          "child_index": 0,
+          "parent_id": "6b63abf8-1fb6-4dfd-acfe-09c16c181486",
+          "parent_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e",
+          "document_id": "DOC-013",
+          "content": "Children should be generated from persisted parents and parent expansion should fail loudly when a referenced parent is"
+        },
+        {
+          "child_id": "37c42055-ef5a-4e7e-a9a6-046a24588d6c",
+          "child_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e::C001::bfc95860d7cf",
+          "child_index": 1,
+          "parent_id": "6b63abf8-1fb6-4dfd-acfe-09c16c181486",
+          "parent_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e",
+          "document_id": "DOC-013",
+          "content": "when a referenced parent is missing."
+        }
+      ]
+    },
+    {
+      "parent_id": "21c7e01a-f2ac-4bf5-bde5-283b5e0074cc",
+      "parent_key": "DOC-014::P000::Embeddings and Normalization::20a0901d7104",
+      "parent_index": 0,
+      "document_id": "DOC-014",
+      "section_path": [
+        "Embeddings and Normalization"
+      ],
+      "content": "Document ID: DOC-014",
+      "children": [
+        {
+          "child_id": "2ab65e0b-dcd9-4df7-85ce-6fbb47f90ac8",
+          "child_key": "DOC-014::P000::Embeddings and Normalization::20a0901d7104::C000::20a0901d7104",
+          "child_index": 0,
+          "parent_id": "21c7e01a-f2ac-4bf5-bde5-283b5e0074cc",
+          "parent_key": "DOC-014::P000::Embeddings and Normalization::20a0901d7104",
+          "document_id": "DOC-014",
+          "content": "Document ID: DOC-014"
+        }
+      ]
+    },
+    {
+      "parent_id": "6d9c2af2-96a1-4e9d-92a1-4f1ee223e215",
+      "parent_key": "DOC-014::P001::Embeddings and Normalization/Model::07c2e4da65c0",
+      "parent_index": 1,
+      "document_id": "DOC-014",
+      "section_path": [
+        "Embeddings and Normalization",
+        "Model"
+      ],
+      "content": "all-MiniLM-L6-v2 is a lightweight sentence-transformer baseline that produces 384-dimensional dense embeddings.",
+      "children": [
+        {
+          "child_id": "79cd1a69-e47a-49b6-b051-f9ef0f912df1",
+          "child_key": "DOC-014::P001::Embeddings and Normalization/Model::07c2e4da65c0::C000::07c2e4da65c0",
+          "child_index": 0,
+          "parent_id": "6d9c2af2-96a1-4e9d-92a1-4f1ee223e215",
+          "parent_key": "DOC-014::P001::Embeddings and Normalization/Model::07c2e4da65c0",
+          "document_id": "DOC-014",
+          "content": "all-MiniLM-L6-v2 is a lightweight sentence-transformer baseline that produces 384-dimensional dense embeddings."
+        }
+      ]
+    },
+    {
+      "parent_id": "2e030690-f81a-4909-8fd7-14972e431eba",
+      "parent_key": "DOC-014::P002::Embeddings and Normalization/Normalize::1309eb85b7ae",
+      "parent_index": 2,
+      "document_id": "DOC-014",
+      "section_path": [
+        "Embeddings and Normalization",
+        "Normalize"
+      ],
+      "content": "Unit-normalized vectors make cosine similarity equivalent to dot product. Query and document preprocessing should be consistent.",
+      "children": [
+        {
+          "child_id": "89b7842a-03c4-473a-b0a0-24c6437feb04",
+          "child_key": "DOC-014::P002::Embeddings and Normalization/Normalize::1309eb85b7ae::C000::6e42a52ec781",
+          "child_index": 0,
+          "parent_id": "2e030690-f81a-4909-8fd7-14972e431eba",
+          "parent_key": "DOC-014::P002::Embeddings and Normalization/Normalize::1309eb85b7ae",
+          "document_id": "DOC-014",
+          "content": "Unit-normalized vectors make cosine similarity equivalent to dot product. Query and document preprocessing should be"
+        },
+        {
+          "child_id": "c52ff67c-78c0-4ebc-a8c1-883cc987a592",
+          "child_key": "DOC-014::P002::Embeddings and Normalization/Normalize::1309eb85b7ae::C001::0fc000512ac8",
+          "child_index": 1,
+          "parent_id": "2e030690-f81a-4909-8fd7-14972e431eba",
+          "parent_key": "DOC-014::P002::Embeddings and Normalization/Normalize::1309eb85b7ae",
+          "document_id": "DOC-014",
+          "content": "preprocessing should be consistent."
+        }
+      ]
+    },
+    {
+      "parent_id": "2a359960-58ae-4c55-a09d-eca939cbb0e6",
+      "parent_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f",
+      "parent_index": 3,
+      "document_id": "DOC-014",
+      "section_path": [
+        "Embeddings and Normalization",
+        "Migration"
+      ],
+      "content": "Changing to a model with another dimensionality requires regenerating vectors and using a compatible collection configuration.",
+      "children": [
+        {
+          "child_id": "b2105ae5-1bb0-4b17-af79-d904c95a4fb7",
+          "child_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f::C000::f71912382f85",
+          "child_index": 0,
+          "parent_id": "2a359960-58ae-4c55-a09d-eca939cbb0e6",
+          "parent_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f",
+          "document_id": "DOC-014",
+          "content": "Changing to a model with another dimensionality requires regenerating vectors and using a compatible collection"
+        },
+        {
+          "child_id": "7010f82f-6d27-4f88-b3fb-7de0b73ab04b",
+          "child_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f::C001::e10be5b0cc8f",
+          "child_index": 1,
+          "parent_id": "2a359960-58ae-4c55-a09d-eca939cbb0e6",
+          "parent_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f",
+          "document_id": "DOC-014",
+          "content": "using a compatible collection configuration."
+        }
+      ]
+    },
+    {
+      "parent_id": "7b40da65-3da1-420a-b330-b8a2caf5ae8c",
+      "parent_key": "DOC-014::P004::Embeddings and Normalization/Domain::328e60d2cbe2",
+      "parent_index": 4,
+      "document_id": "DOC-014",
+      "section_path": [
+        "Embeddings and Normalization",
+        "Domain"
+      ],
+      "content": "Generic semantic quality does not guarantee strong handling of product identifiers, uncommon acronyms, or error strings.",
+      "children": [
+        {
+          "child_id": "dcf667d7-264c-4bd9-bdf5-554ef183a3b4",
+          "child_key": "DOC-014::P004::Embeddings and Normalization/Domain::328e60d2cbe2::C000::328e60d2cbe2",
+          "child_index": 0,
+          "parent_id": "7b40da65-3da1-420a-b330-b8a2caf5ae8c",
+          "parent_key": "DOC-014::P004::Embeddings and Normalization/Domain::328e60d2cbe2",
+          "document_id": "DOC-014",
+          "content": "Generic semantic quality does not guarantee strong handling of product identifiers, uncommon acronyms, or error strings."
+        }
+      ]
+    },
+    {
+      "parent_id": "401868a3-2eb2-449e-8cf6-02820ac4c386",
+      "parent_key": "DOC-015::P000::Query Rewriting::06ca3d4e7c02",
+      "parent_index": 0,
+      "document_id": "DOC-015",
+      "section_path": [
+        "Query Rewriting"
+      ],
+      "content": "Document ID: DOC-015",
+      "children": [
+        {
+          "child_id": "24a84b40-e348-4526-8ec6-f640de219126",
+          "child_key": "DOC-015::P000::Query Rewriting::06ca3d4e7c02::C000::06ca3d4e7c02",
+          "child_index": 0,
+          "parent_id": "401868a3-2eb2-449e-8cf6-02820ac4c386",
+          "parent_key": "DOC-015::P000::Query Rewriting::06ca3d4e7c02",
+          "document_id": "DOC-015",
+          "content": "Document ID: DOC-015"
+        }
+      ]
+    },
+    {
+      "parent_id": "684911f5-77fd-4615-b1e4-1bf6019d4a24",
+      "parent_key": "DOC-015::P001::Query Rewriting/Purpose::d56f777bf8e0",
+      "parent_index": 1,
+      "document_id": "DOC-015",
+      "section_path": [
+        "Query Rewriting",
+        "Purpose"
+      ],
+      "content": "Query rewriting changes wording to better match corpus terminology while trying to preserve the original intent.",
+      "children": [
+        {
+          "child_id": "2be61fcf-3a9c-44ba-9215-64e1db678115",
+          "child_key": "DOC-015::P001::Query Rewriting/Purpose::d56f777bf8e0::C000::d56f777bf8e0",
+          "child_index": 0,
+          "parent_id": "684911f5-77fd-4615-b1e4-1bf6019d4a24",
+          "parent_key": "DOC-015::P001::Query Rewriting/Purpose::d56f777bf8e0",
+          "document_id": "DOC-015",
+          "content": "Query rewriting changes wording to better match corpus terminology while trying to preserve the original intent."
+        }
+      ]
+    },
+    {
+      "parent_id": "6d9b1a84-b8f1-446f-820d-23b831371058",
+      "parent_key": "DOC-015::P002::Query Rewriting/Example::2c81dc401950",
+      "parent_index": 2,
+      "document_id": "DOC-015",
+      "section_path": [
+        "Query Rewriting",
+        "Example"
+      ],
+      "content": "How does HNSW search efficiently can be rewritten toward graph traversal, upper-to-lower layers, and avoiding comparison with every vector.",
+      "children": [
+        {
+          "child_id": "f28205ca-208f-401e-8670-c1ab63cdf31a",
+          "child_key": "DOC-015::P002::Query Rewriting/Example::2c81dc401950::C000::cf6ef35fbab8",
+          "child_index": 0,
+          "parent_id": "6d9b1a84-b8f1-446f-820d-23b831371058",
+          "parent_key": "DOC-015::P002::Query Rewriting/Example::2c81dc401950",
+          "document_id": "DOC-015",
+          "content": "How does HNSW search efficiently can be rewritten toward graph traversal, upper-to-lower layers, and avoiding"
+        },
+        {
+          "child_id": "8d13f840-899e-47ce-a14a-61caaafdc0a0",
+          "child_key": "DOC-015::P002::Query Rewriting/Example::2c81dc401950::C001::af36cd09845e",
+          "child_index": 1,
+          "parent_id": "6d9b1a84-b8f1-446f-820d-23b831371058",
+          "parent_key": "DOC-015::P002::Query Rewriting/Example::2c81dc401950",
+          "document_id": "DOC-015",
+          "content": "layers, and avoiding comparison with every vector."
+        }
+      ]
+    },
+    {
+      "parent_id": "e980fafb-5843-4c21-8529-86f548840b58",
+      "parent_key": "DOC-015::P003::Query Rewriting/Risk::da1cc5a797de",
+      "parent_index": 3,
+      "document_id": "DOC-015",
+      "section_path": [
+        "Query Rewriting",
+        "Risk"
+      ],
+      "content": "A rewriter can introduce assumptions or drift. Systems should retain the original query and may retrieve with both forms.",
+      "children": [
+        {
+          "child_id": "f7b91f08-2d01-46e0-b5a0-23e4bf240210",
+          "child_key": "DOC-015::P003::Query Rewriting/Risk::da1cc5a797de::C000::a7b12c5eb691",
+          "child_index": 0,
+          "parent_id": "e980fafb-5843-4c21-8529-86f548840b58",
+          "parent_key": "DOC-015::P003::Query Rewriting/Risk::da1cc5a797de",
+          "document_id": "DOC-015",
+          "content": "A rewriter can introduce assumptions or drift. Systems should retain the original query and may retrieve with both"
+        },
+        {
+          "child_id": "ef227c90-7074-4560-8d4a-8dfe5d6736e5",
+          "child_key": "DOC-015::P003::Query Rewriting/Risk::da1cc5a797de::C001::dfc34ec49d76",
+          "child_index": 1,
+          "parent_id": "e980fafb-5843-4c21-8529-86f548840b58",
+          "parent_key": "DOC-015::P003::Query Rewriting/Risk::da1cc5a797de",
+          "document_id": "DOC-015",
+          "content": "and may retrieve with both forms."
+        }
+      ]
+    },
+    {
+      "parent_id": "5e0baf75-6556-4014-ab24-4c9a88cad44c",
+      "parent_key": "DOC-015::P004::Query Rewriting/Measure::07c6a54bef3e",
+      "parent_index": 4,
+      "document_id": "DOC-015",
+      "section_path": [
+        "Query Rewriting",
+        "Measure"
+      ],
+      "content": "Judge rewriting with downstream retrieval metrics rather than linguistic elegance.",
+      "children": [
+        {
+          "child_id": "94be2a69-78be-42ea-a164-2b5bf9db31af",
+          "child_key": "DOC-015::P004::Query Rewriting/Measure::07c6a54bef3e::C000::07c6a54bef3e",
+          "child_index": 0,
+          "parent_id": "5e0baf75-6556-4014-ab24-4c9a88cad44c",
+          "parent_key": "DOC-015::P004::Query Rewriting/Measure::07c6a54bef3e",
+          "document_id": "DOC-015",
+          "content": "Judge rewriting with downstream retrieval metrics rather than linguistic elegance."
+        }
+      ]
+    },
+    {
+      "parent_id": "c1799d10-fdd9-461e-8db3-a92e7c985c82",
+      "parent_key": "DOC-016::P000::Multi Query Retrieval::d38a33f2bbb7",
+      "parent_index": 0,
+      "document_id": "DOC-016",
+      "section_path": [
+        "Multi Query Retrieval"
+      ],
+      "content": "Document ID: DOC-016",
+      "children": [
+        {
+          "child_id": "89488a3a-1b9b-4d68-b48d-4aa7c1241ce4",
+          "child_key": "DOC-016::P000::Multi Query Retrieval::d38a33f2bbb7::C000::d38a33f2bbb7",
+          "child_index": 0,
+          "parent_id": "c1799d10-fdd9-461e-8db3-a92e7c985c82",
+          "parent_key": "DOC-016::P000::Multi Query Retrieval::d38a33f2bbb7",
+          "document_id": "DOC-016",
+          "content": "Document ID: DOC-016"
+        }
+      ]
+    },
+    {
+      "parent_id": "32baba49-a8b0-4782-821a-99216ac2e203",
+      "parent_key": "DOC-016::P001::Multi Query Retrieval/Views::4cecdf1699ce",
+      "parent_index": 1,
+      "document_id": "DOC-016",
+      "section_path": [
+        "Multi Query Retrieval",
+        "Views"
+      ],
+      "content": "Multi-query retrieval generates several search formulations from one user request, retrieves for each, then merges and deduplicates candidates.",
+      "children": [
+        {
+          "child_id": "2039a0a2-bd9a-4686-bc61-aae44d2dd23b",
+          "child_key": "DOC-016::P001::Multi Query Retrieval/Views::4cecdf1699ce::C000::ff1c6d2021ab",
+          "child_index": 0,
+          "parent_id": "32baba49-a8b0-4782-821a-99216ac2e203",
+          "parent_key": "DOC-016::P001::Multi Query Retrieval/Views::4cecdf1699ce",
+          "document_id": "DOC-016",
+          "content": "Multi-query retrieval generates several search formulations from one user request, retrieves for each, then merges and"
+        },
+        {
+          "child_id": "548b8809-7fb6-403e-8658-2381986648e8",
+          "child_key": "DOC-016::P001::Multi Query Retrieval/Views::4cecdf1699ce::C001::26b4297c7d02",
+          "child_index": 1,
+          "parent_id": "32baba49-a8b0-4782-821a-99216ac2e203",
+          "parent_key": "DOC-016::P001::Multi Query Retrieval/Views::4cecdf1699ce",
+          "document_id": "DOC-016",
+          "content": "for each, then merges and deduplicates candidates."
+        }
+      ]
+    },
+    {
+      "parent_id": "19e4d0de-3e60-4994-8290-1a2a2318b4af",
+      "parent_key": "DOC-016::P002::Multi Query Retrieval/Recall::353efadcdd3a",
+      "parent_index": 2,
+      "document_id": "DOC-016",
+      "section_path": [
+        "Multi Query Retrieval",
+        "Recall"
+      ],
+      "content": "Different phrasings can recover evidence using terms such as graph traversal, approximate neighbors, upper layers, or search frontier.",
+      "children": [
+        {
+          "child_id": "939e38fa-c7bc-4c13-be39-b2b40edf5ddf",
+          "child_key": "DOC-016::P002::Multi Query Retrieval/Recall::353efadcdd3a::C000::acd317bf3628",
+          "child_index": 0,
+          "parent_id": "19e4d0de-3e60-4994-8290-1a2a2318b4af",
+          "parent_key": "DOC-016::P002::Multi Query Retrieval/Recall::353efadcdd3a",
+          "document_id": "DOC-016",
+          "content": "Different phrasings can recover evidence using terms such as graph traversal, approximate neighbors, upper layers, or"
+        },
+        {
+          "child_id": "3528c3d0-4612-45ff-88cd-1b4a0072419a",
+          "child_key": "DOC-016::P002::Multi Query Retrieval/Recall::353efadcdd3a::C001::5eb263431949",
+          "child_index": 1,
+          "parent_id": "19e4d0de-3e60-4994-8290-1a2a2318b4af",
+          "parent_key": "DOC-016::P002::Multi Query Retrieval/Recall::353efadcdd3a",
+          "document_id": "DOC-016",
+          "content": "neighbors, upper layers, or search frontier."
+        }
+      ]
+    },
+    {
+      "parent_id": "a90dd664-45d5-4dbb-afd4-b69c90c424a8",
+      "parent_key": "DOC-016::P003::Multi Query Retrieval/Cost::9c9e422e820a",
+      "parent_index": 3,
+      "document_id": "DOC-016",
+      "section_path": [
+        "Multi Query Retrieval",
+        "Cost"
+      ],
+      "content": "Every generated query adds embedding, vector search, sparse search, and possibly reranking work.",
+      "children": [
+        {
+          "child_id": "481d57c3-db0a-40b3-a285-51154189b06e",
+          "child_key": "DOC-016::P003::Multi Query Retrieval/Cost::9c9e422e820a::C000::9c9e422e820a",
+          "child_index": 0,
+          "parent_id": "a90dd664-45d5-4dbb-afd4-b69c90c424a8",
+          "parent_key": "DOC-016::P003::Multi Query Retrieval/Cost::9c9e422e820a",
+          "document_id": "DOC-016",
+          "content": "Every generated query adds embedding, vector search, sparse search, and possibly reranking work."
+        }
+      ]
+    },
+    {
+      "parent_id": "91a7092d-734f-4cd3-a959-db9f396a6d68",
+      "parent_key": "DOC-016::P004::Multi Query Retrieval/Fusion::c89738d0a058",
+      "parent_index": 4,
+      "document_id": "DOC-016",
+      "section_path": [
+        "Multi Query Retrieval",
+        "Fusion"
+      ],
+      "content": "Multi-query results can be merged with rank fusion, maximum score, or another rule; noisy generated queries can otherwise promote distractors.",
+      "children": [
+        {
+          "child_id": "715b1b11-bcfd-4067-8457-cb0fce5af969",
+          "child_key": "DOC-016::P004::Multi Query Retrieval/Fusion::c89738d0a058::C000::696a3bfbb4f1",
+          "child_index": 0,
+          "parent_id": "91a7092d-734f-4cd3-a959-db9f396a6d68",
+          "parent_key": "DOC-016::P004::Multi Query Retrieval/Fusion::c89738d0a058",
+          "document_id": "DOC-016",
+          "content": "Multi-query results can be merged with rank fusion, maximum score, or another rule; noisy generated queries can"
+        },
+        {
+          "child_id": "be485a75-37d4-4e02-88a1-bcacf8209f3c",
+          "child_key": "DOC-016::P004::Multi Query Retrieval/Fusion::c89738d0a058::C001::4a9393588762",
+          "child_index": 1,
+          "parent_id": "91a7092d-734f-4cd3-a959-db9f396a6d68",
+          "parent_key": "DOC-016::P004::Multi Query Retrieval/Fusion::c89738d0a058",
+          "document_id": "DOC-016",
+          "content": "noisy generated queries can otherwise promote distractors."
+        }
+      ]
+    },
+    {
+      "parent_id": "203f60d6-dd9c-4be4-9ae4-f1b01854967c",
+      "parent_key": "DOC-017::P000::HyDE::c7ddae71dc0e",
+      "parent_index": 0,
+      "document_id": "DOC-017",
+      "section_path": [
+        "HyDE"
+      ],
+      "content": "Document ID: DOC-017",
+      "children": [
+        {
+          "child_id": "b4e78a1d-d3b7-44e8-a623-44952127f956",
+          "child_key": "DOC-017::P000::HyDE::c7ddae71dc0e::C000::c7ddae71dc0e",
+          "child_index": 0,
+          "parent_id": "203f60d6-dd9c-4be4-9ae4-f1b01854967c",
+          "parent_key": "DOC-017::P000::HyDE::c7ddae71dc0e",
+          "document_id": "DOC-017",
+          "content": "Document ID: DOC-017"
+        }
+      ]
+    },
+    {
+      "parent_id": "042f7d75-2263-4ef6-9648-1822519f2d15",
+      "parent_key": "DOC-017::P001::HyDE/Idea::65b4780365ac",
+      "parent_index": 1,
+      "document_id": "DOC-017",
+      "section_path": [
+        "HyDE",
+        "Idea"
+      ],
+      "content": "Hypothetical Document Embeddings generate an answer-like hypothetical passage, embed it, and use that embedding for retrieval.",
+      "children": [
+        {
+          "child_id": "08e0e678-5a1e-4f75-9e07-06f4fe29d31f",
+          "child_key": "DOC-017::P001::HyDE/Idea::65b4780365ac::C000::5d1d934f89b6",
+          "child_index": 0,
+          "parent_id": "042f7d75-2263-4ef6-9648-1822519f2d15",
+          "parent_key": "DOC-017::P001::HyDE/Idea::65b4780365ac",
+          "document_id": "DOC-017",
+          "content": "Hypothetical Document Embeddings generate an answer-like hypothetical passage, embed it, and use that embedding for"
+        },
+        {
+          "child_id": "b56e4f1b-a8e7-45c1-829a-fefaffa6d125",
+          "child_key": "DOC-017::P001::HyDE/Idea::65b4780365ac::C001::cf816d58fd75",
+          "child_index": 1,
+          "parent_id": "042f7d75-2263-4ef6-9648-1822519f2d15",
+          "parent_key": "DOC-017::P001::HyDE/Idea::65b4780365ac",
+          "document_id": "DOC-017",
+          "content": "it, and use that embedding for retrieval."
+        }
+      ]
+    },
+    {
+      "parent_id": "c607c380-7565-40e5-9954-c04050e572e1",
+      "parent_key": "DOC-017::P002::HyDE/Bridge::a4b3d568eb10",
+      "parent_index": 2,
+      "document_id": "DOC-017",
+      "section_path": [
+        "HyDE",
+        "Bridge"
+      ],
+      "content": "The hypothetical passage may introduce terminology closer to the corpus than the original short question.",
+      "children": [
+        {
+          "child_id": "309eec3e-eb25-40d8-9b2a-7dd0306f7613",
+          "child_key": "DOC-017::P002::HyDE/Bridge::a4b3d568eb10::C000::a4b3d568eb10",
+          "child_index": 0,
+          "parent_id": "c607c380-7565-40e5-9954-c04050e572e1",
+          "parent_key": "DOC-017::P002::HyDE/Bridge::a4b3d568eb10",
+          "document_id": "DOC-017",
+          "content": "The hypothetical passage may introduce terminology closer to the corpus than the original short question."
+        }
+      ]
+    },
+    {
+      "parent_id": "eca9267e-19da-41dc-a756-4924d2cec349",
+      "parent_key": "DOC-017::P003::HyDE/Risk::ae3207221e80",
+      "parent_index": 3,
+      "document_id": "DOC-017",
+      "section_path": [
+        "HyDE",
+        "Risk"
+      ],
+      "content": "The hypothetical document may hallucinate. It is only a retrieval aid and must never replace source evidence.",
+      "children": [
+        {
+          "child_id": "477e200f-29bc-4d25-8400-a0463537794c",
+          "child_key": "DOC-017::P003::HyDE/Risk::ae3207221e80::C000::ae3207221e80",
+          "child_index": 0,
+          "parent_id": "eca9267e-19da-41dc-a756-4924d2cec349",
+          "parent_key": "DOC-017::P003::HyDE/Risk::ae3207221e80",
+          "document_id": "DOC-017",
+          "content": "The hypothetical document may hallucinate. It is only a retrieval aid and must never replace source evidence."
+        }
+      ]
+    },
+    {
+      "parent_id": "56030193-501c-4c73-b498-c29b52d5b328",
+      "parent_key": "DOC-017::P004::HyDE/Measure::88b7f6851191",
+      "parent_index": 4,
+      "document_id": "DOC-017",
+      "section_path": [
+        "HyDE",
+        "Measure"
+      ],
+      "content": "Compare HyDE against original-query retrieval because its extra generation step adds cost and is not universally beneficial.",
+      "children": [
+        {
+          "child_id": "4a57a2c1-503d-4962-b654-d20b69e4584b",
+          "child_key": "DOC-017::P004::HyDE/Measure::88b7f6851191::C000::5bd621c60ff1",
+          "child_index": 0,
+          "parent_id": "56030193-501c-4c73-b498-c29b52d5b328",
+          "parent_key": "DOC-017::P004::HyDE/Measure::88b7f6851191",
+          "document_id": "DOC-017",
+          "content": "Compare HyDE against original-query retrieval because its extra generation step adds cost and is not universally"
+        },
+        {
+          "child_id": "f14f6443-684d-47e7-8fd2-fad96362ceeb",
+          "child_key": "DOC-017::P004::HyDE/Measure::88b7f6851191::C001::097ccdca11e4",
+          "child_index": 1,
+          "parent_id": "56030193-501c-4c73-b498-c29b52d5b328",
+          "parent_key": "DOC-017::P004::HyDE/Measure::88b7f6851191",
+          "document_id": "DOC-017",
+          "content": "cost and is not universally beneficial."
+        }
+      ]
+    },
+    {
+      "parent_id": "99897d83-4646-45c0-b081-2aaae3ae747d",
+      "parent_key": "DOC-018::P000::RAG Evaluation::fac04aa39b28",
+      "parent_index": 0,
+      "document_id": "DOC-018",
+      "section_path": [
+        "RAG Evaluation"
+      ],
+      "content": "Document ID: DOC-018",
+      "children": [
+        {
+          "child_id": "27dc089a-8548-454e-8e4f-7d1663e89166",
+          "child_key": "DOC-018::P000::RAG Evaluation::fac04aa39b28::C000::fac04aa39b28",
+          "child_index": 0,
+          "parent_id": "99897d83-4646-45c0-b081-2aaae3ae747d",
+          "parent_key": "DOC-018::P000::RAG Evaluation::fac04aa39b28",
+          "document_id": "DOC-018",
+          "content": "Document ID: DOC-018"
+        }
+      ]
+    },
+    {
+      "parent_id": "f60d3dc6-ec8b-4aba-8ef9-17a6f870cf6d",
+      "parent_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13",
+      "parent_index": 1,
+      "document_id": "DOC-018",
+      "section_path": [
+        "RAG Evaluation",
+        "Metrics"
+      ],
+      "content": "Hit Rate checks whether a relevant item appears in top K. Recall@K measures coverage of known relevant items. Mean Reciprocal Rank rewards placing the first relevant item near the top.",
+      "children": [
+        {
+          "child_id": "17885f4c-6471-42b2-96bc-94250275de54",
+          "child_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13::C000::d28a36e53577",
+          "child_index": 0,
+          "parent_id": "f60d3dc6-ec8b-4aba-8ef9-17a6f870cf6d",
+          "parent_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13",
+          "document_id": "DOC-018",
+          "content": "Hit Rate checks whether a relevant item appears in top K. Recall@K measures coverage of known relevant items. Mean"
+        },
+        {
+          "child_id": "9c2730e0-7800-4b8d-ae0f-623a253c5b6a",
+          "child_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13::C001::8d9281b35d56",
+          "child_index": 1,
+          "parent_id": "f60d3dc6-ec8b-4aba-8ef9-17a6f870cf6d",
+          "parent_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13",
+          "document_id": "DOC-018",
+          "content": "of known relevant items. Mean Reciprocal Rank rewards placing the first relevant item near the top."
+        }
+      ]
+    },
+    {
+      "parent_id": "077eac64-1539-4b1b-9079-6a42d7937516",
+      "parent_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf",
+      "parent_index": 2,
+      "document_id": "DOC-018",
+      "section_path": [
+        "RAG Evaluation",
+        "Parents"
+      ],
+      "content": "Child recall and parent recall differ because several child hits may collapse to one parent. Candidate parent recall before reranking is especially important.",
+      "children": [
+        {
+          "child_id": "c8e01a0e-b1b4-4c1a-a542-1c2ca72fcc96",
+          "child_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf::C000::19cfc0526d27",
+          "child_index": 0,
+          "parent_id": "077eac64-1539-4b1b-9079-6a42d7937516",
+          "parent_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf",
+          "document_id": "DOC-018",
+          "content": "Child recall and parent recall differ because several child hits may collapse to one parent. Candidate parent recall"
+        },
+        {
+          "child_id": "80d92906-1c7b-4f1d-9906-c71382e55ec7",
+          "child_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf::C001::99550e8ff68c",
+          "child_index": 1,
+          "parent_id": "077eac64-1539-4b1b-9079-6a42d7937516",
+          "parent_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf",
+          "document_id": "DOC-018",
+          "content": "Candidate parent recall before reranking is especially important."
+        }
+      ]
+    },
+    {
+      "parent_id": "e8f9be5a-ed93-4f5d-ad31-b131222b9dfc",
+      "parent_key": "DOC-018::P003::RAG Evaluation/Answer::1b0b32e5b5b6",
+      "parent_index": 3,
+      "document_id": "DOC-018",
+      "section_path": [
+        "RAG Evaluation",
+        "Answer"
+      ],
+      "content": "Retrieval metrics do not fully determine answer quality. Faithfulness, answer relevance, context precision, and citation correctness are separate concerns.",
+      "children": [
+        {
+          "child_id": "dc62198e-acf4-4376-9feb-9a4c76d71b68",
+          "child_key": "DOC-018::P003::RAG Evaluation/Answer::1b0b32e5b5b6::C000::7f1f3d5022cf",
+          "child_index": 0,
+          "parent_id": "e8f9be5a-ed93-4f5d-ad31-b131222b9dfc",
+          "parent_key": "DOC-018::P003::RAG Evaluation/Answer::1b0b32e5b5b6",
+          "document_id": "DOC-018",
+          "content": "Retrieval metrics do not fully determine answer quality. Faithfulness, answer relevance, context precision, and"
+        },
+        {
+          "child_id": "1280f6fa-0da0-4a55-b708-1a4d74534dec",
+          "child_key": "DOC-018::P003::RAG Evaluation/Answer::1b0b32e5b5b6::C001::ab7cb10bace2",
+          "child_index": 1,
+          "parent_id": "e8f9be5a-ed93-4f5d-ad31-b131222b9dfc",
+          "parent_key": "DOC-018::P003::RAG Evaluation/Answer::1b0b32e5b5b6",
+          "document_id": "DOC-018",
+          "content": "context precision, and citation correctness are separate concerns."
+        }
+      ]
+    },
+    {
+      "parent_id": "98240c27-82a2-466b-bd4a-64b55897f341",
+      "parent_key": "DOC-018::P004::RAG Evaluation/Gold::b653a61ef392",
+      "parent_index": 4,
+      "document_id": "DOC-018",
+      "section_path": [
+        "RAG Evaluation",
+        "Gold"
+      ],
+      "content": "A golden benchmark should include exact identifiers, semantic paraphrases, ambiguous questions, multi-section needs, and unanswerable queries.",
+      "children": [
+        {
+          "child_id": "8af7ebec-fbb6-4c62-9c00-3edc3b89eaaf",
+          "child_key": "DOC-018::P004::RAG Evaluation/Gold::b653a61ef392::C000::fe46b40ac0c9",
+          "child_index": 0,
+          "parent_id": "98240c27-82a2-466b-bd4a-64b55897f341",
+          "parent_key": "DOC-018::P004::RAG Evaluation/Gold::b653a61ef392",
+          "document_id": "DOC-018",
+          "content": "A golden benchmark should include exact identifiers, semantic paraphrases, ambiguous questions, multi-section needs,"
+        },
+        {
+          "child_id": "fe3984fc-6536-46a4-882d-086849c973e8",
+          "child_key": "DOC-018::P004::RAG Evaluation/Gold::b653a61ef392::C001::581d360a5038",
+          "child_index": 1,
+          "parent_id": "98240c27-82a2-466b-bd4a-64b55897f341",
+          "parent_key": "DOC-018::P004::RAG Evaluation/Gold::b653a61ef392",
+          "document_id": "DOC-018",
+          "content": "multi-section needs, and unanswerable queries."
+        }
+      ]
+    },
+    {
+      "parent_id": "97c76f02-56a6-48fd-928d-766b639a42bf",
+      "parent_key": "DOC-019::P000::FastAPI RAG Services::03f46338a01e",
+      "parent_index": 0,
+      "document_id": "DOC-019",
+      "section_path": [
+        "FastAPI RAG Services"
+      ],
+      "content": "Document ID: DOC-019",
+      "children": [
+        {
+          "child_id": "2c428837-9734-4fe7-834f-31337c5cbcae",
+          "child_key": "DOC-019::P000::FastAPI RAG Services::03f46338a01e::C000::03f46338a01e",
+          "child_index": 0,
+          "parent_id": "97c76f02-56a6-48fd-928d-766b639a42bf",
+          "parent_key": "DOC-019::P000::FastAPI RAG Services::03f46338a01e",
+          "document_id": "DOC-019",
+          "content": "Document ID: DOC-019"
+        }
+      ]
+    },
+    {
+      "parent_id": "3d5d33c7-8b11-4302-ae0d-c67b372c1de5",
+      "parent_key": "DOC-019::P001::FastAPI RAG Services/API::5862539c5adb",
+      "parent_index": 1,
+      "document_id": "DOC-019",
+      "section_path": [
+        "FastAPI RAG Services",
+        "API"
+      ],
+      "content": "A RAG service may expose POST /query, POST /ingest, GET /health, and document endpoints using Pydantic request and response models.",
+      "children": [
+        {
+          "child_id": "7ca3cb53-0833-4648-9dd2-d03c950f375a",
+          "child_key": "DOC-019::P001::FastAPI RAG Services/API::5862539c5adb::C000::4f760e77c6a7",
+          "child_index": 0,
+          "parent_id": "3d5d33c7-8b11-4302-ae0d-c67b372c1de5",
+          "parent_key": "DOC-019::P001::FastAPI RAG Services/API::5862539c5adb",
+          "document_id": "DOC-019",
+          "content": "A RAG service may expose POST /query, POST /ingest, GET /health, and document endpoints using Pydantic request and"
+        },
+        {
+          "child_id": "5c453ea5-1571-4412-945f-358aaf000f38",
+          "child_key": "DOC-019::P001::FastAPI RAG Services/API::5862539c5adb::C001::05ec4a18837c",
+          "child_index": 1,
+          "parent_id": "3d5d33c7-8b11-4302-ae0d-c67b372c1de5",
+          "parent_key": "DOC-019::P001::FastAPI RAG Services/API::5862539c5adb",
+          "document_id": "DOC-019",
+          "content": "using Pydantic request and response models."
+        }
+      ]
+    },
+    {
+      "parent_id": "275e85f7-c774-4e5d-ac3e-da0cf5fc7b90",
+      "parent_key": "DOC-019::P002::FastAPI RAG Services/HTTP 422::c9c8bfaad7e3",
+      "parent_index": 2,
+      "document_id": "DOC-019",
+      "section_path": [
+        "FastAPI RAG Services",
+        "HTTP 422"
+      ],
+      "content": "FastAPI commonly returns HTTP 422 when request data fails validation against the declared schema. This is an API validation failure, not a retrieval-quality failure.",
+      "children": [
+        {
+          "child_id": "663dde67-16ea-4feb-9aa7-33291215bf9c",
+          "child_key": "DOC-019::P002::FastAPI RAG Services/HTTP 422::c9c8bfaad7e3::C000::0ce1bba56b88",
+          "child_index": 0,
+          "parent_id": "275e85f7-c774-4e5d-ac3e-da0cf5fc7b90",
+          "parent_key": "DOC-019::P002::FastAPI RAG Services/HTTP 422::c9c8bfaad7e3",
+          "document_id": "DOC-019",
+          "content": "FastAPI commonly returns HTTP 422 when request data fails validation against the declared schema. This is an API"
+        },
+        {
+          "child_id": "48e00a4e-cb0f-443c-9dbf-304139a97d6d",
+          "child_key": "DOC-019::P002::FastAPI RAG Services/HTTP 422::c9c8bfaad7e3::C001::684f40fbdb0f",
+          "child_index": 1,
+          "parent_id": "275e85f7-c774-4e5d-ac3e-da0cf5fc7b90",
+          "parent_key": "DOC-019::P002::FastAPI RAG Services/HTTP 422::c9c8bfaad7e3",
+          "document_id": "DOC-019",
+          "content": "schema. This is an API validation failure, not a retrieval-quality failure."
+        }
+      ]
+    },
+    {
+      "parent_id": "2e8c0e0e-895e-4a5b-b75f-fafdcdcfcf8f",
+      "parent_key": "DOC-019::P003::FastAPI RAG Services/Boundaries::b9106e81f54b",
+      "parent_index": 3,
+      "document_id": "DOC-019",
+      "section_path": [
+        "FastAPI RAG Services",
+        "Boundaries"
+      ],
+      "content": "Embedding services, repositories, vector stores, retrievers, and rerankers should be initialized through clear application boundaries.",
+      "children": [
+        {
+          "child_id": "9fb0252e-fcd2-4b32-adae-bb521a571aa0",
+          "child_key": "DOC-019::P003::FastAPI RAG Services/Boundaries::b9106e81f54b::C000::cb4a34cacc86",
+          "child_index": 0,
+          "parent_id": "2e8c0e0e-895e-4a5b-b75f-fafdcdcfcf8f",
+          "parent_key": "DOC-019::P003::FastAPI RAG Services/Boundaries::b9106e81f54b",
+          "document_id": "DOC-019",
+          "content": "Embedding services, repositories, vector stores, retrievers, and rerankers should be initialized through clear"
+        },
+        {
+          "child_id": "9663ddea-5cd4-4b0b-ba93-831530a7263a",
+          "child_key": "DOC-019::P003::FastAPI RAG Services/Boundaries::b9106e81f54b::C001::908886a5b5d0",
+          "child_index": 1,
+          "parent_id": "2e8c0e0e-895e-4a5b-b75f-fafdcdcfcf8f",
+          "parent_key": "DOC-019::P003::FastAPI RAG Services/Boundaries::b9106e81f54b",
+          "document_id": "DOC-019",
+          "content": "be initialized through clear application boundaries."
+        }
+      ]
+    },
+    {
+      "parent_id": "39c32894-9eb6-4620-8d50-edf47f33313a",
+      "parent_key": "DOC-019::P004::FastAPI RAG Services/Trace::7758ad0c2671",
+      "parent_index": 4,
+      "document_id": "DOC-019",
+      "section_path": [
+        "FastAPI RAG Services",
+        "Trace"
+      ],
+      "content": "Request IDs, retrieval timings, candidate counts, and final document IDs are useful production signals.",
+      "children": [
+        {
+          "child_id": "1cecdbb4-fd9e-4130-a72b-366653cca040",
+          "child_key": "DOC-019::P004::FastAPI RAG Services/Trace::7758ad0c2671::C000::7758ad0c2671",
+          "child_index": 0,
+          "parent_id": "39c32894-9eb6-4620-8d50-edf47f33313a",
+          "parent_key": "DOC-019::P004::FastAPI RAG Services/Trace::7758ad0c2671",
+          "document_id": "DOC-019",
+          "content": "Request IDs, retrieval timings, candidate counts, and final document IDs are useful production signals."
+        }
+      ]
+    },
+    {
+      "parent_id": "56226460-998f-4fde-861d-594c0f64b3ee",
+      "parent_key": "DOC-020::P000::Docker and Local Infrastructure::8e4d923a0898",
+      "parent_index": 0,
+      "document_id": "DOC-020",
+      "section_path": [
+        "Docker and Local Infrastructure"
+      ],
+      "content": "Document ID: DOC-020",
+      "children": [
+        {
+          "child_id": "46aa1397-08f8-43cc-87e3-a926dfa64d4c",
+          "child_key": "DOC-020::P000::Docker and Local Infrastructure::8e4d923a0898::C000::8e4d923a0898",
+          "child_index": 0,
+          "parent_id": "56226460-998f-4fde-861d-594c0f64b3ee",
+          "parent_key": "DOC-020::P000::Docker and Local Infrastructure::8e4d923a0898",
+          "document_id": "DOC-020",
+          "content": "Document ID: DOC-020"
+        }
+      ]
+    },
+    {
+      "parent_id": "c61b2665-4538-45e6-9871-daf2094e2fae",
+      "parent_key": "DOC-020::P001::Docker and Local Infrastructure/Services::ca0ff7cff8a1",
+      "parent_index": 1,
+      "document_id": "DOC-020",
+      "section_path": [
+        "Docker and Local Infrastructure",
+        "Services"
+      ],
+      "content": "A local stack can run Qdrant, MongoDB, and the Python API as separate services with explicit ports and health checks.",
+      "children": [
+        {
+          "child_id": "e2cf5602-0a79-4bb8-8308-af18a1e54bd1",
+          "child_key": "DOC-020::P001::Docker and Local Infrastructure/Services::ca0ff7cff8a1::C000::ca0ff7cff8a1",
+          "child_index": 0,
+          "parent_id": "c61b2665-4538-45e6-9871-daf2094e2fae",
+          "parent_key": "DOC-020::P001::Docker and Local Infrastructure/Services::ca0ff7cff8a1",
+          "document_id": "DOC-020",
+          "content": "A local stack can run Qdrant, MongoDB, and the Python API as separate services with explicit ports and health checks."
+        }
+      ]
+    },
+    {
+      "parent_id": "6d083126-03d1-41a2-8ea2-c830fbf7a5f1",
+      "parent_key": "DOC-020::P002::Docker and Local Infrastructure/Refused::363edf91f09a",
+      "parent_index": 2,
+      "document_id": "DOC-020",
+      "section_path": [
+        "Docker and Local Infrastructure",
+        "Refused"
+      ],
+      "content": "ERR_CONNECTION_REFUSED usually means the target service is not listening, a container is stopped, the host or port is wrong, or networking is misconfigured.",
+      "children": [
+        {
+          "child_id": "491a3a69-26c5-4f54-af5e-db41c57160ca",
+          "child_key": "DOC-020::P002::Docker and Local Infrastructure/Refused::363edf91f09a::C000::fa3330ad34e9",
+          "child_index": 0,
+          "parent_id": "6d083126-03d1-41a2-8ea2-c830fbf7a5f1",
+          "parent_key": "DOC-020::P002::Docker and Local Infrastructure/Refused::363edf91f09a",
+          "document_id": "DOC-020",
+          "content": "ERR_CONNECTION_REFUSED usually means the target service is not listening, a container is stopped, the host or port is"
+        },
+        {
+          "child_id": "4ec0c736-14eb-4065-9812-aa803ea62234",
+          "child_key": "DOC-020::P002::Docker and Local Infrastructure/Refused::363edf91f09a::C001::f8fe90ce9d24",
+          "child_index": 1,
+          "parent_id": "6d083126-03d1-41a2-8ea2-c830fbf7a5f1",
+          "parent_key": "DOC-020::P002::Docker and Local Infrastructure/Refused::363edf91f09a",
+          "document_id": "DOC-020",
+          "content": "stopped, the host or port is wrong, or networking is misconfigured."
+        }
+      ]
+    },
+    {
+      "parent_id": "2d26e9ac-0c6f-4a6b-92b1-fb8c223b686e",
+      "parent_key": "DOC-020::P003::Docker and Local Infrastructure/Persistence::e7b5069e8ff8",
+      "parent_index": 3,
+      "document_id": "DOC-020",
+      "section_path": [
+        "Docker and Local Infrastructure",
+        "Persistence"
+      ],
+      "content": "Persistent volumes preserve Qdrant and MongoDB data across container recreation.",
+      "children": [
+        {
+          "child_id": "578c1abb-c9e7-4df4-8881-19a744abce87",
+          "child_key": "DOC-020::P003::Docker and Local Infrastructure/Persistence::e7b5069e8ff8::C000::e7b5069e8ff8",
+          "child_index": 0,
+          "parent_id": "2d26e9ac-0c6f-4a6b-92b1-fb8c223b686e",
+          "parent_key": "DOC-020::P003::Docker and Local Infrastructure/Persistence::e7b5069e8ff8",
+          "document_id": "DOC-020",
+          "content": "Persistent volumes preserve Qdrant and MongoDB data across container recreation."
+        }
+      ]
+    },
+    {
+      "parent_id": "54a8d8c7-b34c-4486-bae4-477ff187985d",
+      "parent_key": "DOC-020::P004::Docker and Local Infrastructure/Config::48b1c4564012",
+      "parent_index": 4,
+      "document_id": "DOC-020",
+      "section_path": [
+        "Docker and Local Infrastructure",
+        "Config"
+      ],
+      "content": "Environment variables should hold service URLs and credentials while local defaults may use http://localhost:6333 for Qdrant.",
+      "children": [
+        {
+          "child_id": "8625eb5b-c111-4613-8689-52c07779339d",
+          "child_key": "DOC-020::P004::Docker and Local Infrastructure/Config::48b1c4564012::C000::dcdedc79b0b7",
+          "child_index": 0,
+          "parent_id": "54a8d8c7-b34c-4486-bae4-477ff187985d",
+          "parent_key": "DOC-020::P004::Docker and Local Infrastructure/Config::48b1c4564012",
+          "document_id": "DOC-020",
+          "content": "Environment variables should hold service URLs and credentials while local defaults may use http://localhost:6333 for"
+        },
+        {
+          "child_id": "f33f504a-c294-446e-8dcf-655a57699e9b",
+          "child_key": "DOC-020::P004::Docker and Local Infrastructure/Config::48b1c4564012::C001::77191a03fadc",
+          "child_index": 1,
+          "parent_id": "54a8d8c7-b34c-4486-bae4-477ff187985d",
+          "parent_key": "DOC-020::P004::Docker and Local Infrastructure/Config::48b1c4564012",
+          "document_id": "DOC-020",
+          "content": "use http://localhost:6333 for Qdrant."
+        }
+      ]
+    },
+    {
+      "parent_id": "f92a7f31-9e0b-4cd4-a504-6399ad58ff77",
+      "parent_key": "DOC-021::P000::Retrieval Observability::969b9acbc014",
+      "parent_index": 0,
+      "document_id": "DOC-021",
+      "section_path": [
+        "Retrieval Observability"
+      ],
+      "content": "Document ID: DOC-021",
+      "children": [
+        {
+          "child_id": "4d9bb359-799f-4f48-8044-3cfb30d1bd01",
+          "child_key": "DOC-021::P000::Retrieval Observability::969b9acbc014::C000::969b9acbc014",
+          "child_index": 0,
+          "parent_id": "f92a7f31-9e0b-4cd4-a504-6399ad58ff77",
+          "parent_key": "DOC-021::P000::Retrieval Observability::969b9acbc014",
+          "document_id": "DOC-021",
+          "content": "Document ID: DOC-021"
+        }
+      ]
+    },
+    {
+      "parent_id": "b2af4e0a-0e48-456d-a69c-a6c9252ff294",
+      "parent_key": "DOC-021::P001::Retrieval Observability/Stages::f0aab813c305",
+      "parent_index": 1,
+      "document_id": "DOC-021",
+      "section_path": [
+        "Retrieval Observability",
+        "Stages"
+      ],
+      "content": "Trace dense, sparse, RRF fusion, parent expansion, CrossEncoder, MMR, and final context separately.",
+      "children": [
+        {
+          "child_id": "98def23a-fa4f-4343-b98a-749d938e871b",
+          "child_key": "DOC-021::P001::Retrieval Observability/Stages::f0aab813c305::C000::f0aab813c305",
+          "child_index": 0,
+          "parent_id": "b2af4e0a-0e48-456d-a69c-a6c9252ff294",
+          "parent_key": "DOC-021::P001::Retrieval Observability/Stages::f0aab813c305",
+          "document_id": "DOC-021",
+          "content": "Trace dense, sparse, RRF fusion, parent expansion, CrossEncoder, MMR, and final context separately."
+        }
+      ]
+    },
+    {
+      "parent_id": "0dd1b85e-de89-4b7e-89a2-91133e64352d",
+      "parent_key": "DOC-021::P002::Retrieval Observability/Scores::850158a138ab",
+      "parent_index": 2,
+      "document_id": "DOC-021",
+      "section_path": [
+        "Retrieval Observability",
+        "Scores"
+      ],
+      "content": "An RRF score, cosine similarity, BM25 score, and CrossEncoder output have different meanings and should not be logged under an unlabeled generic score.",
+      "children": [
+        {
+          "child_id": "7d91fac1-4cf0-4860-9d17-af39ba2d9228",
+          "child_key": "DOC-021::P002::Retrieval Observability/Scores::850158a138ab::C000::357f6c5794b1",
+          "child_index": 0,
+          "parent_id": "0dd1b85e-de89-4b7e-89a2-91133e64352d",
+          "parent_key": "DOC-021::P002::Retrieval Observability/Scores::850158a138ab",
+          "document_id": "DOC-021",
+          "content": "An RRF score, cosine similarity, BM25 score, and CrossEncoder output have different meanings and should not be logged"
+        },
+        {
+          "child_id": "1803b334-f8ab-4ae1-a89e-b209df445087",
+          "child_key": "DOC-021::P002::Retrieval Observability/Scores::850158a138ab::C001::c795f418b739",
+          "child_index": 1,
+          "parent_id": "0dd1b85e-de89-4b7e-89a2-91133e64352d",
+          "parent_key": "DOC-021::P002::Retrieval Observability/Scores::850158a138ab",
+          "document_id": "DOC-021",
+          "content": "and should not be logged under an unlabeled generic score."
+        }
+      ]
+    },
+    {
+      "parent_id": "5c5c59d1-ebe6-4390-925c-25eb63a4341e",
+      "parent_key": "DOC-021::P003::Retrieval Observability/Latency::713b3e62ea2e",
+      "parent_index": 3,
+      "document_id": "DOC-021",
+      "section_path": [
+        "Retrieval Observability",
+        "Latency"
+      ],
+      "content": "Measure embedding, dense search, sparse search, fusion, MongoDB lookup, reranker inference, and MMR latency separately.",
+      "children": [
+        {
+          "child_id": "14db56aa-1c1c-47fd-b8ae-f7740dae5d1e",
+          "child_key": "DOC-021::P003::Retrieval Observability/Latency::713b3e62ea2e::C000::713b3e62ea2e",
+          "child_index": 0,
+          "parent_id": "5c5c59d1-ebe6-4390-925c-25eb63a4341e",
+          "parent_key": "DOC-021::P003::Retrieval Observability/Latency::713b3e62ea2e",
+          "document_id": "DOC-021",
+          "content": "Measure embedding, dense search, sparse search, fusion, MongoDB lookup, reranker inference, and MMR latency separately."
+        }
+      ]
+    },
+    {
+      "parent_id": "af1fb649-ada7-4c95-b806-4bfa7cf162c0",
+      "parent_key": "DOC-021::P004::Retrieval Observability/Diagnosis::3d5ab9d780a5",
+      "parent_index": 4,
+      "document_id": "DOC-021",
+      "section_path": [
+        "Retrieval Observability",
+        "Diagnosis"
+      ],
+      "content": "Stage-level traces reveal whether bad answers came from candidate recall, stale parent links, reranking, diversity selection, or generation.",
+      "children": [
+        {
+          "child_id": "ed07d6c6-b37d-4959-a9fd-27c3ed9dc679",
+          "child_key": "DOC-021::P004::Retrieval Observability/Diagnosis::3d5ab9d780a5::C000::8f479040a451",
+          "child_index": 0,
+          "parent_id": "af1fb649-ada7-4c95-b806-4bfa7cf162c0",
+          "parent_key": "DOC-021::P004::Retrieval Observability/Diagnosis::3d5ab9d780a5",
+          "document_id": "DOC-021",
+          "content": "Stage-level traces reveal whether bad answers came from candidate recall, stale parent links, reranking, diversity"
+        },
+        {
+          "child_id": "af71995d-cd91-44d2-999e-22edfbd7519e",
+          "child_key": "DOC-021::P004::Retrieval Observability/Diagnosis::3d5ab9d780a5::C001::a2e44798d6cc",
+          "child_index": 1,
+          "parent_id": "af1fb649-ada7-4c95-b806-4bfa7cf162c0",
+          "parent_key": "DOC-021::P004::Retrieval Observability/Diagnosis::3d5ab9d780a5",
+          "document_id": "DOC-021",
+          "content": "links, reranking, diversity selection, or generation."
+        }
+      ]
+    },
+    {
+      "parent_id": "3e4e8812-ce2a-4b2f-8631-30708aa74d66",
+      "parent_key": "DOC-022::P000::Tenant Isolation::51bac1b9098f",
+      "parent_index": 0,
+      "document_id": "DOC-022",
+      "section_path": [
+        "Tenant Isolation"
+      ],
+      "content": "Document ID: DOC-022",
+      "children": [
+        {
+          "child_id": "d5ab5805-f3d0-42e6-b2a9-17cef7176007",
+          "child_key": "DOC-022::P000::Tenant Isolation::51bac1b9098f::C000::51bac1b9098f",
+          "child_index": 0,
+          "parent_id": "3e4e8812-ce2a-4b2f-8631-30708aa74d66",
+          "parent_key": "DOC-022::P000::Tenant Isolation::51bac1b9098f",
+          "document_id": "DOC-022",
+          "content": "Document ID: DOC-022"
+        }
+      ]
+    },
+    {
+      "parent_id": "b38ffd52-62ae-480d-b3f5-eccdf5126b14",
+      "parent_key": "DOC-022::P001::Tenant Isolation/Tenant::c1eeb5577192",
+      "parent_index": 1,
+      "document_id": "DOC-022",
+      "section_path": [
+        "Tenant Isolation",
+        "Tenant"
+      ],
+      "content": "tenant_id should be a retrieval constraint when tenants must not access one another's documents.",
+      "children": [
+        {
+          "child_id": "5527f208-3da0-4105-ab54-762ad0d4b9ce",
+          "child_key": "DOC-022::P001::Tenant Isolation/Tenant::c1eeb5577192::C000::c1eeb5577192",
+          "child_index": 0,
+          "parent_id": "b38ffd52-62ae-480d-b3f5-eccdf5126b14",
+          "parent_key": "DOC-022::P001::Tenant Isolation/Tenant::c1eeb5577192",
+          "document_id": "DOC-022",
+          "content": "tenant_id should be a retrieval constraint when tenants must not access one another's documents."
+        }
+      ]
+    },
+    {
+      "parent_id": "94a5bbb1-ae46-42ed-be5b-390620bfde9b",
+      "parent_key": "DOC-022::P002::Tenant Isolation/Permissions::e763650ac01e",
+      "parent_index": 2,
+      "document_id": "DOC-022",
+      "section_path": [
+        "Tenant Isolation",
+        "Permissions"
+      ],
+      "content": "Access rules may also use source_id, project_id, category, or group metadata with consistent types and index support.",
+      "children": [
+        {
+          "child_id": "f58a55b9-b909-4fac-8d9d-b5447838bed3",
+          "child_key": "DOC-022::P002::Tenant Isolation/Permissions::e763650ac01e::C000::e763650ac01e",
+          "child_index": 0,
+          "parent_id": "94a5bbb1-ae46-42ed-be5b-390620bfde9b",
+          "parent_key": "DOC-022::P002::Tenant Isolation/Permissions::e763650ac01e",
+          "document_id": "DOC-022",
+          "content": "Access rules may also use source_id, project_id, category, or group metadata with consistent types and index support."
+        }
+      ]
+    },
+    {
+      "parent_id": "348306df-a53d-4561-9cc2-0f750d5ecda4",
+      "parent_key": "DOC-022::P003::Tenant Isolation/Security::5f74c2b044e0",
+      "parent_index": 3,
+      "document_id": "DOC-022",
+      "section_path": [
+        "Tenant Isolation",
+        "Security"
+      ],
+      "content": "Semantic relevance can never override authorization. Permission filtering and retrieval ranking solve different problems.",
+      "children": [
+        {
+          "child_id": "89e2113b-df9e-4437-b061-3030cc4b7fdd",
+          "child_key": "DOC-022::P003::Tenant Isolation/Security::5f74c2b044e0::C000::e30156b5d141",
+          "child_index": 0,
+          "parent_id": "348306df-a53d-4561-9cc2-0f750d5ecda4",
+          "parent_key": "DOC-022::P003::Tenant Isolation/Security::5f74c2b044e0",
+          "document_id": "DOC-022",
+          "content": "Semantic relevance can never override authorization. Permission filtering and retrieval ranking solve different"
+        },
+        {
+          "child_id": "34eade40-7231-4f86-863f-35c8ca108f8d",
+          "child_key": "DOC-022::P003::Tenant Isolation/Security::5f74c2b044e0::C001::cc19f8f1e3bb",
+          "child_index": 1,
+          "parent_id": "348306df-a53d-4561-9cc2-0f750d5ecda4",
+          "parent_key": "DOC-022::P003::Tenant Isolation/Security::5f74c2b044e0",
+          "document_id": "DOC-022",
+          "content": "ranking solve different problems."
+        }
+      ]
+    },
+    {
+      "parent_id": "d7e87561-b5b3-418c-b708-f92907a30c82",
+      "parent_key": "DOC-022::P004::Tenant Isolation/Test::fe81f4b0c023",
+      "parent_index": 4,
+      "document_id": "DOC-022",
+      "section_path": [
+        "Tenant Isolation",
+        "Test"
+      ],
+      "content": "Negative tests should prove that tenant A cannot retrieve tenant B content even if their text is nearly identical.",
+      "children": [
+        {
+          "child_id": "f95fff3e-f1e2-43fb-8336-817686ab2571",
+          "child_key": "DOC-022::P004::Tenant Isolation/Test::fe81f4b0c023::C000::fe81f4b0c023",
+          "child_index": 0,
+          "parent_id": "d7e87561-b5b3-418c-b708-f92907a30c82",
+          "parent_key": "DOC-022::P004::Tenant Isolation/Test::fe81f4b0c023",
+          "document_id": "DOC-022",
+          "content": "Negative tests should prove that tenant A cannot retrieve tenant B content even if their text is nearly identical."
+        }
+      ]
+    },
+    {
+      "parent_id": "fc194ef2-0c92-46c6-a677-b293f42631c1",
+      "parent_key": "DOC-023::P000::Vector Search Failure Modes::ff3515e2f802",
+      "parent_index": 0,
+      "document_id": "DOC-023",
+      "section_path": [
+        "Vector Search Failure Modes"
+      ],
+      "content": "Document ID: DOC-023",
+      "children": [
+        {
+          "child_id": "0441bc43-395b-437b-aa04-5731eabdf937",
+          "child_key": "DOC-023::P000::Vector Search Failure Modes::ff3515e2f802::C000::ff3515e2f802",
+          "child_index": 0,
+          "parent_id": "fc194ef2-0c92-46c6-a677-b293f42631c1",
+          "parent_key": "DOC-023::P000::Vector Search Failure Modes::ff3515e2f802",
+          "document_id": "DOC-023",
+          "content": "Document ID: DOC-023"
+        }
+      ]
+    },
+    {
+      "parent_id": "071f4adf-fa9e-4803-ac2a-0888e2219a79",
+      "parent_key": "DOC-023::P001::Vector Search Failure Modes/Dimensions::efac2cf482ff",
+      "parent_index": 1,
+      "document_id": "DOC-023",
+      "section_path": [
+        "Vector Search Failure Modes",
+        "Dimensions"
+      ],
+      "content": "A collection configured for 384-dimensional vectors cannot accept 768-dimensional vectors. Model migrations often expose this error.",
+      "children": [
+        {
+          "child_id": "6deb41bb-cc58-470c-88dd-1ef32fe0a67b",
+          "child_key": "DOC-023::P001::Vector Search Failure Modes/Dimensions::efac2cf482ff::C000::697456d2070e",
+          "child_index": 0,
+          "parent_id": "071f4adf-fa9e-4803-ac2a-0888e2219a79",
+          "parent_key": "DOC-023::P001::Vector Search Failure Modes/Dimensions::efac2cf482ff",
+          "document_id": "DOC-023",
+          "content": "A collection configured for 384-dimensional vectors cannot accept 768-dimensional vectors. Model migrations often"
+        },
+        {
+          "child_id": "5282be38-f56a-4dfb-a1aa-82319336ed0b",
+          "child_key": "DOC-023::P001::Vector Search Failure Modes/Dimensions::efac2cf482ff::C001::95572a61f3da",
+          "child_index": 1,
+          "parent_id": "071f4adf-fa9e-4803-ac2a-0888e2219a79",
+          "parent_key": "DOC-023::P001::Vector Search Failure Modes/Dimensions::efac2cf482ff",
+          "document_id": "DOC-023",
+          "content": "Model migrations often expose this error."
+        }
+      ]
+    },
+    {
+      "parent_id": "8464b69d-3fcc-43e0-a3a7-0880d039b3a7",
+      "parent_key": "DOC-023::P002::Vector Search Failure Modes/Duplicates::bf76d5a4fc0b",
+      "parent_index": 2,
+      "document_id": "DOC-023",
+      "section_path": [
+        "Vector Search Failure Modes",
+        "Duplicates"
+      ],
+      "content": "Repeated ingestion creates duplicates if logical chunks receive new random point identities and no synchronization reconciles them.",
+      "children": [
+        {
+          "child_id": "297e690f-0acb-44ba-ba61-04f08aa0fb09",
+          "child_key": "DOC-023::P002::Vector Search Failure Modes/Duplicates::bf76d5a4fc0b::C000::6f015e9cbf16",
+          "child_index": 0,
+          "parent_id": "8464b69d-3fcc-43e0-a3a7-0880d039b3a7",
+          "parent_key": "DOC-023::P002::Vector Search Failure Modes/Duplicates::bf76d5a4fc0b",
+          "document_id": "DOC-023",
+          "content": "Repeated ingestion creates duplicates if logical chunks receive new random point identities and no synchronization"
+        },
+        {
+          "child_id": "3ff823c7-498e-4a4d-ab99-b453bf464b12",
+          "child_key": "DOC-023::P002::Vector Search Failure Modes/Duplicates::bf76d5a4fc0b::C001::7e02b8d3492d",
+          "child_index": 1,
+          "parent_id": "8464b69d-3fcc-43e0-a3a7-0880d039b3a7",
+          "parent_key": "DOC-023::P002::Vector Search Failure Modes/Duplicates::bf76d5a4fc0b",
+          "document_id": "DOC-023",
+          "content": "and no synchronization reconciles them."
+        }
+      ]
+    },
+    {
+      "parent_id": "327e5834-68a0-457c-ac93-a76d1aaa25b0",
+      "parent_key": "DOC-023::P003::Vector Search Failure Modes/Recall::44cf3f50eabc",
+      "parent_index": 3,
+      "document_id": "DOC-023",
+      "section_path": [
+        "Vector Search Failure Modes",
+        "Recall"
+      ],
+      "content": "Low recall can result from poor chunking, weak embeddings, small candidate pools, restrictive filters, HNSW settings, or missing source content.",
+      "children": [
+        {
+          "child_id": "0e306142-57a2-4da7-b0aa-7c97bc54e54d",
+          "child_key": "DOC-023::P003::Vector Search Failure Modes/Recall::44cf3f50eabc::C000::83e8e58842a4",
+          "child_index": 0,
+          "parent_id": "327e5834-68a0-457c-ac93-a76d1aaa25b0",
+          "parent_key": "DOC-023::P003::Vector Search Failure Modes/Recall::44cf3f50eabc",
+          "document_id": "DOC-023",
+          "content": "Low recall can result from poor chunking, weak embeddings, small candidate pools, restrictive filters, HNSW settings,"
+        },
+        {
+          "child_id": "36ce0a00-e3cc-4174-b7a2-e2f533b2efa8",
+          "child_key": "DOC-023::P003::Vector Search Failure Modes/Recall::44cf3f50eabc::C001::3c3b4f503a50",
+          "child_index": 1,
+          "parent_id": "327e5834-68a0-457c-ac93-a76d1aaa25b0",
+          "parent_key": "DOC-023::P003::Vector Search Failure Modes/Recall::44cf3f50eabc",
+          "document_id": "DOC-023",
+          "content": "filters, HNSW settings, or missing source content."
+        }
+      ]
+    },
+    {
+      "parent_id": "fb3e3f90-c2a6-4179-91bb-83058a448ef7",
+      "parent_key": "DOC-023::P004::Vector Search Failure Modes/Scores::2b32cd5bfec4",
+      "parent_index": 4,
+      "document_id": "DOC-023",
+      "section_path": [
+        "Vector Search Failure Modes",
+        "Scores"
+      ],
+      "content": "High cosine similarity means semantic relatedness, not guaranteed answer correctness; low CrossEncoder output may also reflect query phrasing.",
+      "children": [
+        {
+          "child_id": "9a12a7a8-9be9-4bdf-9f81-7ba9bc149594",
+          "child_key": "DOC-023::P004::Vector Search Failure Modes/Scores::2b32cd5bfec4::C000::232fb5ae9d65",
+          "child_index": 0,
+          "parent_id": "fb3e3f90-c2a6-4179-91bb-83058a448ef7",
+          "parent_key": "DOC-023::P004::Vector Search Failure Modes/Scores::2b32cd5bfec4",
+          "document_id": "DOC-023",
+          "content": "High cosine similarity means semantic relatedness, not guaranteed answer correctness; low CrossEncoder output may also"
+        },
+        {
+          "child_id": "a877f7bb-c706-49ad-8a5a-153a108c2afd",
+          "child_key": "DOC-023::P004::Vector Search Failure Modes/Scores::2b32cd5bfec4::C001::d595f20942e6",
+          "child_index": 1,
+          "parent_id": "fb3e3f90-c2a6-4179-91bb-83058a448ef7",
+          "parent_key": "DOC-023::P004::Vector Search Failure Modes/Scores::2b32cd5bfec4",
+          "document_id": "DOC-023",
+          "content": "CrossEncoder output may also reflect query phrasing."
+        }
+      ]
+    },
+    {
+      "parent_id": "16f92a20-513b-4d49-82a9-3f6e67538b07",
+      "parent_key": "DOC-024::P000::Retriever Benchmark Design::731b6a7a8646",
+      "parent_index": 0,
+      "document_id": "DOC-024",
+      "section_path": [
+        "Retriever Benchmark Design"
+      ],
+      "content": "Document ID: DOC-024",
+      "children": [
+        {
+          "child_id": "842716cc-d08e-43ac-9a17-0abcc04b2537",
+          "child_key": "DOC-024::P000::Retriever Benchmark Design::731b6a7a8646::C000::731b6a7a8646",
+          "child_index": 0,
+          "parent_id": "16f92a20-513b-4d49-82a9-3f6e67538b07",
+          "parent_key": "DOC-024::P000::Retriever Benchmark Design::731b6a7a8646",
+          "document_id": "DOC-024",
+          "content": "Document ID: DOC-024"
+        }
+      ]
+    },
+    {
+      "parent_id": "35748652-e31e-4dcd-b436-23844181467d",
+      "parent_key": "DOC-024::P001::Retriever Benchmark Design/Corpus::9b5ff54a3f6e",
+      "parent_index": 1,
+      "document_id": "DOC-024",
+      "section_path": [
+        "Retriever Benchmark Design",
+        "Corpus"
+      ],
+      "content": "A useful benchmark is large enough that top_k cannot expose almost the whole collection. It should include overlapping topics, near-duplicates, exact identifiers, paraphrases, and plausible distractors.",
+      "children": [
+        {
+          "child_id": "59e010d2-fcf0-4b14-8e99-bf6fb549a245",
+          "child_key": "DOC-024::P001::Retriever Benchmark Design/Corpus::9b5ff54a3f6e::C000::224db238b205",
+          "child_index": 0,
+          "parent_id": "35748652-e31e-4dcd-b436-23844181467d",
+          "parent_key": "DOC-024::P001::Retriever Benchmark Design/Corpus::9b5ff54a3f6e",
+          "document_id": "DOC-024",
+          "content": "A useful benchmark is large enough that top_k cannot expose almost the whole collection. It should include overlapping"
+        },
+        {
+          "child_id": "664dcec8-266a-4d09-806d-e0b278d03777",
+          "child_key": "DOC-024::P001::Retriever Benchmark Design/Corpus::9b5ff54a3f6e::C001::a59665b15ad5",
+          "child_index": 1,
+          "parent_id": "35748652-e31e-4dcd-b436-23844181467d",
+          "parent_key": "DOC-024::P001::Retriever Benchmark Design/Corpus::9b5ff54a3f6e",
+          "document_id": "DOC-024",
+          "content": "It should include overlapping topics, near-duplicates, exact identifiers, paraphrases, and plausible distractors."
+        }
+      ]
+    },
+    {
+      "parent_id": "8249cce1-2403-40a7-908b-8ba1d24fdc24",
+      "parent_key": "DOC-024::P002::Retriever Benchmark Design/Queries::37ef4fdae550",
+      "parent_index": 2,
+      "document_id": "DOC-024",
+      "section_path": [
+        "Retriever Benchmark Design",
+        "Queries"
+      ],
+      "content": "Include lexical queries like ef_construct and HTTP 422, semantic paraphrases, composite questions, and unanswerable requests.",
+      "children": [
+        {
+          "child_id": "8dbcc113-1919-4e8e-bd6a-0dc8fd66ca51",
+          "child_key": "DOC-024::P002::Retriever Benchmark Design/Queries::37ef4fdae550::C000::105561e18934",
+          "child_index": 0,
+          "parent_id": "8249cce1-2403-40a7-908b-8ba1d24fdc24",
+          "parent_key": "DOC-024::P002::Retriever Benchmark Design/Queries::37ef4fdae550",
+          "document_id": "DOC-024",
+          "content": "Include lexical queries like ef_construct and HTTP 422, semantic paraphrases, composite questions, and unanswerable"
+        },
+        {
+          "child_id": "3aa74614-9fa7-4912-b427-31bff160c7c7",
+          "child_key": "DOC-024::P002::Retriever Benchmark Design/Queries::37ef4fdae550::C001::105523b826bf",
+          "child_index": 1,
+          "parent_id": "8249cce1-2403-40a7-908b-8ba1d24fdc24",
+          "parent_key": "DOC-024::P002::Retriever Benchmark Design/Queries::37ef4fdae550",
+          "document_id": "DOC-024",
+          "content": "questions, and unanswerable requests."
+        }
+      ]
+    },
+    {
+      "parent_id": "0053987f-4145-4bb6-8c76-383b93510905",
+      "parent_key": "DOC-024::P003::Retriever Benchmark Design/Compare::b22f3ddac893",
+      "parent_index": 3,
+      "document_id": "DOC-024",
+      "section_path": [
+        "Retriever Benchmark Design",
+        "Compare"
+      ],
+      "content": "Run Dense, Sparse, Hybrid, Hybrid plus CrossEncoder, and Hybrid plus CrossEncoder plus Parent MMR against the same corpus and labels.",
+      "children": [
+        {
+          "child_id": "773c5394-cc9c-46c1-a9b7-2329d8e1d282",
+          "child_key": "DOC-024::P003::Retriever Benchmark Design/Compare::b22f3ddac893::C000::7de797dccca4",
+          "child_index": 0,
+          "parent_id": "0053987f-4145-4bb6-8c76-383b93510905",
+          "parent_key": "DOC-024::P003::Retriever Benchmark Design/Compare::b22f3ddac893",
+          "document_id": "DOC-024",
+          "content": "Run Dense, Sparse, Hybrid, Hybrid plus CrossEncoder, and Hybrid plus CrossEncoder plus Parent MMR against the same"
+        },
+        {
+          "child_id": "51ab20ed-1636-45f7-9bf5-c695da9676cf",
+          "child_key": "DOC-024::P003::Retriever Benchmark Design/Compare::b22f3ddac893::C001::ab127b704beb",
+          "child_index": 1,
+          "parent_id": "0053987f-4145-4bb6-8c76-383b93510905",
+          "parent_key": "DOC-024::P003::Retriever Benchmark Design/Compare::b22f3ddac893",
+          "document_id": "DOC-024",
+          "content": "Parent MMR against the same corpus and labels."
+        }
+      ]
+    },
+    {
+      "parent_id": "f19d4a79-01c0-4162-a4f8-e3db42b4bbb8",
+      "parent_key": "DOC-024::P004::Retriever Benchmark Design/Report::6d93b50448f8",
+      "parent_index": 4,
+      "document_id": "DOC-024",
+      "section_path": [
+        "Retriever Benchmark Design",
+        "Report"
+      ],
+      "content": "Report Recall@5, Recall@10, MRR, candidate parent recall, final context precision, and latency.",
+      "children": [
+        {
+          "child_id": "42b2d54a-048c-4eae-96a6-5dbfa20e2306",
+          "child_key": "DOC-024::P004::Retriever Benchmark Design/Report::6d93b50448f8::C000::6d93b50448f8",
+          "child_index": 0,
+          "parent_id": "f19d4a79-01c0-4162-a4f8-e3db42b4bbb8",
+          "parent_key": "DOC-024::P004::Retriever Benchmark Design/Report::6d93b50448f8",
+          "document_id": "DOC-024",
+          "content": "Report Recall@5, Recall@10, MRR, candidate parent recall, final context precision, and latency."
+        }
+      ]
+    }
+  ]
+}
