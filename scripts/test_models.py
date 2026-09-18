@@ -7,6 +7,7 @@ from app.models.metadata import (
 )
 from app.models.parent_chunk import ParentChunk
 from app.models.child_chunk import ChildChunk
+from app.vectorstore.hybrid_qdrant_store import HybridQdrantStore
 
 logger = logging.getLogger(__name__)
 
@@ -79,14 +80,14 @@ def main() -> None:
         child_key=child_key,
     )
 
-    logger.info("Parent runtime ID : %s", parent.parent_id)
-    logger.info("Parent stable key : %s", parent.parent_key)
-    logger.info("Parent section    : %s", parent.section_path)
+    logger.info(f"Parent ID         : {parent.parent_id}")
+    logger.info(f"Parent stable key : {parent.parent_key}")
+    logger.info(f"Parent section    : {parent.section_path}")
 
-    logger.info("Child runtime ID  : %s", child.child_id)
-    logger.info("Child stable key  : %s", child.child_key)
-    logger.info("Child parent ID   : %s", child.parent_id)
-    logger.info("Child parent key  : %s", child.parent_key)
+    logger.info(f"Child ID          : {child.child_id}")
+    logger.info(f"Child stable key  : {child.child_key}")
+    logger.info(f"Child parent ID   : {child.parent_id}")
+    logger.info(f"Child parent key  : {child.parent_key}")
 
     assert child.parent_id == parent.parent_id
     assert child.parent_key == parent.parent_key
@@ -101,6 +102,31 @@ def main() -> None:
     assert "section_path" not in metadata_dump
 
     logger.info("Phase I model validation PASSED.")
+
+    payload = HybridQdrantStore._build_payload(child)
+
+    logger.info(f"Qdrant parent_key   : {payload["parent_key"]}")
+    logger.info(f"Qdrant child_key    : {payload["child_key"]}")
+    logger.info(f"Qdrant h1           : {payload["h1"]}")
+    logger.info(f"Qdrant h2           : {payload["h2"]}")
+    logger.info(f"Qdrant h3           : {payload["h3"]}")
+    logger.info(f"Qdrant section_path : {payload["section_path"]}")
+
+    assert payload["parent_key"] == parent.parent_key
+    assert payload["child_key"] == child.child_key
+    assert payload["h1"] == ("Vector Databases")
+    assert payload["h2"] == "HNSW"
+    assert payload["h3"] == ("ef_construct")
+    assert payload["section_path"] == [
+        "Vector Databases",
+        "HNSW",
+        "ef_construct",
+    ]
+
+    # Normalized domain representation:
+    assert "heading_context" not in payload
+
+    logger.info("Phase II-A Qdrant payload validation PASSED.")
 
 
 if __name__ == "__main__":
