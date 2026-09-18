@@ -6,6 +6,7 @@ from pathlib import Path
 
 from pydantic import BaseModel
 from app.utils.logging_config import configure_logging
+from app.utils.document_id import extract_document_id
 
 logger = logging.getLogger(__name__)
 
@@ -39,20 +40,6 @@ class BenchmarkManifest(BaseModel):
 
 def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
-
-
-def extract_document_id(file_path: Path) -> str:
-
-    match = re.match(
-        r"^(DOC-\d+)",
-        file_path.name,
-        re.IGNORECASE,
-    )
-
-    if match is None:
-        raise ValueError(f"Invalid document filename: " f"{file_path.name}")
-
-    return match.group(1).upper()
 
 
 def load_gold_query_count() -> int:

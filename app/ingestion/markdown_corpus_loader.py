@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 
 from app.models.document import Document
+from app.utils.document_id import extract_document_id
 
 logger = logging.getLogger(__name__)
 
@@ -19,8 +20,6 @@ class MarkdownCorpusLoader:
 
     The DOC-xxx prefix becomes the stable document_id.
     """
-
-    DOCUMENT_ID_PATTERN = re.compile(r"^(DOC-\d+)", re.IGNORECASE)
 
     def __init__(self, documents_directory: str | Path) -> None:
         self.documents_directory = Path(documents_directory)
@@ -67,7 +66,7 @@ class MarkdownCorpusLoader:
             )
 
     def _load_file(self, file_path: Path) -> Document:
-        document_id = self._extract_document_id(file_path)
+        document_id = extract_document_id(file_path)
         text = file_path.read_text(encoding="utf-8")
         if not text.strip():
             raise RuntimeError(f"Markdown document is empty: " f"{file_path}")
@@ -83,17 +82,3 @@ class MarkdownCorpusLoader:
         )
 
         return document
-
-    def _extract_document_id(
-        self,
-        file_path: Path,
-    ) -> str:
-
-        match = self.DOCUMENT_ID_PATTERN.match(file_path.name)
-
-        if match is None:
-            raise ValueError(
-                f"Markdown filename does not start " f"with DOC-xxx: {file_path.name}"
-            )
-
-        return match.group(1).upper()

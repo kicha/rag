@@ -1,0 +1,25 @@
+2026-09-18 14:25:53,209 | INFO     | __main__ | mongodb_collection=parents_benchmark_v2
+2026-09-18 14:25:53,222 | INFO     | __main__ | qdrant_collection=structure_aware_v4_benchmark_v2
+2026-09-18 14:25:54,565 | INFO     | __main__ | Starting Benchmark V2 persistence validation.
+2026-09-18 14:25:54,731 | INFO     | __main__ | mongo_parent_count=120
+2026-09-18 14:25:55,403 | INFO     | __main__ | qdrant_child_count=196
+2026-09-18 14:25:55,405 | INFO     | __main__ | mongodb_document_count=24
+2026-09-18 14:25:55,405 | INFO     | __main__ | qdrant_document_count=24
+2026-09-18 14:25:55,406 | INFO     | __main__ | smoke_test_data_present=False
+2026-09-18 14:25:55,406 | INFO     | __main__ | unique_parent_keys=120
+2026-09-18 14:25:55,406 | INFO     | __main__ | unique_child_keys=196
+2026-09-18 14:25:55,408 | INFO     | __main__ | child_parent_id_failures=0
+2026-09-18 14:25:55,411 | INFO     | __main__ | child_parent_key_failures=0
+2026-09-18 14:25:55,560 | INFO     | __main__ | benchmark_version=2.0
+2026-09-18 14:25:55,603 | INFO     | __main__ | corpus_sha256=16c01b5dfb1753d0b55dafdf6164d977383c0419c4ebfe8b376189aaf7ef9e62
+2026-09-18 14:25:55,637 | INFO     | __main__ | Benchmark V2 persistence validation summary
+2026-09-18 14:25:55,668 | INFO     | __main__ | mongo_document_count=24
+2026-09-18 14:25:55,706 | INFO     | __main__ | qdrant_document_count=24
+2026-09-18 14:25:55,719 | INFO     | __main__ | mongo_parent_count=120
+2026-09-18 14:25:55,722 | INFO     | __main__ | qdrant_child_count=196
+2026-09-18 14:25:55,723 | INFO     | __main__ | unique_parent_keys=120
+2026-09-18 14:25:55,723 | INFO     | __main__ | unique_child_keys=196
+2026-09-18 14:25:55,725 | INFO     | __main__ | child_parent_id_failures=0
+2026-09-18 14:25:55,726 | INFO     | __main__ | child_parent_key_failures=0
+2026-09-18 14:25:55,726 | INFO     | __main__ | corpus_sha256=16c01b5dfb1753d0b55dafdf6164d977383c0419c4ebfe8b376189aaf7ef9e62
+2026-09-18 14:25:55,727 | INFO     | __main__ | Benchmark V2 persistence validation PASSED.
