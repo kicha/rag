@@ -1,0 +1,5 @@
+2026-09-18 12:34:59,646 | INFO     | __main__ | documents=24
+2026-09-18 12:34:59,648 | INFO     | __main__ | total_characters=16027
+2026-09-18 12:34:59,649 | INFO     | __main__ | approx_words=2149
+2026-09-18 12:34:59,649 | INFO     | __main__ | exact_duplicate_paragraph_groups=0
+2026-09-18 12:34:59,650 | INFO     | __main__ | Benchmark corpus validation PASSED.
