@@ -1,0 +1,1741 @@
+{
+  "schema_version": "2.0",
+  "benchmark_version": "2.0",
+  "corpus_sha256": "16c01b5dfb1753d0b55dafdf6164d977383c0419c4ebfe8b376189aaf7ef9e62",
+  "status": "frozen",
+  "queries": [
+    {
+      "query_id": "Q001",
+      "query": "What does ef_construct control?",
+      "query_class": "exact+semantic",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-002",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C000::f829297fe9a8",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C001::409b5fac7b8f",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C002::e63d79f02c32",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0::C000::7601bd262c82",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C000::0b16b3f7b7d1",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C001::09a4a84e762a",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C002::86c1f3b6844c",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879::C000::960357e05e70",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units. Relevance 3 = directly answer-bearing, 2 = strongly supporting, 1 = weak/supporting."
+    },
+    {
+      "query_id": "Q002",
+      "query": "How can I improve graph quality during index construction?",
+      "query_class": "semantic paraphrase",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-002",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C000::f829297fe9a8",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C001::409b5fac7b8f",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C002::e63d79f02c32",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0::C000::7601bd262c82",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-002::P002::HNSW Construction and ef_construct/Trade-off::b45d541354d0::C001::228c23614660",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C000::0b16b3f7b7d1",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C001::09a4a84e762a",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879::C000::960357e05e70",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879::C001::90e54da7f64b",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q003",
+      "query": "Does ef_construct determine the number of HNSW layers?",
+      "query_class": "concept discrimination",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-002",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-001",
+          "relevance": 1
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C000::f829297fe9a8",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-002::P001::HNSW Construction and ef_construct/Meaning::773bd0415a3a::C001::409b5fac7b8f",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C000::0b16b3f7b7d1",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C001::09a4a84e762a",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-002::P003::HNSW Construction and ef_construct/Example::2778af8c24c5::C002::86c1f3b6844c",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-002::P004::HNSW Construction and ef_construct/Rebuild::733c8f222879::C000::960357e05e70",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C000::b0dcbbe05fcc",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C001::584ff998efd3",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C002::8ac6f406be0c",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C001::1fe6b7cc9b71",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C002::9b31f6cbd874",
+          "relevance": 1
+        }
+      ],
+      "notes": "DOC-002 directly distinguishes ef_construct from layer count; DOC-001 provides weak supporting hierarchy context."
+    },
+    {
+      "query_id": "Q004",
+      "query": "What does the M parameter change in HNSW?",
+      "query_class": "exact technical",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-001",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C000::57a20429d6b5",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C001::1fe6b7cc9b71",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C002::9b31f6cbd874",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc::C000::cf42e756f571",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc::C001::697d4b5a6090",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q005",
+      "query": "How does HNSW avoid comparing every vector?",
+      "query_class": "semantic",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-001",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C000::b0dcbbe05fcc",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C001::584ff998efd3",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C002::8ac6f406be0c",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-001::P001::HNSW Architecture and Search/Layers::b55e6422027d::C003::1e6e3c76945b",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C000::57a20429d6b5",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-001::P002::HNSW Architecture and Search/M parameter::b61b6a7550b4::C001::1fe6b7cc9b71",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3::C000::19774f23ec94",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3::C001::8ec2c9cb3881",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q006",
+      "query": "What is ef_search used for?",
+      "query_class": "exact technical",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-001",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3::C000::19774f23ec94",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-001::P003::HNSW Architecture and Search/ef_search::f62895d48bb3::C001::8ec2c9cb3881",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc::C000::cf42e756f571",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-001::P004::HNSW Architecture and Search/Tuning::2f9d5b9109dc::C001::697d4b5a6090",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q007",
+      "query": "Why might BM25 beat embeddings for uq_document_content_hash?",
+      "query_class": "identifier",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-004",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-003",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-004::P001::Sparse Retrieval and BM25/Lexical::85dbef0962d2",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-004::P002::Sparse Retrieval and BM25/Identifiers::591b164e8bfc",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-003::P003::Dense Retrieval/Weaknesses::c533c34f9468",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-004::P001::Sparse Retrieval and BM25/Lexical::85dbef0962d2::C000::4be0fb0dd5f2",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-004::P001::Sparse Retrieval and BM25/Lexical::85dbef0962d2::C001::8451d40249b1",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-004::P002::Sparse Retrieval and BM25/Identifiers::591b164e8bfc::C000::7b2b4c61478c",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-004::P002::Sparse Retrieval and BM25/Identifiers::591b164e8bfc::C001::359bc6fc3d42",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0::C000::d8c291559660",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0::C001::b2cee934d85f",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-003::P001::Dense Retrieval/Semantics::46ea4f15f99b::C000::63abd5931c7c",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-003::P003::Dense Retrieval/Weaknesses::c533c34f9468::C000::8f9c410b4bc7",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-003::P003::Dense Retrieval/Weaknesses::c533c34f9468::C001::ddc89cd79486",
+          "relevance": 3
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q008",
+      "query": "Why shouldn't I add BM25 and cosine scores directly?",
+      "query_class": "hybrid",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-005",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-004",
+          "relevance": 1
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-005::P001::Hybrid Search and RRF/Hybrid::209328260861",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-005::P004::Hybrid Search and RRF/Caveat::6e10b63b70d4",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-005::P001::Hybrid Search and RRF/Hybrid::209328260861::C000::209328260861",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6::C000::6438ac50137b",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6::C001::119dcfc67275",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-005::P004::Hybrid Search and RRF/Caveat::6e10b63b70d4::C000::bc447b0157ad",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-005::P004::Hybrid Search and RRF/Caveat::6e10b63b70d4::C001::2927773ffefe",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0::C000::d8c291559660",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-004::P004::Sparse Retrieval and BM25/Role::f68b5454a7a0::C001::b2cee934d85f",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q009",
+      "query": "What is the difference between prefetch_k and final_k?",
+      "query_class": "configuration",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-005",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-005::P001::Hybrid Search and RRF/Hybrid::209328260861",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-005::P003::Hybrid Search and RRF/Prefetch::749e43f445d1",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-005::P001::Hybrid Search and RRF/Hybrid::209328260861::C000::209328260861",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-005::P002::Hybrid Search and RRF/RRF::fe8df2e00ff6::C000::6438ac50137b",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-005::P003::Hybrid Search and RRF/Prefetch::749e43f445d1::C000::431ab3f75664",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-005::P003::Hybrid Search and RRF/Prefetch::749e43f445d1::C001::f67f9829fa36",
+          "relevance": 3
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q010",
+      "query": "Why should children be created from persisted parents?",
+      "query_class": "architecture",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-006",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-013",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-013::P001::MongoDB Parent Repository/Store::fccc07403250",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-013::P003::MongoDB Parent Repository/Sync::0f317eaa9724",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef::C000::835b5886e0cf",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef::C001::ea85c1b95a87",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239::C000::d1bd65315d93",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-013::P001::MongoDB Parent Repository/Store::fccc07403250::C000::fccc07403250",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-013::P003::MongoDB Parent Repository/Sync::0f317eaa9724::C000::4d3db31af3e2",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-013::P003::MongoDB Parent Repository/Sync::0f317eaa9724::C001::07ffde0db481",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e::C000::4fb647181fc1",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e::C001::bfc95860d7cf",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q011",
+      "query": "What is a dangling parent reference?",
+      "query_class": "failure mode",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-006",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-012",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-013",
+          "relevance": 2
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef::C000::835b5886e0cf",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-006::P002::Parent Child Retrieval/Identity::056fc40a43ef::C001::ea85c1b95a87",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e::C000::8a10e11f1b5b",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e::C001::a75bb71c1249",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e::C000::4fb647181fc1",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-013::P004::MongoDB Parent Repository/Lookup::78ba0de4419e::C001::bfc95860d7cf",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q012",
+      "query": "Why rerank parents with a CrossEncoder?",
+      "query_class": "reranking",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-007",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-006",
+          "relevance": 2
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-007::P002::CrossEncoder Reranking/Placement::5db9debefc4d",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-007::P004::CrossEncoder Reranking/Parents::3ca6d613f1f0",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-006::P001::Parent Child Retrieval/Purpose::58f2e1646f06",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3::C000::6e465d447abe",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3::C001::0f1c48345abd",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-007::P002::CrossEncoder Reranking/Placement::5db9debefc4d::C000::a49c242c244a",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-007::P002::CrossEncoder Reranking/Placement::5db9debefc4d::C001::6404fe72d734",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-007::P004::CrossEncoder Reranking/Parents::3ca6d613f1f0::C000::3ca6d613f1f0",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-006::P001::Parent Child Retrieval/Purpose::58f2e1646f06::C000::58f2e1646f06",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-006::P003::Parent Child Retrieval/Dedup::b7ed0d561239::C000::d1bd65315d93",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q013",
+      "query": "Can I treat a CrossEncoder sigmoid score as a calibrated probability?",
+      "query_class": "score semantics",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-007",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-007::P003::CrossEncoder Reranking/Calibration::a3381d0856c9",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-007::P001::CrossEncoder Reranking/Scoring::c07aae2dd2b3::C000::6e465d447abe",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-007::P003::CrossEncoder Reranking/Calibration::a3381d0856c9::C000::09f70b54e350",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-007::P003::CrossEncoder Reranking/Calibration::a3381d0856c9::C001::e9f6b58ae07c",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q014",
+      "query": "Why not mix CrossEncoder scores directly with cosine redundancy in MMR?",
+      "query_class": "MMR",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-008",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-008::P003::Maximal Marginal Relevance/Space::fab69a871cbf",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-008::P004::Maximal Marginal Relevance/Pipeline::8861c86de29d",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588::C000::2cbb321f3ebb",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588::C001::d0e50a39be35",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-008::P003::Maximal Marginal Relevance/Space::fab69a871cbf::C000::2801da19fbbe",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-008::P003::Maximal Marginal Relevance/Space::fab69a871cbf::C001::1dba5e9f5764",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-008::P004::Maximal Marginal Relevance/Pipeline::8861c86de29d::C000::8861c86de29d",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q015",
+      "query": "What happens when MMR lambda is too low?",
+      "query_class": "MMR",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-008",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-008::P002::Maximal Marginal Relevance/Lambda::b180418cbc42",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588::C000::2cbb321f3ebb",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-008::P001::Maximal Marginal Relevance/Formula::7ca32192b588::C001::d0e50a39be35",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-008::P002::Maximal Marginal Relevance/Lambda::b180418cbc42::C000::7cd845361496",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-008::P002::Maximal Marginal Relevance/Lambda::b180418cbc42::C001::853c1cd928a1",
+          "relevance": 3
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q016",
+      "query": "How can headings be preserved during chunking?",
+      "query_class": "chunking",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-009",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-009::P003::Chunking Strategies/Structure::4290d71528c6",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-009::P003::Chunking Strategies/Structure::4290d71528c6::C000::2983739f527c",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-009::P003::Chunking Strategies/Structure::4290d71528c6::C001::5b0b68333905",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q017",
+      "query": "Which metadata fields are useful for filtered retrieval?",
+      "query_class": "metadata",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-010",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-010::P001::Metadata and Filters/Schema::cd5fd86ef7d9",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-010::P002::Metadata and Filters/Filtering::37575fd3a267",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-010::P003::Metadata and Filters/Indexes::d4afdeadc68e",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-010::P004::Metadata and Filters/Debug::549b5afeb466",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-010::P001::Metadata and Filters/Schema::cd5fd86ef7d9::C000::db31d673e5e5",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-010::P001::Metadata and Filters/Schema::cd5fd86ef7d9::C001::0be25e8d7f99",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-010::P002::Metadata and Filters/Filtering::37575fd3a267::C000::37575fd3a267",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-010::P003::Metadata and Filters/Indexes::d4afdeadc68e::C000::3d8cce679d04",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-010::P003::Metadata and Filters/Indexes::d4afdeadc68e::C001::a64ddab18f12",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-010::P004::Metadata and Filters/Debug::549b5afeb466::C000::549b5afeb466",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q018",
+      "query": "Why use named dense and sparse vectors on one Qdrant point?",
+      "query_class": "Qdrant",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-011",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-011::P001::Qdrant Named Vectors/Points::64c6ee09b41d",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-011::P002::Qdrant Named Vectors/Names::d4c49d146d63",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-011::P003::Qdrant Named Vectors/Sparse::f8e174346f22",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-011::P004::Qdrant Named Vectors/Upsert::d3cce139ca8d",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-011::P001::Qdrant Named Vectors/Points::64c6ee09b41d::C000::64c6ee09b41d",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-011::P002::Qdrant Named Vectors/Names::d4c49d146d63::C000::fa82bf2c596c",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-011::P002::Qdrant Named Vectors/Names::d4c49d146d63::C001::d2f5dd503a60",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-011::P003::Qdrant Named Vectors/Sparse::f8e174346f22::C000::f8e174346f22",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-011::P004::Qdrant Named Vectors/Upsert::d3cce139ca8d::C000::58e02401035c",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q019",
+      "query": "How should unchanged Qdrant children behave on re-ingestion?",
+      "query_class": "synchronization",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-012",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-012::P001::Qdrant Synchronization/Idempotency::21e92ae60327",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-012::P002::Qdrant Synchronization/Coarse sync::8eeba34c4f89",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-012::P003::Qdrant Synchronization/Differential::e494d1bad168",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-012::P001::Qdrant Synchronization/Idempotency::21e92ae60327::C000::21e92ae60327",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-012::P002::Qdrant Synchronization/Coarse sync::8eeba34c4f89::C000::8eeba34c4f89",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-012::P003::Qdrant Synchronization/Differential::e494d1bad168::C000::a6be7b76f898",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-012::P003::Qdrant Synchronization/Differential::e494d1bad168::C001::e2aaff858b62",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e::C000::8a10e11f1b5b",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-012::P004::Qdrant Synchronization/Dangling::a94ff5f0450e::C001::a75bb71c1249",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q020",
+      "query": "What causes MongoDB IndexOptionsConflict?",
+      "query_class": "database error",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-013",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-013::P002::MongoDB Parent Repository/Indexes::22da8c0b400f",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-013::P002::MongoDB Parent Repository/Indexes::22da8c0b400f::C000::8066d47e6e78",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-013::P002::MongoDB Parent Repository/Indexes::22da8c0b400f::C001::469f1e25137b",
+          "relevance": 3
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q021",
+      "query": "How many dimensions does all-MiniLM-L6-v2 produce?",
+      "query_class": "exact fact",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-014",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-014::P001::Embeddings and Normalization/Model::07c2e4da65c0",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-014::P001::Embeddings and Normalization/Model::07c2e4da65c0::C000::07c2e4da65c0",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f::C000::f71912382f85",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f::C001::e10be5b0cc8f",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q022",
+      "query": "What problem does query rewriting solve?",
+      "query_class": "advanced retrieval",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-015",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-015::P001::Query Rewriting/Purpose::d56f777bf8e0",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-015::P002::Query Rewriting/Example::2c81dc401950",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-015::P003::Query Rewriting/Risk::da1cc5a797de",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-015::P004::Query Rewriting/Measure::07c6a54bef3e",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-015::P001::Query Rewriting/Purpose::d56f777bf8e0::C000::d56f777bf8e0",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-015::P002::Query Rewriting/Example::2c81dc401950::C000::cf6ef35fbab8",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-015::P002::Query Rewriting/Example::2c81dc401950::C001::af36cd09845e",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-015::P003::Query Rewriting/Risk::da1cc5a797de::C000::a7b12c5eb691",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-015::P003::Query Rewriting/Risk::da1cc5a797de::C001::dfc34ec49d76",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-015::P004::Query Rewriting/Measure::07c6a54bef3e::C000::07c6a54bef3e",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q023",
+      "query": "Why can multi-query retrieval improve recall?",
+      "query_class": "advanced retrieval",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-016",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-016::P001::Multi Query Retrieval/Views::4cecdf1699ce",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-016::P002::Multi Query Retrieval/Recall::353efadcdd3a",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-016::P003::Multi Query Retrieval/Cost::9c9e422e820a",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-016::P004::Multi Query Retrieval/Fusion::c89738d0a058",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-016::P001::Multi Query Retrieval/Views::4cecdf1699ce::C000::ff1c6d2021ab",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-016::P001::Multi Query Retrieval/Views::4cecdf1699ce::C001::26b4297c7d02",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-016::P002::Multi Query Retrieval/Recall::353efadcdd3a::C000::acd317bf3628",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-016::P002::Multi Query Retrieval/Recall::353efadcdd3a::C001::5eb263431949",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-016::P003::Multi Query Retrieval/Cost::9c9e422e820a::C000::9c9e422e820a",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-016::P004::Multi Query Retrieval/Fusion::c89738d0a058::C000::696a3bfbb4f1",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-016::P004::Multi Query Retrieval/Fusion::c89738d0a058::C001::4a9393588762",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q024",
+      "query": "What is HyDE and why can it hallucinate?",
+      "query_class": "advanced retrieval",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-017",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-017::P001::HyDE/Idea::65b4780365ac",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-017::P002::HyDE/Bridge::a4b3d568eb10",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-017::P003::HyDE/Risk::ae3207221e80",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-017::P004::HyDE/Measure::88b7f6851191",
+          "relevance": 1
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-017::P001::HyDE/Idea::65b4780365ac::C000::5d1d934f89b6",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-017::P001::HyDE/Idea::65b4780365ac::C001::cf816d58fd75",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-017::P002::HyDE/Bridge::a4b3d568eb10::C000::a4b3d568eb10",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-017::P003::HyDE/Risk::ae3207221e80::C000::ae3207221e80",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-017::P004::HyDE/Measure::88b7f6851191::C000::5bd621c60ff1",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-017::P004::HyDE/Measure::88b7f6851191::C001::097ccdca11e4",
+          "relevance": 1
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q025",
+      "query": "What is candidate parent recall?",
+      "query_class": "evaluation",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-018",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13::C000::d28a36e53577",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13::C001::8d9281b35d56",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf::C000::19cfc0526d27",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf::C001::99550e8ff68c",
+          "relevance": 3
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q026",
+      "query": "Why is FastAPI returning HTTP 422?",
+      "query_class": "exact error",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-019",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-019::P001::FastAPI RAG Services/API::5862539c5adb",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-019::P002::FastAPI RAG Services/HTTP 422::c9c8bfaad7e3",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-019::P001::FastAPI RAG Services/API::5862539c5adb::C001::05ec4a18837c",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-019::P002::FastAPI RAG Services/HTTP 422::c9c8bfaad7e3::C000::0ce1bba56b88",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-019::P002::FastAPI RAG Services/HTTP 422::c9c8bfaad7e3::C001::684f40fbdb0f",
+          "relevance": 3
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q027",
+      "query": "What can cause ERR_CONNECTION_REFUSED?",
+      "query_class": "exact error",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-020",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-020::P001::Docker and Local Infrastructure/Services::ca0ff7cff8a1",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-020::P002::Docker and Local Infrastructure/Refused::363edf91f09a",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-020::P004::Docker and Local Infrastructure/Config::48b1c4564012",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-020::P001::Docker and Local Infrastructure/Services::ca0ff7cff8a1::C000::ca0ff7cff8a1",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-020::P002::Docker and Local Infrastructure/Refused::363edf91f09a::C000::fa3330ad34e9",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-020::P002::Docker and Local Infrastructure/Refused::363edf91f09a::C001::f8fe90ce9d24",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-020::P004::Docker and Local Infrastructure/Config::48b1c4564012::C000::dcdedc79b0b7",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-020::P004::Docker and Local Infrastructure/Config::48b1c4564012::C001::77191a03fadc",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q028",
+      "query": "How should I trace dense sparse RRF CrossEncoder and MMR scores?",
+      "query_class": "observability",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-021",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-021::P001::Retrieval Observability/Stages::f0aab813c305",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-021::P002::Retrieval Observability/Scores::850158a138ab",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-021::P003::Retrieval Observability/Latency::713b3e62ea2e",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-021::P004::Retrieval Observability/Diagnosis::3d5ab9d780a5",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-021::P001::Retrieval Observability/Stages::f0aab813c305::C000::f0aab813c305",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-021::P002::Retrieval Observability/Scores::850158a138ab::C000::357f6c5794b1",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-021::P002::Retrieval Observability/Scores::850158a138ab::C001::c795f418b739",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-021::P003::Retrieval Observability/Latency::713b3e62ea2e::C000::713b3e62ea2e",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-021::P004::Retrieval Observability/Diagnosis::3d5ab9d780a5::C000::8f479040a451",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-021::P004::Retrieval Observability/Diagnosis::3d5ab9d780a5::C001::a2e44798d6cc",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q029",
+      "query": "Can similarity override tenant_id authorization?",
+      "query_class": "security",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-022",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-022::P001::Tenant Isolation/Tenant::c1eeb5577192",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-022::P002::Tenant Isolation/Permissions::e763650ac01e",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-022::P003::Tenant Isolation/Security::5f74c2b044e0",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-022::P004::Tenant Isolation/Test::fe81f4b0c023",
+          "relevance": 2
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-022::P001::Tenant Isolation/Tenant::c1eeb5577192::C000::c1eeb5577192",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-022::P002::Tenant Isolation/Permissions::e763650ac01e::C000::e763650ac01e",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-022::P003::Tenant Isolation/Security::5f74c2b044e0::C000::e30156b5d141",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-022::P003::Tenant Isolation/Security::5f74c2b044e0::C001::cc19f8f1e3bb",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-022::P004::Tenant Isolation/Test::fe81f4b0c023::C000::fe81f4b0c023",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q030",
+      "query": "What causes a vector dimension mismatch?",
+      "query_class": "failure mode",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-023",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-014",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-023::P001::Vector Search Failure Modes/Dimensions::efac2cf482ff",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-014::P001::Embeddings and Normalization/Model::07c2e4da65c0",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-023::P001::Vector Search Failure Modes/Dimensions::efac2cf482ff::C000::697456d2070e",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-023::P001::Vector Search Failure Modes/Dimensions::efac2cf482ff::C001::95572a61f3da",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-014::P001::Embeddings and Normalization/Model::07c2e4da65c0::C000::07c2e4da65c0",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f::C000::f71912382f85",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-014::P003::Embeddings and Normalization/Migration::8c65cdc01b1f::C001::e10be5b0cc8f",
+          "relevance": 2
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q031",
+      "query": "Which metrics should compare Dense Sparse and Hybrid?",
+      "query_class": "evaluation",
+      "answerability": "answerable",
+      "annotation_status": "curated",
+      "document_judgments": [
+        {
+          "document_id": "DOC-018",
+          "relevance": 3
+        },
+        {
+          "document_id": "DOC-024",
+          "relevance": 3
+        }
+      ],
+      "parent_judgments": [
+        {
+          "parent_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf",
+          "relevance": 2
+        },
+        {
+          "parent_key": "DOC-018::P003::RAG Evaluation/Answer::1b0b32e5b5b6",
+          "relevance": 1
+        },
+        {
+          "parent_key": "DOC-024::P003::Retriever Benchmark Design/Compare::b22f3ddac893",
+          "relevance": 3
+        },
+        {
+          "parent_key": "DOC-024::P004::Retriever Benchmark Design/Report::6d93b50448f8",
+          "relevance": 3
+        }
+      ],
+      "child_judgments": [
+        {
+          "child_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13::C000::d28a36e53577",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-018::P001::RAG Evaluation/Metrics::c46eea5d9f13::C001::8d9281b35d56",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf::C000::19cfc0526d27",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-018::P002::RAG Evaluation/Parents::38fe5954a8bf::C001::99550e8ff68c",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-018::P003::RAG Evaluation/Answer::1b0b32e5b5b6::C000::7f1f3d5022cf",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-018::P003::RAG Evaluation/Answer::1b0b32e5b5b6::C001::ab7cb10bace2",
+          "relevance": 1
+        },
+        {
+          "child_key": "DOC-024::P003::Retriever Benchmark Design/Compare::b22f3ddac893::C000::7de797dccca4",
+          "relevance": 3
+        },
+        {
+          "child_key": "DOC-024::P003::Retriever Benchmark Design/Compare::b22f3ddac893::C001::ab127b704beb",
+          "relevance": 2
+        },
+        {
+          "child_key": "DOC-024::P004::Retriever Benchmark Design/Report::6d93b50448f8::C000::6d93b50448f8",
+          "relevance": 3
+        }
+      ],
+      "notes": "Curated against Benchmark V2 parent/child units."
+    },
+    {
+      "query_id": "Q032",
+      "query": "How do I choose the best GPU for video rendering?",
+      "query_class": "unanswerable",
+      "answerability": "unanswerable",
+      "annotation_status": "curated",
+      "document_judgments": [],
+      "parent_judgments": [],
+      "child_judgments": [],
+      "notes": "Curated as unanswerable for Benchmark V2."
+    }
+  ]
+}
