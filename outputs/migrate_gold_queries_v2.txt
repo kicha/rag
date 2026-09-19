@@ -1,0 +1,7 @@
+2026-09-19 00:38:08,486 | INFO     | __main__ | source_queries=32
+2026-09-19 00:38:08,567 | INFO     | __main__ | migrated_queries=32
+2026-09-19 00:38:08,651 | INFO     | __main__ | answerable_queries=31
+2026-09-19 00:38:08,739 | INFO     | __main__ | unanswerable_queries=1
+2026-09-19 00:38:08,762 | INFO     | __main__ | curated_queries=0
+2026-09-19 00:38:08,778 | INFO     | __main__ | output_path=C:\code\chat\agentic_rag\data\benchmark\gold_queries_v2_draft.json
+2026-09-19 00:38:08,795 | INFO     | __main__ | Benchmark V2 gold migration PASSED.

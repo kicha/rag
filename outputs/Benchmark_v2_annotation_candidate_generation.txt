@@ -1,0 +1,9 @@
+2026-09-19 01:01:12,329 | INFO     | __main__ | query_count=32
+2026-09-19 01:01:12,415 | INFO     | __main__ | answerable_queries=31
+2026-09-19 01:01:12,513 | INFO     | __main__ | unanswerable_queries=1
+2026-09-19 01:01:12,571 | INFO     | __main__ | candidate_documents=40
+2026-09-19 01:01:12,581 | INFO     | __main__ | candidate_parents=200
+2026-09-19 01:01:12,592 | INFO     | __main__ | candidate_children=344
+2026-09-19 01:01:12,598 | INFO     | __main__ | json_output=C:\code\chat\agentic_rag\data\benchmark\gold_annotation_candidates_v2.json
+2026-09-19 01:01:12,634 | INFO     | __main__ | markdown_output=C:\code\chat\agentic_rag\data\benchmark\gold_annotation_candidates_v2.md
+2026-09-19 01:01:12,663 | INFO     | __main__ | Benchmark V2 annotation candidate generation PASSED.
